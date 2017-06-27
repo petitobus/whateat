@@ -101,6 +101,7 @@ class InstallController extends Controller
 			"(id int NOT NULL," .
 			"PRIMARY KEY(id),".
 			"name char(128),".
+			"calorie char(128),".
 			"description tinytext)";
 		$sqls[] = 
 			"CREATE TABLE IF NOT EXISTS whateat_flavour ". 
