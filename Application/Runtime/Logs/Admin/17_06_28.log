@@ -1467,3 +1467,160 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001580s ]
 
+[ 2017-06-28T06:53:48+08:00 ] ::1 /whateat/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.2648s ]
+SQL: SELECT * FROM `whateat_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.2666s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\whateat\Application\Admin\Controller\IndexController.class.php on line 90 and defined F:\wamp\www\whateat\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\whateat\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2017-06-28T06:53:49+08:00 ] ::1 /whateat/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002433s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\whateat\Application\Admin\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\whateat\Application\Admin\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\whateat\Application\Admin\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\whateat\Application\Admin\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\whateat\Application\Admin\Controller\IndexController.class.php on line 58 and defined F:\wamp\www\whateat\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\whateat\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002371s ]
+
+[ 2017-06-28T06:53:49+08:00 ] ::1 /whateat/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002535s ]
+
+[ 2017-06-28T06:53:49+08:00 ] ::1 /whateat/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003062s ]
+
+[ 2017-06-28T06:53:50+08:00 ] ::1 /whateat/index.php/Admin/Index/left_menu?pid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\whateat\Application\Admin\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\whateat\Application\Admin\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\whateat\Application\Admin\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\whateat\Application\Admin\Controller\IndexController.class.php 第 65 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\whateat\Application\Admin\Controller\IndexController.class.php on line 80 and defined F:\wamp\www\whateat\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\whateat\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000536s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002011s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2017-06-28T06:53:53+08:00 ] ::1 /whateat/index.php/Admin/Dish/dish.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.2794s ]
+SQL: SELECT * FROM `whateat_admin_node` WHERE `controller` = 'Dish' ORDER BY sort LIMIT 1   [ RunTime:0.2836s ]
+SQL: SHOW COLUMNS FROM `whateat_dish` [ RunTime:0.2805s ]
+SQL: SELECT * FROM `whateat_dish` ORDER BY id desc  [ RunTime:0.2793s ]
+NOTIC: [8] Undefined variable: shop_list F:\wamp\www\whateat\Application\Admin\Controller\DishController.class.php 第 18 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\whateat\Application\Admin\Controller\DishController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001662s ]
+
+[ 2017-06-28T06:53:58+08:00 ] ::1 /whateat/index.php/Admin/Dish/create.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.2703s ]
+SQL: SELECT * FROM `whateat_admin_node` WHERE `controller` = 'Dish' ORDER BY sort LIMIT 1   [ RunTime:0.2675s ]
+SQL: SHOW COLUMNS FROM `whateat_ingredient` [ RunTime:0.2671s ]
+SQL: SELECT * FROM `whateat_ingredient` ORDER BY id desc  [ RunTime:0.2676s ]
+SQL: SHOW COLUMNS FROM `whateat_flavour` [ RunTime:0.2662s ]
+SQL: SELECT * FROM `whateat_flavour` ORDER BY id desc  [ RunTime:0.2662s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\whateat\Application\Admin\Controller\DishController.class.php on line 33 and defined F:\wamp\www\whateat\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\whateat\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001600s ]
+

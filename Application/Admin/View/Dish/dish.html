@@ -13,6 +13,7 @@
             <td>菜单id</td>
             <td>菜单名称</td>
             <td>菜单描述</td>
+            <td>创建人</td>
             <td colspan="2">
                 <a href="create.shtml">
                     <input type="button" value="       添加       " style="background-color: orange">
@@ -24,6 +25,7 @@
                 <td>{$dish.id}</td>
                 <td>{$dish.name}</td>
                 <td>{$dish.description}</td>
+                <td>{$dish.owner}</td>
                 <td colspan="2">
                     <a href="update.shtml?id={$dish.id}">
                         <input type="button" value="修改">

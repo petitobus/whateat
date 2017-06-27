@@ -13,6 +13,7 @@
             <td>菜单id</td>
             <td>菜单名称</td>
             <td>菜单描述</td>
+            <td>创建人</td>
             <td colspan="2">
                 <a href="create.shtml">
                     <input type="button" value="       添加       " style="background-color: orange">
@@ -23,6 +24,7 @@
                 <td><?php echo ($dish["id"]); ?></td>
                 <td><?php echo ($dish["name"]); ?></td>
                 <td><?php echo ($dish["description"]); ?></td>
+                <td><?php echo ($dish["owner"]); ?></td>
                 <td colspan="2">
                     <a href="update.shtml?id=<?php echo ($dish["id"]); ?>">
                         <input type="button" value="修改">

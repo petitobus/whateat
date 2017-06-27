@@ -24,12 +24,12 @@ class DishController extends Controller
 	
     public function create(){
 		authenticate();
-		$CommercialArea = M("CommercialArea");
-		$commercial_area_list = $CommercialArea->order('id desc')->select();
-		$this->assign('commercial_area_list',$commercial_area_list);
-		$City = M("City");
-		$city_list = $City->order('id desc')->select();
-		$this->assign('city_list',$city_list);	
+		$Ingredient = M("Ingredient");
+		$ingredient_list = $Ingredient->order('id desc')->select();
+		$this->assign('ingredient_list',$ingredient_list);
+		$Flavour = M("Flavour");
+		$flavour_list = $Flavour->order('id desc')->select();
+		$this->assign('flavour_list',$flavour_list);	
 		$this->show();
 	}
 
@@ -39,27 +39,17 @@ class DishController extends Controller
 		$Dish = M("Dish");
 		$dish = $Dish->where('id='.$id)->select()[0];
 		$this->assign('dish',$dish);
-		$CommercialArea = M("CommercialArea");
-		$commercial_area_list = $CommercialArea->order('id desc')->select();
-		$this->assign('commercial_area_list',$commercial_area_list);
-		$City = M("City");
-		$city_list = $City->order('id desc')->select();
-		$this->assign('city_list',$city_list);	
-		$this->show();
-	}
-	
-	public function detail(){
-		authenticate();
-		$id=I('id');
-		$Dish = M("Dish");
-		$dish = $Dish->where('id='.$id)->select()[0];
-		$this->assign('dish',$dish);
-		$CommercialArea = M("CommercialArea");
-		$commercial_area_list = $CommercialArea->order('id desc')->select();
-		$this->assign('commercial_area_list',$commercial_area_list);
-		$City = M("City");
-		$city_list = $City->order('id desc')->select();
-		$this->assign('city_list',$city_list);			
+		$Ingredient = M("Ingredient");
+		$ingredient_list = $Ingredient->order('id desc')->select();
+		$this->assign('ingredient_list',$ingredient_list);
+		$Flavour = M("Flavour");
+		$flavour_list = $Flavour->order('id desc')->select();
+		$this->assign('flavour_list',$flavour_list);
+		$Step = M("Step");
+		$condition['dish_id']=$id;
+		$step_list = $Step->where($condition)->order('id desc')->select();
+		$this->assign('step_list',$step_list);
+		
 		$this->show();
 	}
 
