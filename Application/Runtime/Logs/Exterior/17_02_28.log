@@ -1,0 +1,1078 @@
+[ 2017-02-28T03:07:42+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/test_pay.shtml?code=288199816025045973
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2017-02-28T03:07:43+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/test_pay.shtml?code=281616659542397658
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002901s ]
+
+[ 2017-02-28T18:26:35+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003334s ]
+ERR: 1146:Table 'think_test.westyle_notify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `westyle_notify`
+ERR: 1146:Table 'think_test.westyle_notify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `westyle_notify`
+
+[ 2017-02-28T18:28:08+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+ERR: 1146:Table 'think_test.westyle_trade_notify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `westyle_trade_notify`
+ERR: 1146:Table 'think_test.westyle_trade_notify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `westyle_trade_notify`
+
+[ 2017-02-28T18:28:25+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.1331s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004899s ]
+
+[ 2017-02-28T18:30:15+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `westyle_alipay_trade`  [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2017-02-28T18:32:23+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `westyle_alipay_trade`  [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2017-02-28T18:32:25+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0717s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `westyle_alipay_trade`  [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-02-28T18:32:28+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `westyle_alipay_trade`  [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2017-02-28T18:32:35+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `westyle_alipay_trade`  [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: trade F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2017-02-28T18:32:38+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `westyle_alipay_trade`  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined index: out_trans_no F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: trade F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2017-02-28T18:32:56+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `westyle_alipay_trade`  [ RunTime:0.0031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2017-02-28T18:33:17+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `westyle_alipay_trade`  [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-02-28T18:34:09+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0047s ]
+ERR: Think\Model:getFiled方法不存在！
+
+[ 2017-02-28T18:34:56+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0045s ]
+SQL: SELECT `partner_trans_id` FROM `westyle_alipay_trade` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2017-02-28T18:35:31+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `westyle_alipay_trade`  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001733s ]
+
+[ 2017-02-28T18:36:28+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0868s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0128s ]
+SQL: SELECT `partner_trans_id` FROM `westyle_alipay_trade`  [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003262s ]
+
+[ 2017-02-28T18:38:14+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0045s ]
+SQL: SELECT `partner_trans_id` FROM `westyle_alipay_trade`  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003323s ]
+
+[ 2017-02-28T18:39:13+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0043s ]
+SQL: SELECT `partner_trans_id` FROM `westyle_alipay_trade`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2017-02-28T18:47:42+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0047s ]
+SQL: SELECT `partner_trans_id` FROM `westyle_alipay_trade`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2017-02-28T18:54:39+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=1&notify_id=91f4f13ae498773271f47b8032df514mhe&notify_type=trade_status_sync&trade_no=2016112421001003840200261096&total_fee=0.01&out_trade_no=test20161124093716&currency=USD&notify_time=2016-11-24+22%3A35&trade_status=TRADE_FINISHED
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002607s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.1201s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=1&notify_id=91f4f13ae498773271f47b8032df514mhe&notify_type=trade_status_sync&trade_no=2016112421001003840200261096&total_fee=0.01&out_trade_no=test20161124093716&currency=USD&notify_time=2016-11-24+22%3A35&trade_status=TRADE_FINISHED&merchant_id=0') [ RunTime:0.1674s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0139s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('1','91f4f13ae498773271f47b8032df514mhe','trade_status_sync','2016112421001003840200261096','0.01','test20161124093716','USD','2016-11-24 22:35','TRADE_FINISHED','0')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('1','91f4f13ae498773271f47b8032df514mhe','trade_status_sync','2016112421001003840200261096','0.01','test20161124093716','USD','2016-11-24 22:35','TRADE_FINISHED','0')
+
+[ 2017-02-28T18:54:39+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=2&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=2&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.0880s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0111s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('2','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('2','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:54:40+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=3&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0258s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=3&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.1965s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0563s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '3' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('3','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '3' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('3','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:54:40+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=4&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=4&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.0955s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0122s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('4','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('4','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:54:40+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=11&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=11&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.0743s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '11' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('11','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '11' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('11','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:54:40+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0045s ]
+SQL: SELECT `partner_trans_id` FROM `westyle_alipay_trade`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2017-02-28T18:54:45+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=1&notify_id=91f4f13ae498773271f47b8032df514mhe&notify_type=trade_status_sync&trade_no=2016112421001003840200261096&total_fee=0.01&out_trade_no=test20161124093716&currency=USD&notify_time=2016-11-24+22%3A35&trade_status=TRADE_FINISHED
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0184s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=1&notify_id=91f4f13ae498773271f47b8032df514mhe&notify_type=trade_status_sync&trade_no=2016112421001003840200261096&total_fee=0.01&out_trade_no=test20161124093716&currency=USD&notify_time=2016-11-24+22%3A35&trade_status=TRADE_FINISHED&merchant_id=0') [ RunTime:0.1228s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('1','91f4f13ae498773271f47b8032df514mhe','trade_status_sync','2016112421001003840200261096','0.01','test20161124093716','USD','2016-11-24 22:35','TRADE_FINISHED','0')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('1','91f4f13ae498773271f47b8032df514mhe','trade_status_sync','2016112421001003840200261096','0.01','test20161124093716','USD','2016-11-24 22:35','TRADE_FINISHED','0')
+
+[ 2017-02-28T18:54:45+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=2&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=2&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.0743s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0108s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('2','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('2','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:54:45+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=3&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0384s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=3&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.0869s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.1441s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '3' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('3','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '3' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('3','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:54:46+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=4&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=4&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.4996s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0118s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('4','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('4','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:54:46+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=11&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=11&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.1871s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '11' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('11','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '11' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('11','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:54:46+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0047s ]
+SQL: SELECT `partner_trans_id` FROM `westyle_alipay_trade`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002155s ]
+
+[ 2017-02-28T18:55:14+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=1&notify_id=91f4f13ae498773271f47b8032df514mhe&notify_type=trade_status_sync&trade_no=2016112421001003840200261096&total_fee=0.01&out_trade_no=test20161124093716&currency=USD&notify_time=2016-11-24+22%3A35&trade_status=TRADE_FINISHED
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0142s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=1&notify_id=91f4f13ae498773271f47b8032df514mhe&notify_type=trade_status_sync&trade_no=2016112421001003840200261096&total_fee=0.01&out_trade_no=test20161124093716&currency=USD&notify_time=2016-11-24+22%3A35&trade_status=TRADE_FINISHED&merchant_id=0') [ RunTime:0.1457s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('1','91f4f13ae498773271f47b8032df514mhe','trade_status_sync','2016112421001003840200261096','0.01','test20161124093716','USD','2016-11-24 22:35','TRADE_FINISHED','0')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('1','91f4f13ae498773271f47b8032df514mhe','trade_status_sync','2016112421001003840200261096','0.01','test20161124093716','USD','2016-11-24 22:35','TRADE_FINISHED','0')
+
+[ 2017-02-28T18:55:14+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=2&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=2&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.0595s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('2','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('2','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:55:14+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=3&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=3&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.0918s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.1245s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '3' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('3','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '3' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('3','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:55:14+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=4&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=4&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.0644s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0089s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('4','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('4','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:55:15+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=11&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0368s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=11&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.2152s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0205s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '11' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('11','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '11' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('11','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:55:15+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0043s ]
+SQL: SELECT `partner_trans_id` FROM `westyle_alipay_trade`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002283s ]
+
+[ 2017-02-28T18:55:42+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=1&notify_id=91f4f13ae498773271f47b8032df514mhe&notify_type=trade_status_sync&trade_no=2016112421001003840200261096&total_fee=0.01&out_trade_no=test20161124093716&currency=USD&notify_time=2016-11-24+22%3A35&trade_status=TRADE_FINISHED
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0135s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=1&notify_id=91f4f13ae498773271f47b8032df514mhe&notify_type=trade_status_sync&trade_no=2016112421001003840200261096&total_fee=0.01&out_trade_no=test20161124093716&currency=USD&notify_time=2016-11-24+22%3A35&trade_status=TRADE_FINISHED&merchant_id=0') [ RunTime:0.1237s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.1073s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('1','91f4f13ae498773271f47b8032df514mhe','trade_status_sync','2016112421001003840200261096','0.01','test20161124093716','USD','2016-11-24 22:35','TRADE_FINISHED','0')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('1','91f4f13ae498773271f47b8032df514mhe','trade_status_sync','2016112421001003840200261096','0.01','test20161124093716','USD','2016-11-24 22:35','TRADE_FINISHED','0')
+
+[ 2017-02-28T18:55:42+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=2&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=2&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.0727s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0094s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('2','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '2' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('2','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:55:42+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=3&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0476s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=3&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.1906s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.1119s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '3' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('3','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '3' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('3','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:55:43+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=4&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=4&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.1449s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0138s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('4','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '4' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('4','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:55:43+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?id=11&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.1446s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','id=11&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.1480s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.1515s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '11' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('11','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+ERR: 1062:Duplicate entry '11' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `westyle_alipay_notify` (`id`,`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('11','1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168')
+
+[ 2017-02-28T18:55:43+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0051s ]
+SQL: SELECT `partner_trans_id` FROM `westyle_alipay_trade`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003408s ]
+
+[ 2017-02-28T18:57:53+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?notify_id=91f4f13ae498773271f47b8032df514mhe&notify_type=trade_status_sync&trade_no=2016112421001003840200261096&total_fee=0.01&out_trade_no=test20161124093716&currency=USD&notify_time=2016-11-24+22%3A35&trade_status=TRADE_FINISHED
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','notify_id=91f4f13ae498773271f47b8032df514mhe&notify_type=trade_status_sync&trade_no=2016112421001003840200261096&total_fee=0.01&out_trade_no=test20161124093716&currency=USD&notify_time=2016-11-24+22%3A35&trade_status=TRADE_FINISHED&merchant_id=0') [ RunTime:0.1044s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0132s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_notify` (`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('91f4f13ae498773271f47b8032df514mhe','trade_status_sync','2016112421001003840200261096','0.01','test20161124093716','USD','2016-11-24 22:35','TRADE_FINISHED','0') [ RunTime:0.0801s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( merchant_id=0 ) LIMIT 1   [ RunTime:0.0631s ]
+NOTIC: [8] Undefined index: gmt_create F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 461 行.
+NOTIC: [8] Undefined index: seller_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 462 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 463 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 464 行.
+NOTIC: [8] Undefined index: trans_amount F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 465 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 466 行.
+NOTIC: [8] Undefined index: seller_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 469 行.
+NOTIC: [8] Undefined index: buyer_email F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 470 行.
+NOTIC: [8] Undefined index: forex_rate F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 471 行.
+NOTIC: [8] Undefined index: gmt_payment F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 472 行.
+NOTIC: [8] Undefined index: buyer_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 473 行.
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`trader_email`,`trans_create_time`,`alipay_seller_id`,`memo`,`subject`,`trans_amount`,`trans_name`,`partner_trans_id`,`currency`,`partner`,`alipay_buyer_login_id`,`exchange_rate`,`alipay_pay_time`,`alipay_buyer_user_id`,`trans_amount_cny`,`alipay_trans_id`,`buyer_identity_code`,`state`,`method`) VALUES ('0@mid','19700101010000',NULL,NULL,NULL,NULL,NULL,'test20161124093716','USD',NULL,NULL,NULL,'19700101010000',NULL,'0.01','2016112421001003840200261096','91f4f13ae498773271f47b8032df514mhe','3','2') [ RunTime:0.1105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004443s ]
+
+[ 2017-02-28T18:57:53+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.0906s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_notify` (`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168') [ RunTime:0.0987s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( merchant_id=1057826168 ) LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: gmt_create F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 461 行.
+NOTIC: [8] Undefined index: seller_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 462 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 463 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 464 行.
+NOTIC: [8] Undefined index: trans_amount F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 465 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 466 行.
+NOTIC: [8] Undefined index: seller_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 469 行.
+NOTIC: [8] Undefined index: buyer_email F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 470 行.
+NOTIC: [8] Undefined index: forex_rate F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 471 行.
+NOTIC: [8] Undefined index: gmt_payment F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 472 行.
+NOTIC: [8] Undefined index: buyer_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 473 行.
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`trader_email`,`shop_id`,`trans_create_time`,`alipay_seller_id`,`memo`,`subject`,`trans_amount`,`trans_name`,`partner_trans_id`,`currency`,`partner`,`alipay_buyer_login_id`,`exchange_rate`,`alipay_pay_time`,`alipay_buyer_user_id`,`trans_amount_cny`,`alipay_trans_id`,`buyer_identity_code`,`state`,`method`) VALUES ('y@s.c','1125','19700101010000',NULL,NULL,NULL,NULL,NULL,'0029726498411484178928534','EUR',NULL,NULL,NULL,'19700101010000',NULL,'0.07','2017011221001004840281596484','1266fd006cad1afd1f64f166ca72d10mhe','2','2') [ RunTime:0.0992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-02-28T18:57:54+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.1101s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_notify` (`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168') [ RunTime:0.0929s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( merchant_id=1057826168 ) LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: gmt_create F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 461 行.
+NOTIC: [8] Undefined index: seller_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 462 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 463 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 464 行.
+NOTIC: [8] Undefined index: trans_amount F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 465 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 466 行.
+NOTIC: [8] Undefined index: seller_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 469 行.
+NOTIC: [8] Undefined index: buyer_email F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 470 行.
+NOTIC: [8] Undefined index: forex_rate F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 471 行.
+NOTIC: [8] Undefined index: gmt_payment F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 472 行.
+NOTIC: [8] Undefined index: buyer_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 473 行.
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`trader_email`,`shop_id`,`trans_create_time`,`alipay_seller_id`,`memo`,`subject`,`trans_amount`,`trans_name`,`partner_trans_id`,`currency`,`partner`,`alipay_buyer_login_id`,`exchange_rate`,`alipay_pay_time`,`alipay_buyer_user_id`,`trans_amount_cny`,`alipay_trans_id`,`buyer_identity_code`,`state`,`method`) VALUES ('y@s.c','1125','19700101010000',NULL,NULL,NULL,NULL,NULL,'0029726498411484178928534','EUR',NULL,NULL,NULL,'19700101010000',NULL,'0.07','2017011221001004840281596484','1266fd006cad1afd1f64f166ca72d10mhe','2','2') [ RunTime:0.0959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2017-02-28T18:57:54+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.1176s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0837s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_notify` (`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168') [ RunTime:0.1236s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0588s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( merchant_id=1057826168 ) LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: gmt_create F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 461 行.
+NOTIC: [8] Undefined index: seller_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 462 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 463 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 464 行.
+NOTIC: [8] Undefined index: trans_amount F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 465 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 466 行.
+NOTIC: [8] Undefined index: seller_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 469 行.
+NOTIC: [8] Undefined index: buyer_email F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 470 行.
+NOTIC: [8] Undefined index: forex_rate F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 471 行.
+NOTIC: [8] Undefined index: gmt_payment F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 472 行.
+NOTIC: [8] Undefined index: buyer_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 473 行.
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`trader_email`,`shop_id`,`trans_create_time`,`alipay_seller_id`,`memo`,`subject`,`trans_amount`,`trans_name`,`partner_trans_id`,`currency`,`partner`,`alipay_buyer_login_id`,`exchange_rate`,`alipay_pay_time`,`alipay_buyer_user_id`,`trans_amount_cny`,`alipay_trans_id`,`buyer_identity_code`,`state`,`method`) VALUES ('y@s.c','1125','19700101010000',NULL,NULL,NULL,NULL,NULL,'0029726498411484178928534','EUR',NULL,NULL,NULL,'19700101010000',NULL,'0.07','2017011221001004840281596484','1266fd006cad1afd1f64f166ca72d10mhe','2','2') [ RunTime:0.1064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003785s ]
+
+[ 2017-02-28T18:57:55+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify.shtml?notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: signature_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 428 行.
+SQL: SHOW COLUMNS FROM `westyle_http_log` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_http_log` (`ip`,`request`) VALUES ('::1','notify_id=1266fd006cad1afd1f64f166ca72d10mhe&notify_type=trade_status_sync&trade_no=2017011221001004840281596484&total_fee=0.07&out_trade_no=0029726498411484178928534&currency=EUR&notify_time=2017-01-12+07%3A55&trade_status=TRADE_SUCCESS&merchant_id=1057826168') [ RunTime:0.0888s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_notify` (`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`,`merchant_id`) VALUES ('1266fd006cad1afd1f64f166ca72d10mhe','trade_status_sync','2017011221001004840281596484','0.07','0029726498411484178928534','EUR','2017-01-12 07:55','TRADE_SUCCESS','1057826168') [ RunTime:0.1024s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( merchant_id=1057826168 ) LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: gmt_create F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 461 行.
+NOTIC: [8] Undefined index: seller_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 462 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 463 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 464 行.
+NOTIC: [8] Undefined index: trans_amount F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 465 行.
+NOTIC: [8] Undefined index: subject F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 466 行.
+NOTIC: [8] Undefined index: seller_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 469 行.
+NOTIC: [8] Undefined index: buyer_email F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 470 行.
+NOTIC: [8] Undefined index: forex_rate F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 471 行.
+NOTIC: [8] Undefined index: gmt_payment F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 472 行.
+NOTIC: [8] Undefined index: buyer_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 473 行.
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`trader_email`,`shop_id`,`trans_create_time`,`alipay_seller_id`,`memo`,`subject`,`trans_amount`,`trans_name`,`partner_trans_id`,`currency`,`partner`,`alipay_buyer_login_id`,`exchange_rate`,`alipay_pay_time`,`alipay_buyer_user_id`,`trans_amount_cny`,`alipay_trans_id`,`buyer_identity_code`,`state`,`method`) VALUES ('y@s.c','1125','19700101010000',NULL,NULL,NULL,NULL,NULL,'0029726498411484178928534','EUR',NULL,NULL,NULL,'19700101010000',NULL,'0.07','2017011221001004840281596484','1266fd006cad1afd1f64f166ca72d10mhe','2','2') [ RunTime:0.2375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003169s ]
+
+[ 2017-02-28T18:57:55+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0677s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0045s ]
+SQL: SELECT `partner_trans_id` FROM `westyle_alipay_trade`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003425s ]
+
+[ 2017-02-28T18:58:01+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/debug_notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `westyle_alipay_notify`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0048s ]
+SQL: SELECT `partner_trans_id` FROM `westyle_alipay_trade`  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+

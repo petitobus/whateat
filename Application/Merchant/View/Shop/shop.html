@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Shop列表</title>
+</head>
+<body>
+<script>
+    function PhotoManeger(){
+        alert("该功能尚在开发中")
+    }
+</script>
+<div>
+    <table border="1">
+        <th colspan="20">Shop列表</th>
+        <tr>
+            <td>商店id</td>
+            <td>商定名称</td>
+            <td>商店地址</td>
+            <td>联系电话</td>
+            <td>商店传真</td>
+            <td>商店邮箱</td>
+            <td>邮编</td>
+            <td>所属城市</td>
+            <td>商圈</td>
+            <td>银行端ID</td>
+            <td colspan="3">
+                <a href="create.shtml">
+                    <input type="button" value="  添加  " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+        <volist name="shop_list" id="shop">
+            <tr>
+                <td>{$shop.id}</td>
+                <td>{$shop.name}</td>
+                <td>{$shop.adr}</td>
+                <td>{$shop.tel}</td>
+                <td>{$shop.fax}</td>
+                <td>{$shop.email}</td>
+                <td>{$shop.area}</td>
+                <td>{$shop.city_name}</td>
+                <td>{$shop.commercial_area_name}</td>
+                <td>{$shop.merchant_id}</td>
+                <td colspan="4">
+                    <a href="update.shtml?id={$shop.id}">
+                        <input type="button" value="    修改   ">
+                    </a>
+                    <a href="post.shtml?method=delete&id={$shop.id}">
+                        <input type="button" value="    删除   ">
+                    </a>
+					<a href="detail.shtml?id={$shop.id}">
+                        <input type="button" value="    详细   ">
+                    </a>
+                    <input type="button" onclick="PhotoManeger()" value="图片管理">
+                </td>
+            </tr>
+        </volist>
+    </table>
+</div>
+</body>
+</html>

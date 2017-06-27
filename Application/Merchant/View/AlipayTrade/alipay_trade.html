@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voucher Trade</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="6">Trade List
+            <td colspan="2">
+				<a href="alipay_trade.shtml?page={$last_page}">
+                    <input type="button" value="last page" style="background-color: orange">
+                </a>
+				<span>{$current_page}/{$max_page}</span>
+		        <a href="alipay_trade.shtml?page={$next_page}">
+				<input type="button" value="next page" style="background-color: orange">
+                </a>
+			</td>
+			<td>
+			    <a href="search.shtml">
+				<input type="button" value="search" style="background-color: orange">
+                </a>
+			</td>
+		</th>
+        <tr>
+            <td>Trade No</td>
+            <td>Operator Email</td>
+            <td>Trade Amount</td>
+            <td>Trans Time</td>
+            <td>Subject</td>
+            <td>Exchange Rate</td>
+            <td>Buyer Id</td>
+            <td>State</td>
+            <td>Payment Methode</td>
+        </tr>
+		<volist name="trade_list" id="trade">
+		<tr>
+			<td>{$trade.partner_trans_id}</td>
+			<td>{$trade.trader_email}</td>
+			<td>{$trade.trans_amount}</td>
+			<td>{$trade.trans_create_time}</td>
+			<td>{$trade.subject}</td>
+			<td>{$trade.exchange_rate}</td>
+			<td>{$trade.alipay_buyer_login_id}</td>
+			<td><eq name="trade['state']" value="0">new trade</eq>
+				<eq name="trade['state']" value="1">confirming by bank</eq>
+				<eq name="trade['state']" value="2">succeed</eq>
+				<eq name="trade['state']" value="3">failed</eq>
+				<eq name="trade['state']" value="-1">refunded</eq>
+			</td>
+			<td><eq name="trade['method']" value="1">merchant scan</eq>
+				<eq name="trade['method']" value="2">client scan</eq>
+			</td>
+		</tr>
+		</volist>
+    </table>
+</div>
+</body>
+</html>

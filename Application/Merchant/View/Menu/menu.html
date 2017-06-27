@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>menu 列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="7">menu 列表</th>
+        <tr>
+            <td>menu id</td>
+            <td>restaurant id</td>
+            <td>name</td>
+            <td>price</td>
+            <td>description</td>
+            <td colspan="2">
+                <a href="create.shtml">
+                    <input type="button" value="       添加       " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+        <volist name="menu_list" id="menu">
+            <tr>
+                <td>{$menu.id}</td>
+                <td>{$menu.restaurant_id}</td>
+                <td>{$menu.name}</td>
+                <td>{$menu.price}</td>
+                <td>{$menu.description}</td>
+                <td colspan="2">
+                    <a href="update.shtml?id={$menu.id}">
+                        <input type="button" value="修改">
+                    </a>
+                    <a href="post.shtml?method=delete&id={$menu.id}">
+                        <input type="button" value="删除">
+                    </a>
+                </td>
+            </tr>
+        </volist>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VoucherTrade列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="6">订单列表
+            <td>
+				<a href="alipay_trade.shtml?page={$last_page}">
+                    <input type="button" value="上一页" style="background-color: orange">
+                </a>
+				<span>{$current_page}/{$max_page}</span>
+		        <a href="alipay_trade.shtml?page={$next_page}">
+				<input type="button" value="下一页" style="background-color: orange">
+                </a>
+			</td>
+			<td>
+			    <a href="search.shtml">
+				<input type="button" value="查找" style="background-color: orange">
+                </a>
+			</td>
+		</th>
+        <tr>
+            <td>订单号</td>
+            <td>操作员邮箱</td>
+            <td>交易金额</td>
+            <td>订单时间</td>
+            <td>交易内容</td>
+            <td>结算汇率</td>
+            <td>买家账号</td>
+            <td>订单状态</td>
+            <td>支付方式</td>
+        </tr>
+		<volist name="trade_list" id="trade">
+		<tr>
+			<td>{$trade.partner_trans_id}</td>
+			<td>{$trade.trader_email}</td>
+			<td>{$trade.trans_amount}</td>
+			<td>{$trade.trans_create_time}</td>
+			<td>{$trade.subject}</td>
+			<td>{$trade.exchange_rate}</td>
+			<td>{$trade.alipay_buyer_login_id}</td>
+			<td><eq name="trade['state']" value="0">新订单</eq>
+				<eq name="trade['state']" value="1">银行未确认</eq>
+				<eq name="trade['state']" value="2">成功</eq>
+				<eq name="trade['state']" value="3">失败</eq>
+				<eq name="trade['state']" value="4">处理中</eq>
+				<eq name="trade['state']" value="-1">已退款</eq>
+			</td>
+			<td><eq name="trade['method']" value="1">商家扫码</eq>
+				<eq name="trade['method']" value="2">客户扫码</eq>
+			</td>
+		</tr>
+		</volist>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,897 @@
+[ 2016-10-18T00:52:02+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Install/install.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [2] mysqli_connect(): (HY000/1045): Access denied for user 'admin_westyle'@'localhost' (using password: YES) F:\wamp\www\westylegit\code\Application\Exterior\Controller\InstallController.class.php 第 17 行.
+NOTIC: [2] mysqli_error() expects parameter 1 to be mysqli, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\InstallController.class.php 第 19 行.
+
+[ 2016-10-18T00:53:33+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Install/install.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007805s ]
+
+[ 2016-10-18T00:53:42+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_seller_id=2088021966645500&alipay_trans_id=7238034965786506&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=286853394789811321&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=8962367310962438&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=aiforu%40westyle.com&trans_amount=0.01&trans_name=iphone&sign_type=RSA&sign=NVd051zA88r2KYMopShemg7j77tbUpIU0pRk%2Fo9Z4HLFi%2BGn26jA1GPSesc6jLlBydH2T2U64hQAHnPfS3UgGnlzsKQh6opMTZ3gnUSkM4hEGeGJpq1difEWDoKVzvEGfRgqNKcUvDup3aoDrQ86IH4MXGHcXOW1PPFcTUcCW0E%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_seller_id`,`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','7238034965786506','286853394789811321','EUR','testing','2088021966645500','8962367310962438','iphone','aiforu@westyle.com','0.01','iphone','20161018005340','1') [ RunTime:0.1205s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '7238034965786506' AND `trans_create_time` = '20161018005340' LIMIT 1   [ RunTime:0.0039s ]
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_seller_id`='2088021966645500',`alipay_trans_id`='7238034965786506',`buyer_identity_code`='286853394789811321',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='8962367310962438',`subject`='iphone',`trader_email`='aiforu@westyle.com',`trans_amount`='0.01',`trans_name`='iphone',`trans_create_time`='20161018005340',`state`='3',`_id`='145' WHERE ( _id=145 ) [ RunTime:0.0607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004439s ]
+
+[ 2016-10-18T01:00:03+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Install/install.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015935s ]
+
+[ 2016-10-18T01:07:13+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=0.14&voucher_id=V00001&sign_type=RSA&sign=q0tCr5OD6uy%2Bu6Ixtokim5B2D20GyCXWcJjUzpR5kOkr1rDyVAp3eRng%2B1y%2Fj0sEqN15Dibho1o1xjP32i65Ct6ZOIpgnbQ2x5q%2B6RwI8RjftNRdWns6Azte%2FJoPey23jq%2FXqpBS1UfFhvHptVJxf8WVp7TrKMYlzbU%2BCCv17kw%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031483s ]
+
+[ 2016-10-18T01:09:11+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017258s ]
+
+[ 2016-10-18T01:10:05+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+
+[ 2016-10-18T01:11:15+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0468s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher_trade` (`trader_email`,`trans_amount`,`voucher_id`,`trans_create_time`) VALUES ('aiforu@westyle.com','1','V00001','20161018011114') [ RunTime:0.1302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026326s ]
+
+[ 2016-10-18T01:28:49+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0474s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher_trade` (`trader_email`,`trans_amount`,`voucher_id`,`trans_create_time`) VALUES ('aiforu@westyle.com','1','V00001','20161018012849') [ RunTime:0.2489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004580s ]
+
+[ 2016-10-18T01:36:38+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004896s ]
+
+[ 2016-10-18T01:40:44+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\westylegit\code\Application\Exterior\Controller\InstallController.class.php 第 106 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2016-10-18T01:49:27+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2016-10-18T01:50:09+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+ERR: 1146:Table 'think_test.westyle_voucher' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `westyle_voucher`
+ERR: 1146:Table 'think_test.westyle_voucher' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `westyle_voucher`
+
+[ 2016-10-18T01:51:13+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002271s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.1622s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004740s ]
+
+[ 2016-10-18T01:52:14+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0283s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER') [ RunTime:0.0787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2016-10-18T01:52:30+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER') [ RunTime:0.1057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003678s ]
+
+[ 2016-10-18T01:53:02+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER') [ RunTime:0.1493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2016-10-18T01:53:32+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER') [ RunTime:0.1044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2016-10-18T01:54:15+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+ERR: 1146:Table 'think_test.westyle_voucher' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `westyle_voucher`
+ERR: 1146:Table 'think_test.westyle_voucher' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `westyle_voucher`
+
+[ 2016-10-18T01:56:53+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER') [ RunTime:0.0865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002825s ]
+
+[ 2016-10-18T01:57:44+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER') [ RunTime:0.1103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005605s ]
+
+[ 2016-10-18T01:58:24+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER') [ RunTime:0.1211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005281s ]
+
+[ 2016-10-18T01:59:27+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER') [ RunTime:0.0653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002489s ]
+
+[ 2016-10-18T02:00:28+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'V00001' for key 'voucher_id'
+ [ SQL语句 ] : INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER')
+ERR: 1062:Duplicate entry 'V00001' for key 'voucher_id'
+ [ SQL语句 ] : INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER')
+
+[ 2016-10-18T02:00:47+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml?trader_email=aiforu@westyle.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0288s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER') [ RunTime:0.0703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003640s ]
+
+[ 2016-10-18T04:11:36+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `voucher_id` = 'V00001' AND `trans_create_time` = '20161018041136' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-10-18T04:12:13+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `voucher_id` = 'V00001' AND `trans_create_time` = '20161018041213' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-10-18T04:12:37+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `voucher_id` = 'V00001' AND `trans_create_time` = '20161018041237' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-18T04:12:53+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0652s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `voucher_id` = 'V00001' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher_trade` (`trader_email`,`trans_amount`,`voucher_id`,`trans_create_time`) VALUES ('aiforu@westyle.com','1','V00001','20161018041253') [ RunTime:0.1407s ]
+NOTIC: [8] Undefined index: name F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 101 行.
+NOTIC: [8] Undefined variable:  F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 101 行.
+
+[ 2016-10-18T04:13:24+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `voucher_id` = 'V00001' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher_trade` (`trader_email`,`trans_amount`,`voucher_id`,`trans_create_time`) VALUES ('aiforu@westyle.com','1','V00001','20161018041324') [ RunTime:0.1679s ]
+NOTIC: [8] Undefined index: name F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 101 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002715s ]
+
+[ 2016-10-18T04:14:30+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `voucher_id` = 'V00001' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher_trade` (`trader_email`,`trans_amount`,`voucher_id`,`trans_create_time`) VALUES ('aiforu@westyle.com','1','V00001','20161018041430') [ RunTime:0.1237s ]
+NOTIC: [8] Undefined index: voucher_name F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 101 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2016-10-18T04:14:32+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0299s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `voucher_id` = 'V00001' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher_trade` (`trader_email`,`trans_amount`,`voucher_id`,`trans_create_time`) VALUES ('aiforu@westyle.com','1','V00001','20161018041432') [ RunTime:0.1149s ]
+NOTIC: [8] Undefined index: voucher_name F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 101 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006402s ]
+
+[ 2016-10-18T04:14:52+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `voucher_id` = 'V00001' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher_trade` (`trader_email`,`trans_amount`,`voucher_id`,`trans_create_time`) VALUES ('aiforu@westyle.com','1','V00001','20161018041452') [ RunTime:0.1860s ]
+NOTIC: [8] Undefined index: voucher_name F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 100 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2016-10-18T04:15:32+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `westyle_voucher` WHERE `voucher_id` = 'V00001' LIMIT 1   [ RunTime:0.0210s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher_trade` (`trader_email`,`trans_amount`,`voucher_id`,`trans_create_time`) VALUES ('aiforu@westyle.com','1','V00001','20161018041532') [ RunTime:0.1596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003923s ]
+
+[ 2016-10-18T04:19:45+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/history.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0809s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2016-10-18T04:56:35+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019302s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0196s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `westyle_voucher` WHERE `voucher_id` = 'V00001' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher_trade` (`trader_email`,`trans_amount`,`voucher_id`,`trans_create_time`) VALUES ('aiforu@westyle.com','1','V00001','20161018045635') [ RunTime:0.1011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015366s ]
+
+[ 2016-10-18T05:08:43+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034000s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0713s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033665s ]
+
+[ 2016-10-18T05:08:55+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2016-10-18T05:09:33+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002258s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `westyle_voucher` WHERE `voucher_id` = 'V00001' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher_trade` (`trader_email`,`trans_amount`,`voucher_id`,`trans_create_time`) VALUES ('aiforu@westyle.com','1','V00001','20161018050933') [ RunTime:0.1295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004617s ]
+
+[ 2016-10-18T05:14:34+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/history.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2016-10-18T05:43:01+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021512s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029481s ]
+
+[ 2016-10-18T05:45:31+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2016-10-18T05:45:39+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.1010s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.1404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004638s ]
+
+[ 2016-10-18T05:45:58+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001864s ]
+
+[ 2016-10-18T05:47:17+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2016-10-18T05:47:19+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Voucher/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2016-10-18T05:48:28+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003038s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001610s ]
+
+[ 2016-10-18T05:48:31+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Voucher/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2016-10-18T05:51:51+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001570s ]
+
+[ 2016-10-18T05:53:11+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Voucher/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2016-10-18T05:53:58+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003290s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002872s ]
+
+[ 2016-10-18T05:54:16+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002043s ]
+
+[ 2016-10-18T05:54:18+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002635s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002939s ]
+
+[ 2016-10-18T05:54:23+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001445s ]
+
+[ 2016-10-18T05:54:32+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001655s ]
+
+[ 2016-10-18T05:55:36+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002667s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0634s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002282s ]
+
+[ 2016-10-18T05:55:38+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002068s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002342s ]
+
+[ 2016-10-18T05:55:42+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2016-10-18T05:55:45+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0546s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
+
+[ 2016-10-18T05:56:18+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005224s ]
+
+[ 2016-10-18T05:56:19+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2016-10-18T05:58:16+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002773s ]
+
+[ 2016-10-18T05:58:33+08:00 ] 192.168.1.72 /westylegit/code/index.php/Exterior/Voucher/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002387s ]
+
+[ 2016-10-18T06:11:07+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `westyle_voucher` WHERE `voucher_id` = 'V00001' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher_trade` (`trader_email`,`trans_amount`,`voucher_id`,`trans_create_time`) VALUES ('aiforu@westyle.com','1','V00001','20161018061107') [ RunTime:0.2033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004771s ]
+
+[ 2016-10-18T06:11:10+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/history.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2016-10-18T06:11:13+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Voucher/add.shtml?trader_email=aiforu%40westyle.com&trans_amount=1&voucher_id=V00001&sign_type=RSA&sign=scIqweK5c7J0nIk5i9wds9EjtkX2ZsDqZfY3kU7pJ2YRE7Gn5IMiTdEl%2BFJvtKXMNbWPhb3oWtsC86rU3yxmorIY9FjkXtmEXOwWTKHervLyKvmU5iBrAu9kiZVRX2tBG6rfEJL3Se6FMGmUmSvaGdOKi6l9L%2BLGlUJeWe7metI%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `westyle_voucher` WHERE `voucher_id` = 'V00001' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_voucher_trade` (`trader_email`,`trans_amount`,`voucher_id`,`trans_create_time`) VALUES ('aiforu@westyle.com','1','V00001','20161018061113') [ RunTime:0.1326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008206s ]
+

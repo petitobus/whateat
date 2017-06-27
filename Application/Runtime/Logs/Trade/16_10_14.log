@@ -1,0 +1,41 @@
+[ 2016-10-14T05:31:15+08:00 ] ::1 /westylegit/code/index.php/Trade/History/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003202s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'test_email' ORDER BY trans_create_time  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2016-10-14T05:31:31+08:00 ] ::1 /westylegit/code/index.php/Trade/History/add.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0162s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`trader_email`,`trans_create_time`,`alipay_seller_id`,`memo`,`subject`,`trans_amount`,`trans_name`,`partner_trans_id`,`buyer_identity_code`,`partner`,`alipay_buyer_login_id`,`exchange_rate`,`alipay_pay_time`,`alipay_buyer_user_id`,`trans_amount_cny`,`alipay_trans_id`) VALUES ('test_email','test_666','test_666','test_666','test_666','test_666','test_666','test_666','test_666currency=test_666','test_666','test_666','test_666','test_666','test_666','test_666','test_666') [ RunTime:0.3412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002835s ]
+
+[ 2016-10-14T05:42:06+08:00 ] 192.168.1.72 /westylegit/code/index.php/Trade/History/index.shtml?_input_charset=UTF-8&alipay_seller_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=284663672599692359&currency=USD&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=0907187899133607&service=alipay.acquire.overseas.spot.pay&signature=westyle123&subject=iphone&trader_email=test_email&trans_amount=0.1&trans_create_time=20160918121511&trans_name=iphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'test_email' ORDER BY trans_create_time  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+

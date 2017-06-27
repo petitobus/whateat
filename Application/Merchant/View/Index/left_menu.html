@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link type="text/css" rel="stylesheet" href="__ROOT__/Application/Merchant/View/static/css/Index/left_menu.css">
+	<script src="__ROOT__/Application/Merchant/View/static/js/Index/left_menu.js"></script>
+	<title>后台页面的临时窗口</title>
+</head>
+<body>
+<div>
+	<img src="__ROOT__/Application/Merchant/View/static/images/logo_black.png" width="100%">
+    <table border="0">
+		<tr>
+			<td>
+				<a href="{:U('Index/home')}" target="content_frame">
+					<p>Index</p>
+				</a>
+			</td>
+		</tr>
+		<volist name="menu" id="item"> 
+		 <tr>
+            <td colspan="6">
+				<a href="{$item.href}" target="content_frame">
+					<p>{$item.title}</p>
+				</a>
+			</td>
+        </tr>
+		</volist>        
+    </table>
+	<footer>
+		<hr>
+		<h4>powered by AIFORU</h4>
+	</footer>
+	<script>effet_link()</script>
+
+</div>
+</body>
+</html>

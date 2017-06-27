@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Operator列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="6">Operator列表</th>
+        <tr>
+            <td>所属商铺</td>
+			<td>ID</td>
+            <td>名称</td>
+            <td>邮箱</td>
+            <td colspan="2">
+                <a href="create.shtml">
+                    <input type="button" value="       添加       " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+		<volist name="operator_list" id="operator">
+		<tr>
+			<td>{$operator.shop_name}</td>
+			<td>{$operator._id}</td>
+			<td>{$operator.operator_name}</td>
+			<td>{$operator.operator_email}</td>
+			<td colspan="2">
+                <a href="update.shtml?id={$operator._id}">
+				    <input type="button" value="修改">
+                </a>
+                <a href="post.shtml?method=delete&id={$operator._id}">
+					<input type="button" value="删除">
+				</a>
+            </td>
+		</tr>
+		</volist>
+     </table>
+</div>
+</body>
+</html>

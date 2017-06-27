@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Voucher列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="5">Voucher列表</th>
+        <tr>
+            <td>id</td>
+            <td>Code</td>
+            <td>名称</td>
+            <td>使用次数</td>
+            <td>消费总金额</td>
+            <td>佣金比例</td>
+            <td colspan="2">
+                <a href="create.shtml">
+                    <input type="button" value="       添加       " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+		<volist name="voucher_list" id="voucher">
+		<tr>
+			<td>{$voucher._id}</td>
+			<td>{$voucher.voucher_code}</td>
+			<td>{$voucher.voucher_name}</td>
+			<td>{$voucher.count}</td>
+			<td>{$voucher.amount}</td>
+			<td>{$voucher.commision} %</td>
+			<td colspan="2">
+                <a href="update.shtml?id={$voucher._id}">
+				    <input type="button" value="修改">
+                </a>
+                <a href="post.shtml?method=delete&id={$voucher._id}">
+					<input type="button" value="删除">
+				</a>
+                <a href="code.shtml?id={$voucher._id}">
+				    <input type="button" value="生成基本码">
+                </a>
+
+            </td>
+		</tr>
+		</volist>
+     </table>
+</div>
+</body>
+</html>

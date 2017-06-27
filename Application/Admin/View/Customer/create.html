@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>添加 customer</title>
+</head>
+<body>
+<div>
+    <form action="post.shtml?method=create" method="post">
+        <table border="1">
+            <th colspan="13">添加 customer</th>
+            <tr>
+                <td>wechat id</td>
+                <td><input type="text" required="required" name="wechat_id" placeholder="new wechat id"></td>
+            </tr>
+            <tr>
+                <td>qrcode</td>
+                <td><input type="text" required="required" name="qrcode" placeholder="new qrcode"></td>
+            </tr>
+            <tr>
+                <td>username en</td>
+                <td><input type="text" required="required" name="username_en" placeholder="new username en"></td>
+            </tr>
+            <tr>
+                <td>username cn</td>
+                <td><input type="text" required="required" name="username_cn" placeholder="new username cn"></td>
+            </tr>
+            <tr>
+                <td>sex</td>
+                <td>
+                    <select name="sex">
+                        <option value="true">M</option>
+                        <option value="false">F</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>country</td>
+                <td><input type="text" required="required" name="country" placeholder="new country"></td>
+            </tr>
+            <tr>
+                <td>birthday</td>
+                <td><input type="date" required="required" name="birthday" placeholder="new birthday"></td>
+            </tr>
+            <tr>
+                <td>tel</td>
+                <td><input type="text" required="required" name="tel" placeholder="new tel"></td>
+            </tr>
+            <tr>
+                <td>passeport</td>
+                <td><input type="text" required="required" name="passeport" placeholder="new passeport"></td>
+            </tr>
+            <tr>
+                <td>recommander</td>
+                <td><input type="text" required="required" name="recommander" placeholder="new recommander"></td>
+            </tr>
+            <tr>
+                <td>accumulated pts</td>
+                <td><input type="text" required="required" name="accumulated_pts" placeholder="new accumulated pts"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="submit" value="         添加         " style="display: block;margin: 0 auto 0"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

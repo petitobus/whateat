@@ -1,0 +1,98 @@
+[ 2016-12-29T02:37:44+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+
+[ 2016-12-29T07:54:25+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Index','index','root','根结点','0','0','-1','请勿修改') [ RunTime:0.1712s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.1153s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+
+[ 2016-12-29T07:56:17+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Index','index','root','根结点','0','0','-1','请勿修改') [ RunTime:0.0981s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+
+[ 2016-12-29T09:46:46+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0389s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'root' for key 'name'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Index','index','root','根结点','0','0','-1','请勿修改')
+ERR: 1062:Duplicate entry 'root' for key 'name'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Index','index','root','根结点','0','0','-1','请勿修改')
+
+[ 2016-12-29T09:47:37+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'root' for key 'name'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Index','index','root','根结点','0','0','-1','请勿修改')
+ERR: 1062:Duplicate entry 'root' for key 'name'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Index','index','root','根结点','0','0','-1','请勿修改')
+
+[ 2016-12-29T10:01:40+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.1503s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'root' for key 'name'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Index','index','root','根结点','0','0','-1','请勿修改')
+ERR: 1062:Duplicate entry 'root' for key 'name'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Index','index','root','根结点','0','0','-1','请勿修改')
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> good 列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="18"> good 列表</th>
+        <tr>
+            <td>good id</td>
+            <td>shop id</td>
+            <td>subtitle</td>
+            <td>sn</td>
+            <td>status</td>
+            <td>status_ext</td>
+            <td>number</td>
+            <td>market_price</td>
+            <td>shop_price</td>
+            <td>keyword</td>
+            <td>description</td>
+            <td>content</td>
+            <td>parameter</td>
+            <td>content</td>
+            <td>up_time</td>
+            <td>sort</td>
+            <td colspan="2">
+                <a href="create.shtml">
+                    <input type="button" value="       添加       " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+        <volist name="good_list" id="good">
+            <tr>
+                <td>{$ship_commission.id}</td>
+                <td>{$shop_commission.shop_id}</td>
+                <td>{$shop_commission.subtitle}</td>
+                <td>{$shop_commission.sn}</td>
+                <td>{$shop_commission.status}</td>
+                <td>{$shop_commission.status_ext}</td>
+                <td>{$shop_commission.number}</td>
+                <td>{$shop_commission.market_price}</td>
+                <td>{$shop_commission.shop_price}</td>
+                <td>{$shop_commission.keyword}</td>
+                <td>{$shop_commission.description}</td>
+                <td>{$shop_commission.content}</td>
+                <td>{$shop_commission.parameter}</td>
+                <td>{$shop_commission.content}</td>
+                <td>{$shop_commission.up_time}</td>
+                <td>{$shop_commission.sort}</td>
+                <td colspan="2">
+                    <a href="update.shtml?id={$good.id}">
+                        <input type="button" value="修改">
+                    </a>
+                    <a href="post.shtml?method=delete&id={$good.id}">
+                        <input type="button" value="删除">
+                    </a>
+                </td>
+            </tr>
+        </volist>
+    </table>
+</div>
+</body>
+</html>

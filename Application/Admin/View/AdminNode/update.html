@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>修改结点</title>
+</head>
+<body>
+<form action="post.shtml?method=update&id={$node.id}" method="post">
+
+    <table border="1">
+        <th colspan="6">修改结点</th>
+        <tr>
+			<td>controller</td>
+            <td><input type="text" name="controller" value={$node.controller}></td>
+        </tr>
+        <tr>
+            <td>method</td>
+            <td><input type="text" name="method" value={$node.method}></td>
+        </tr>
+        <tr>
+            <td>name</td>
+            <td><input type="text" required="required" name="name" value={$node.name}></td>
+        </tr>
+        <tr>
+            <td>title</td>
+            <td><input type="text" required="required" name="title" value={$node.title}></td>
+        </tr>
+        <tr>
+            <td>sort</td>
+            <td><input type="num" required="required" name="sort" value={$node.sort}></td>
+        </tr>
+        <tr>
+            <td>pid</td>
+			<td>
+				<select name="pid">
+					<volist name="admin_pnode_list" id="admin_pnode">
+						<lt name="admin_pnode['level']" value="$node['level']">
+							<option value="{$admin_pnode.id}" 
+							<eq name="admin_pnode['id']" value="$node['pid']">selected </eq> 
+							>{$admin_pnode.title}</option>
+						</lt>
+					</volist>
+				</select>
+			</td>
+		</tr>
+		<tr>
+            <td>level</td>
+            <td><input type="num" required="required" name="level" value="{$node.level}"></td>
+        </tr>
+        <tr>
+            <td>remark</td>
+            <td><input type="text" name="remark" value={$node.remark}></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="         修改         " style="display: block;margin: 0 auto 0"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

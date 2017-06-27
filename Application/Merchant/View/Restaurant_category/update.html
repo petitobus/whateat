@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>修改 restaurant category</title>
+</head>
+<body>
+<div>
+    <form action="post.shtml?method=update&id={$restaurant_category.id}" method="post">
+        <table border="1">
+            <th colspan="4">修改 restaurant category</th>
+
+            <tr>
+                <td>name</td>
+                <td><input type="text" required="required" name="name" value={$restaurant_category.name} ></td>
+            </tr>
+            <tr>
+                <td>description</td>
+                <td><input type="text" required="required" name="description" value={$restaurant_category.description} ></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="         修改         " style="display: block;margin: 0 auto 0"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

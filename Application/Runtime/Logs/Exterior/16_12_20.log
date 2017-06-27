@@ -1,0 +1,479 @@
+[ 2016-12-20T06:35:05+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/req_to_bank.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015443s ]
+NOTIC: [8] Undefined variable: hello F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 57 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php on line 58 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005614s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.014333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008369s ]
+
+[ 2016-12-20T06:35:23+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/req_to_bank.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+NOTIC: [8] Undefined variable: hello F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 57 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php on line 59 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-12-20T07:18:09+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 41 行.
+
+[ 2016-12-20T07:18:53+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 31 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 41 行.
+
+[ 2016-12-20T07:22:05+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history_test.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004262s ]
+
+[ 2016-12-20T07:22:26+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history_test.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-12-20T07:22:35+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history_test.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2016-12-20T07:22:37+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history_test.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2016-12-20T07:23:02+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=example%40aiforu.com&sign_type=RSA&sign=LBUt5jR29HT9XeDb4%2BYoueUqdV6LHzPtIJB4NmzlrmgxcajtkOiK83klheBDUWrHuuyGYiautj4hCC3k61JOsiimZ9gIqsYY%2Fz7FLAEKlWbNLU%2FfyXAbzSEh5rn9BOfenU3HCKzGIYLDl4J7zvTMnbiR6f5dObOfX7JktPHhBYU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.1910s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'example@aiforu.com' ORDER BY trans_create_time desc  [ RunTime:0.0904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004612s ]
+
+[ 2016-12-20T07:23:02+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history_test.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2016-12-20T07:24:28+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=example%40aiforu.com&sign_type=RSA&sign=LBUt5jR29HT9XeDb4%2BYoueUqdV6LHzPtIJB4NmzlrmgxcajtkOiK83klheBDUWrHuuyGYiautj4hCC3k61JOsiimZ9gIqsYY%2Fz7FLAEKlWbNLU%2FfyXAbzSEh5rn9BOfenU3HCKzGIYLDl4J7zvTMnbiR6f5dObOfX7JktPHhBYU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'example@aiforu.com' ORDER BY trans_create_time desc  [ RunTime:0.0054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2016-12-20T07:24:28+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history_test.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2016-12-20T07:40:35+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=example%40aiforu.com&sign_type=RSA&sign=LBUt5jR29HT9XeDb4%2BYoueUqdV6LHzPtIJB4NmzlrmgxcajtkOiK83klheBDUWrHuuyGYiautj4hCC3k61JOsiimZ9gIqsYY%2Fz7FLAEKlWbNLU%2FfyXAbzSEh5rn9BOfenU3HCKzGIYLDl4J7zvTMnbiR6f5dObOfX7JktPHhBYU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'example@aiforu.com' ORDER BY trans_create_time desc  [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2016-12-20T07:40:35+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history_test.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002824s ]
+
+[ 2016-12-20T07:48:09+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=example%40aiforu.com&sign_type=RSA&sign=LBUt5jR29HT9XeDb4%2BYoueUqdV6LHzPtIJB4NmzlrmgxcajtkOiK83klheBDUWrHuuyGYiautj4hCC3k61JOsiimZ9gIqsYY%2Fz7FLAEKlWbNLU%2FfyXAbzSEh5rn9BOfenU3HCKzGIYLDl4J7zvTMnbiR6f5dObOfX7JktPHhBYU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'example@aiforu.com' ORDER BY trans_create_time desc  [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-12-20T07:48:09+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history_test.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002290s ]
+
+[ 2016-12-20T07:49:34+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/req_to_bank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php on line 61 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000909s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.217621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.218002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026494s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003257s ]
+
+[ 2016-12-20T07:53:15+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/req_to_bank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php on line 61 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-12-20T07:53:28+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-12-20T07:54:51+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2016-12-20T08:38:48+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001591s ]
+
+[ 2016-12-20T08:40:00+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2016-12-20T08:43:30+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-12-20T08:48:48+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php on line 129 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000837s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2016-12-20T08:48:58+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php on line 129 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000663s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002526s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002681s ]
+
+[ 2016-12-20T09:25:43+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/req_to_bank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php on line 63 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2016-12-20T09:25:56+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php on line 129 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-12-20T09:26:06+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003347s ]
+
+[ 2016-12-20T09:26:19+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-12-20T09:30:17+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004758s ]
+
+[ 2016-12-20T09:33:44+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-12-20T09:34:18+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003855s ]
+
+[ 2016-12-20T09:35:57+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/app_simu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php on line 130 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000804s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003943s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\westylegit\code\ThinkPHP\Common\functions.php:850) F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\westylegit\code\ThinkPHP\Common\functions.php:850) F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\westylegit\code\ThinkPHP\Common\functions.php:850) F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+

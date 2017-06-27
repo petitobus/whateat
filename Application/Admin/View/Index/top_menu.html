@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>后台页面的临时窗口</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="9">临时菜单</th>
+        <tr>
+			<td>{$username}</td>
+			<td>
+				<a href="{:U('Login/logout')}" target="_top">
+                    <input type="button" value="  登出  " style="background-color: orange">
+                </a>
+			</td>
+			<td>
+				<a href="{:U('Index/change_password')}" target="content_frame">
+                    <input type="button" value="  修改密码  " style="background-color: orange">
+                </a>
+			</td>
+			<td></td>
+			<td>
+				<a href="{:U('Index/about_us')}" target="left_frame" onclick="parent.content_frame.location.href ='{:U('Index/home')}'">
+				    <input type="button" value="  首页  " style="background-color: orange">
+                </a>
+			</td>
+			<volist  name="menu" id="item">
+			<td>
+				<a href="left_menu?pid={$item.id}" target="left_frame">
+                    <input type="button" value="  {$item.title}  " style="background-color: orange">
+                </a>
+			</td>
+			</volist>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

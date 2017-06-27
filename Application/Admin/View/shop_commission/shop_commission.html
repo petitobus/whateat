@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>shop_commission列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="5">shop_commission列表</th>
+        <tr>
+            <td>商店id</td>
+            <td>商店等级</td>
+            <td>手续费</td>
+            <td colspan="2">
+                <a href="create.shtml">
+                    <input type="button" value="       添加       " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+        <volist name="shop_commission_list" id="shop_commission">
+            <tr>
+                <td>{$shop_commission.shop_id}</td>
+                <td>{$shop_commission.level}</td>
+                <td>{$shop_commission.commission}</td>
+                <td colspan="2">
+                    <a href="update.shtml?id={$shop_commission.id}">
+                        <input type="button" value="修改">
+                    </a>
+                    <a href="post.shtml?method=delete&id={$shop_commission.id}">
+                        <input type="button" value="删除">
+                    </a>
+                </td>
+            </tr>
+        </volist>
+    </table>
+</div>
+</body>
+</html>

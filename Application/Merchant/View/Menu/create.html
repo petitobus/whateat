@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>添加 menu</title>
+</head>
+<body>
+<div>
+    <form action="post.shtml?method=create" method="post">
+        <table border="1">
+            <th colspan="6">添加 menu</th>
+            <tr>
+                <td>restaurant id</td>
+                <td>
+                    <select name="restaurant_id">
+                        <option value="0001">0001</option>
+                        <option value="0002">0002</option>
+                        <option value="0003">0003</option>
+                        <option value="0004">0004</option>
+                        <option value="0005">0005</option>
+                        <option value="0006">0006</option>
+                        <option value="0007">0007</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td><input type="text" required="required" name="name" placeholder="new name"></td>
+            </tr>
+            <tr>
+                <td>price</td>
+                <td><input type="text" required="required" name="price" placeholder="new price"></td>
+            </tr>
+            <tr>
+                <td>description</td>
+                <td><input type="text" required="required" name="description" placeholder="new description"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="submit" value="         添加         " style="display: block;margin: 0 auto 0"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

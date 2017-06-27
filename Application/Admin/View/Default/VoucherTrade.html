@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VoucherTrade列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="4">Voucher列表</th>
+        <tr>
+            <td>Voucher ID</td>
+            <td>操作员邮箱</td>
+            <td>交易金额</td>
+            <td>订单时间</td>
+        </tr>
+		<volist name="trade_list" id="trade">
+		<tr>
+			<td>{$trade.voucher_id}</td>
+			<td>{$trade.trader_email}</td>
+			<td>{$trade.trans_amount}</td>
+			<td>{$trade.trans_create_time}</td>
+		</tr>
+		</volist>
+    </table>
+</div>
+</body>
+</html>

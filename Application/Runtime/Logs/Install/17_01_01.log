@@ -1,0 +1,138 @@
+[ 2017-01-01T08:58:24+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_group` [ RunTime:0.1735s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `westyle_admin_node` ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,2,3,4,5,6,7,8,9,10,11,12,13') [ RunTime:0.1147s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.1338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006173s ]
+
+[ 2017-01-01T09:01:02+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002481s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_group` [ RunTime:0.0324s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `westyle_admin_node` ORDER BY id  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18') [ RunTime:0.1633s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0445s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.1342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005018s ]
+
+[ 2017-01-01T09:02:29+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+ERR: 非法操作:install
+
+[ 2017-01-01T09:02:37+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/patch1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002290s ]
+
+[ 2017-01-01T09:02:42+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/patch2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003742s ]
+
+[ 2017-01-01T09:39:38+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/patch2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005390s ]
+
+[ 2017-01-01T09:43:45+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/patch2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+
+[ 2017-01-01T09:44:02+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/patch2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+
+[ 2017-01-01T09:44:13+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/patch2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+
+[ 2017-01-01T09:44:45+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/patch2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+
+[ 2017-01-01T09:45:40+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/patch2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006392s ]
+
+[ 2017-01-01T09:48:15+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/patch2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+

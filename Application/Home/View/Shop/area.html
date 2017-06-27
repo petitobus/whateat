@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>按商圈查询</title>
+    <script src="../JS/jquery.min.js"></script>
+    <script src="../JS/kendo.all.min.js"></script>
+    <script src="../JS/MaScript.js"></script>
+    <link rel="stylesheet" href="../CSS/kendo.mobile.all.min.css" />
+    <link rel="stylesheet" href="../CSS/kendo.common.min.css" />
+    <link rel="stylesheet" href="../CSS/kendo.nova.min.css"/>
+    <link rel="stylesheet" href="../CSS/MyStyle.css"/>
+</head>
+<body>
+<div id="page_quartier" >
+    <h1 class="page_titre" style="margin-top: 30px">所有商圈</h1>
+    <table class="table_home" id="table_quartier">
+       <volist id="area">
+           <tr><td><a href="#"> <p><span>{$area.name}</span></p></a></td></tr>
+       </volist>
+    </table>
+</div>
+<div id="page_any_quartier">
+    <a onclick="returnToQuartier()"><img src="../IMAGE/9.png" class="return"></a>
+    <h1 class="page_titre">Saint German</h1>
+    <table class="table_home" >
+        <tr><td><img src="../IMAGE/AAAA.png"></td></tr>
+        <tr><td><img src="../IMAGE/BBBB.png"> </td></tr>
+        <tr><td><a href="#"> <p>Bottage Veneta<span>5</span></p></a></td></tr>
+        <tr><td><a onclick="allonger()"><p>Burberry<span>5</span></p></a></td></tr>
+        <tr><td><img src="../IMAGE/CCCC.png"> </td></tr>
+        <tr><td><a href="#"><p>Cartier<span>3</span></p></a></td></tr>
+        <tr><td><a href="#"><p>Chanel<span>3</span></p></a></td></tr>
+        <tr><td><img src="../IMAGE/DDDD.png"> </td></tr>
+        <tr><td><a href="#"><p>Dior<span>10</span></p></a></td></tr>
+    </table>
+</div>
+</body>
+</html>

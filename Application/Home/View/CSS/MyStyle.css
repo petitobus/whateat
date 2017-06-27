@@ -1,0 +1,755 @@
+#PageHome{
+    width: 100%;
+    margin:0;
+    height:100%;
+    background-color: #E6E7E8;
+}
+
+#header{
+    display: block;
+    margin :0 auto 0 ;
+    background-color: white;
+    height: 80px;
+    width:100%;
+}
+
+#header p {
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#header span{
+    float: right;
+}
+
+#header a{
+    text-decoration: none;
+    color: black;
+}
+
+#lista1{
+    display: block;
+}
+
+#lista1 p{
+    font-size: 30px;
+}
+
+#lista1 ul {
+    list-style: none;
+}
+
+#lista1 ul li img{
+    width: 70px;
+    height:70px;
+}
+
+#lista1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.km-nova .km-list>li{
+    padding: 0px;
+    margin:0;
+}
+
+.demoimg.km-listview-link{
+    padding: 0px;
+}
+
+.logo_navi {
+    width:80px;
+    padding-top: 25px;
+}
+.km-show-title{
+    background-color: white;
+}
+.km-left-drawer {
+    background-color: white;
+}
+.km-nova .km-drawer .km-content{
+    background-color: #EFF0F1;
+}
+#page_shop_left {
+    height:100%;
+    width:390px;
+    display: none;
+    float: left;
+
+}
+#page_shop_navi_img{
+
+
+}
+#page_shop_right{
+    width:100%;
+    position: relative;
+    left:0px;
+}
+#shop_header{
+    width:100%;
+    padding-left: 90px;
+    padding-top: 50px;
+}
+#page_shop_select{
+    font-size: 40px;
+    width:100px;
+    height: 50px;
+    position: relative;
+    left:75%;
+    font-size: 40px;
+    top: -130px;
+}
+#search_pagenom{
+    width: 400px;
+    height:80px;
+    position: relative;
+    left: 200px;
+    top: -70px;
+    font-size: 30px;
+    text-align: center;
+}
+.search{
+    border-style: solid;
+    border-color: lightgray;
+    width:30%;
+}
+.search input:-ms-input-placeholder
+{text-align: center;}
+
+.search input::-webkit-input-placeholder
+{text-align: center;}
+#page_nom{
+    position: relative;
+    top:-7px;
+}
+
+#navi{
+    border:solid;
+    border-width: 1px;
+    width:100%;
+    overflow-x: auto;
+    border-color: white;
+    margin-top: -50px;
+}
+#navi ul{
+    width:200%;
+    list-style: none;
+    display: inline-flex;
+    margin-top: -30px;
+}
+.elementNavi {
+    width:200px;
+    font-size: 50px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.elementNavi_a:visited{
+    color: lightgray;
+     }
+.elementNavi_a:hover{
+    color: black;
+}
+.img_principal{
+    width:100%;
+    height:500px;
+    margin-top: -50px;
+}
+
+.annexe{
+    height: 100px;
+    position: relative;
+    background-color:white;
+    opacity:0.77;
+    top:-100px;
+    width:100%;
+}
+.annexe p:nth-child(1){
+    padding-left: 50px;
+    font-size: 40px;
+    margin:0;
+}
+.annexe p:nth-child(2){
+    padding-left: 50px;
+    font-size: 30px;
+    margin:0;
+}
+.annexe p:nth-child(3){
+    font-size: 30px;
+    position: relative;
+    left:50%;
+    top: -80px;;
+}
+.img_shop_daohang{
+    width:30px;
+    position: relative;
+    top: -150px;
+    left:45%;
+}
+.pagenomfooter{
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+}
+#page_nom_footer{
+    width:66%;
+    position:fixed;
+    top: 85%;
+    background-color: lightgray;
+    opacity:0.9;
+}
+
+.table_home{
+    width:100%;
+}
+.table_home{
+    width:100%;
+}
+.table_home td{
+    border-bottom:solid;
+    border-width: 1px;
+    width:100%;
+}
+.table_home img{
+    display: block;
+    position: relative;
+    top: 20px;
+}
+.table_home p{
+    display: block;
+    margin-left: 50px;
+}
+.table_home p span{
+    float: right;
+    margin-right: 5%;
+}
+#page_any_ville{
+    display: none;
+}
+#page_any_quartier{
+    display: none;
+}
+.return{
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+h1.page_titre{
+    margin-left: 40%;
+    margin-top: 10px;
+}
+/*  Page city  */
+
+#pageCity{
+    width:100%;
+    background-color: #eff0f1;
+}
+#pageCity h1{
+    color: gray;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.city_border{
+    border:none;
+    background-color: white;
+    margin:0 auto 0;
+    width:90%;
+    height:350px;
+    /* 加阴影 */
+    -webkit-box-shadow: 10px 10px 5px lightgray;
+    -moz-box-shadow: 10px 10px 5px lightgray;
+    box-shadow: 10px 10px 5px lightgray;
+}
+.city_border_text{
+
+    padding-top: 100px;
+    width:50%;
+    text-align: center;
+}
+
+.cityImage{
+    width:45%;
+    height:420px;
+    margin-top: -25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cityNameChinois{
+    font-size: 40px;
+
+}
+.cityNameAnglais{
+    color: lightgray;
+
+}
+
+/*  Page shop message */
+
+#PageShopMessage{
+    height:50%;
+    overflow-y: hidden;
+}
+#rollTitre{
+    position: absolute;
+    top:350px;
+    border-radius:50px;
+    -webkit-box-shadow: 10px 10px 5px lightgray;
+    -moz-box-shadow: 10px 10px 5px lightgray;
+    box-shadow: 10px 10px 5px lightgray;
+}
+#pageone{
+    float: left;
+    padding: 0px;
+    width:90%;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 400px;
+    background-color: white;
+    /* 加阴影 */
+    -webkit-box-shadow: 10px 10px 5px lightgray;
+    -moz-box-shadow: 10px 10px 5px lightgray;
+    box-shadow: 10px 10px 5px lightgray;
+}
+div.ui-content{
+    padding:0px;
+    margin-left: 10%;
+}
+h2{
+    margin:0px;
+}
+#title{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.contenue{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#text{
+    margin-top: 80px;
+    background-color: white;
+}
+#logo{
+    width:50px;
+    position: relative;
+    top:-25px;
+    left:20px;
+    margin:0px;
+}
+.bag{
+    width:120px;
+    height:120px;
+}
+
+
+.tableBag{
+    margin-top: 20%;
+}
+#tableBag tr td{
+    width:122px;
+    height:122px;
+}
+
+#navi_bot{
+    position:fixed;
+    top:80%;
+    width:90%;
+    height:80px;
+    background-color:lightgrey;
+    opacity:0.9;
+}
+
+.tag{
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.tag img{
+    width:50px;
+}
+.tag p{
+    margin-left: 10px;
+}
+
+.recommandeProduit{
+    float: left;
+    width:50px;
+    height:50px;
+    margin-left: 25px;
+}
+#detail{
+    margin-top: 70px;
+}
+#SelectDate{
+    margin-bottom: 20px;
+    display: none;
+}
+
+/*  Page shop 05   */
+#shop05{
+    padding-top: 20%;
+}
+#titreLogo{
+    width:60%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+#DateSelect{
+    text-align: center;
+    font-size: 50px;
+    width:100%;
+}
+#formulaire{
+    width:90%;
+    margin:0 auto 0 ;
+}
+select.formule{
+    width:100%;
+}
+.formule{
+    width:100%;
+    height: 80px;
+    font-size: 30px;
+    border-width: 1px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius:10px;
+}
+.nom{
+    width: 49.5%;
+    height: 100px;
+    font-size: 30px;
+    border-radius:10px;
+    border-width: 1px;
+    background-color: white;
+    margin-bottom: 20px;
+
+}
+.prenom{
+    width:49.5%;
+    height: 100px;
+    font-size: 30px;
+    border-radius:10px;
+    border-width: 1px;
+    background-color: white;
+    margin-left: -5px;
+}
+div#shop05contenue{
+    text-align: center;
+}
+#valide{
+    position: absolute;
+    top:90%;
+    left:30%;
+    width: 400px;
+    height:120px;
+    margin-top: 50px;
+    background-color: lightgrey;
+    color: white;
+    font-size: 50px;
+    border-radius: 10px;
+}
+#shop05Titre{
+    font-size:50px;
+    margin-bottom: 20px;
+}
+#shop05Adresse{
+    font-size:35px;
+    margin-top: 10px;
+}
+#shop05Time{
+    font-size:45px;
+}
+/*   page EAT information   */
+
+.EATconseil{
+    width:96%;
+    height: 80px;
+    border:solid;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-top: 15px;
+    -webkit-box-shadow: 10px 10px 5px lightgray;
+    -moz-box-shadow: 10px 10px 5px lightgray;
+    box-shadow: 10px 10px 5px lightgray;
+}
+.EATConseilReserverButton{
+    width:30%;
+    position: relative;
+    left:65%;
+    top:-60px;
+    font-size: 10px;
+}
+.EATconseilNomCommande{
+    font-size: 5px;
+    margin-left: 10%;
+}
+.EATConseilleText{
+    margin-left: 10%;
+}
+#NombreReserve{
+    border:solid;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-top: 15px;
+    width:96%;
+    display: none;
+}
+#NombreReserveButton{
+    width:30%;
+}
+#CreeAvis ul{
+    list-style: none;
+}
+#Avis p{
+    font-size: 30px;
+    margin-left: 10%;
+}
+.avisDate{
+    color: lightgray;
+    position: relative;
+    left:70%;
+    font-size: 5px;
+}
+.NombreReserveBorderd{
+    border:solid;
+    border-width: 1px;
+    border-color: lightgray;
+    width:30%;
+    text-align: center;
+    font-size: 20px;
+
+}
+.NombreReservePoint img{
+    width:50px;
+}
+#NombreReserveSelectDate{
+    display: none;
+}
+#SelectTime{
+    text-align: center;
+}
+#SelectTime table{
+    margin: 0 auto 0 ;
+}
+#SelectTime table tr{
+    width:90%;
+}
+#SelectTime table tr td{
+    width:50%;
+    margin-left: 10%;
+}
+.selectTime{
+    width:100%;
+}
+/*  Page MoiPage  */
+#PageMoiPage{
+    background-color: #AFBCBF;
+
+}
+#ZoneInformation{
+    background-color: #DCE1E2;
+    width:90%;
+    height:500px;
+    position: relative;
+    top:20%;
+}
+#ZonePhoto{
+    position: relative;
+    top:-40%;
+}
+/* Page Moi04 */
+#PageMoi04{
+    width:100%;
+}
+#Moi04Titre{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+#Moi04Navi ul{
+    list-style: none;
+    display: inline-flex;
+    width:100%;
+    margin-left: 5%;
+}
+#Moi04Navi ul li{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+#Moi04Navi ul li a:link{
+    text-decoration: none;  color: gray; font-size:30px;
+}
+#Moi04Navi ul li a:visited{
+    text-decoration: none;  color: gray;font-size:30px;
+}
+#Moi04Navi ul li a:hover{
+    text-decoration: none;  color: gray;font-size:30px;
+}
+#Moi04Navi ul li a:active{
+    text-decoration: none;  color: gray;font-size:30px;
+}
+#Moi04Contenue{
+    margin:0 auto 0;
+    width:90%;
+}
+#Moi04Contenue ul{
+    list-style: none;
+    width:90%;
+}
+#Moi04Contenue ul li{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width:100%;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: 1px;
+}
+.Moi04TableEspace{
+    width:300px;
+}
+.Moi04Img{
+    margin-left: 10%;
+}
+.Moi04ImgShoucang{
+    width:70px;
+}
+/* Page Moi 05 */
+#PageMoi05{
+    width:100%;
+}
+#Moi05Titre{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+#Moi05Formul{
+    width:80%;
+    margin:0 auto 0 ;
+}
+input{
+    width:100%;
+}
+#Moi05Formul table{
+    margin:0 auto 0;
+    width:100%;
+}
+#Moi05Formul table tr td{
+    border:solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 10px;
+    height:50px;
+    margin-top: 20px;
+}
+
+#Moi05Formul p {
+    float: right;
+    margin-top: 10%;
+    font-size: 30px;
+    color: lightgray;
+}
+#Moi05Select{
+    width:100%;
+    height:70px;
+    background-color: #EAEBEC;
+}
+#Moi05Select h1{
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: 15%;
+    padding-top: 20px;
+}
+#Moi05Select ul{
+    list-style: none;
+}
+.Moi05SelectTag{
+    width: 50px;
+    float: right;
+    margin-right: 10%;
+}
+#Moi05Select li{
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+#Moi05Select p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 40px;
+}
+#Moi05SelectDate{
+    font-size: 30px;
+}
+#Moi05Valider{
+    border:solid;
+    border-color: #ADAEAF;
+    border-radius: 10px;
+    height:100px;
+    width:30%;
+    background-color: #ADAEAF;
+    font-size: 40px;
+    color: #F1F4F4;
+    margin-left: 35%;
+}
+/* PageMoi 06 */
+#PageMoi06{
+    width:100%;
+    background-color: #AFBCBF;
+}
+#Moi06Titre{
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 20%;
+    width:70%;
+}
+#Moi06Principal{
+    margin-top: 100px;
+    background-image: url("../IMAGE/MOI/网格背景.png");
+    width:100%;
+    height:700px;
+    margin-bottom: 50px;
+}
+#Moi06Carre{
+    width:200px;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+#Moi06Principal p{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+#Moi06Bottom{
+     width:50%;
+    margin-left: 25%;
+ }
+#Moi06Bottom p {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    width:100%;
+}
+#Moi06BottomText{
+    color: lightgray;
+    float: right;
+    font-size: 30px;
+    margin-right: 70px;
+}

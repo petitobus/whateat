@@ -1,0 +1,1363 @@
+[ 2016-12-24T08:33:30+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009380s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0915s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000878s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.219114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.219941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014614s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.048106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.063516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008053s ]
+
+[ 2016-12-24T08:33:54+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/update.shtml?id=1125
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1125 )  [ RunTime:0.0801s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0929s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0541s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 42 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 73 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 73 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 83 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2016-12-24T08:34:05+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/detail.shtml?id=1125
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1125 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 56 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\bc7da92776c89b546afaace330136481.php 第 73 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\bc7da92776c89b546afaace330136481.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\bc7da92776c89b546afaace330136481.php 第 73 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\bc7da92776c89b546afaace330136481.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\bc7da92776c89b546afaace330136481.php 第 83 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\bc7da92776c89b546afaace330136481.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2016-12-24T08:37:17+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2016-12-24T08:37:20+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/create.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.1077s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 28 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002096s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.004397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003626s ]
+
+[ 2016-12-24T08:37:43+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/post?method=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_shop` (`name`,`adr`,`tel`,`fax`,`email`,`area`,`city`,`commercial_area_id`) VALUES ('bot','111','12','','hel@g.com','sss','3','1') [ RunTime:0.5930s ]
+
+[ 2016-12-24T08:37:46+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2016-12-24T08:37:52+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/detail.shtml?id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0473s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1126 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0454s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0013s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 56 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002446s ]
+
+[ 2016-12-24T08:38:44+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/detail.shtml?id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1126 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 56 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-12-24T08:39:26+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/post?method=update&id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0775s ]
+SQL: UPDATE `westyle_shop` SET `level`='0',`description`=' aa',`content`='aaa',`tag`='',`link`='',`sort`='0',`open_time`='aa',`tax_return`='0' WHERE ( id=1126 ) [ RunTime:0.5364s ]
+
+[ 2016-12-24T08:39:29+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000589s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2016-12-24T08:39:37+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/update.shtml?id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1126 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 42 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 73 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 73 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 83 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2016-12-24T08:40:18+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/update.shtml?id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1126 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0489s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 42 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 51 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-12-24T08:40:22+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/post?method=update&id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.1136s ]
+SQL: UPDATE `westyle_shop` SET `name`='bot',`adr`='111',`tel`='1211',`fax`='',`email`='hel@g.com',`area`='sss',`city`='3',`commercial_area_id`='1' WHERE ( id=1126 ) [ RunTime:0.1189s ]
+
+[ 2016-12-24T08:40:24+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-12-24T08:40:36+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/detail.shtml?id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.1892s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1126 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 56 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2016-12-24T08:40:40+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/post?method=update&id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.1723s ]
+SQL: UPDATE `westyle_shop` SET `level`='0',`description`='  aa',`content`='aaa',`tag`='111',`link`='',`sort`='0',`open_time`='aa',`tax_return`='0' WHERE ( id=1126 ) [ RunTime:0.1742s ]
+
+[ 2016-12-24T08:40:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-12-24T08:41:29+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-12-24T08:41:38+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001888s ]
+
+[ 2016-12-24T08:42:10+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-12-24T08:42:22+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/update.shtml?id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1126 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0651s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 42 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 51 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-12-24T08:42:24+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/post?method=update&id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0056s ]
+SQL: UPDATE `westyle_shop` SET `name`='bot',`adr`='111',`tel`='1211',`fax`='',`email`='hel@g.com',`area`='sss',`city`='3',`commercial_area_id`='1' WHERE ( id=1126 ) [ RunTime:0.1157s ]
+
+[ 2016-12-24T08:42:26+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-12-24T08:42:37+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/detail.shtml?id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1126 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 56 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2016-12-24T08:42:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/post?method=update&id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0547s ]
+SQL: UPDATE `westyle_shop` SET `level`='0',`description`='   aa',`content`='aaa',`tag`='111',`link`='',`sort`='0',`open_time`='aa',`tax_return`='0' WHERE ( id=1126 ) [ RunTime:0.1597s ]
+
+[ 2016-12-24T08:42:44+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-12-24T08:42:52+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/detail.shtml?id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1126 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 56 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-12-24T08:42:56+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/post?method=update&id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0881s ]
+SQL: UPDATE `westyle_shop` SET `level`='0',`description`='    aa',`content`='aaa',`tag`='111',`link`='',`sort`='2',`open_time`='aa',`tax_return`='0' WHERE ( id=1126 ) [ RunTime:0.1324s ]
+
+[ 2016-12-24T08:42:59+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.1332s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-12-24T08:43:03+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/detail.shtml?id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.1784s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1126 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 56 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2016-12-24T08:55:37+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0668s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001855s ]
+
+[ 2016-12-24T08:55:44+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/update.shtml?id=1126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1126 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 42 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 51 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-12-24T08:55:55+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/create.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.9173s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 28 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000561s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2016-12-24T08:56:13+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/post?method=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.1702s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_shop` (`name`,`adr`,`tel`,`fax`,`email`,`area`,`city`,`commercial_area_id`) VALUES ('11','11','11','71','1@2.1','111','3','1') [ RunTime:0.3300s ]
+
+[ 2016-12-24T08:56:16+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001888s ]
+
+[ 2016-12-24T08:59:37+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2016-12-24T08:59:41+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/create.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 28 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2016-12-24T08:59:56+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/post?method=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.1024s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_shop` (`name`,`adr`,`tel`,`fax`,`email`,`area`,`city`,`commercial_area_id`,`Merchant_ID`) VALUES ('111','111','011','111','1@w.w','111','3','1','') [ RunTime:0.1907s ]
+
+[ 2016-12-24T08:59:58+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2016-12-24T09:02:02+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-12-24T09:02:04+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/create.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 28 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2016-12-24T09:02:10+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/update.shtml?id=1128
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1128 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 42 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 51 行.
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 51 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\9951b82010aab39563196beba59dcc04.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2016-12-24T09:02:14+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/post?method=update&id=1128
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.1230s ]
+SQL: UPDATE `westyle_shop` SET `name`='111',`adr`='111',`tel`='011',`fax`='111',`email`='1@w.w',`area`='111',`city`='3',`commercial_area_id`='1',`Merchant_ID`='112112' WHERE ( id=1128 ) [ RunTime:0.4740s ]
+
+[ 2016-12-24T09:02:16+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.2126s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2016-12-24T09:03:49+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0756s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002460s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002585s ]
+
+[ 2016-12-24T09:03:51+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002763s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002437s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003674s ]
+
+[ 2016-12-24T09:04:05+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002784s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002324s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003915s ]
+
+[ 2016-12-24T09:04:52+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008113s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002714s ]
+
+[ 2016-12-24T09:05:57+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+NOTIC: [8] Undefined index: Merchant_ID F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003020s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\westylegit\code\ThinkPHP\Common\functions.php:850) F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\westylegit\code\ThinkPHP\Common\functions.php:850) F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp\www\westylegit\code\ThinkPHP\Common\functions.php:850) F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001959s ]
+
+[ 2016-12-24T09:06:21+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0795s ]
+SQL: SELECT * FROM `westyle_shop` ORDER BY id desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2016-12-24T09:12:28+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/tempo_page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016391s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 76 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000819s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018874s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007933s ]
+
+[ 2016-12-24T09:16:40+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/tempo_page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012957s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 76 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012064s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.013836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008443s ]
+
+[ 2016-12-24T09:17:03+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/tempo_page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 76 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-12-24T09:17:05+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/tempo_page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 76 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000554s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2016-12-24T09:17:06+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/tempo_page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 76 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-12-24T09:17:38+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/tempo_page
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 76 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001445s ]
+

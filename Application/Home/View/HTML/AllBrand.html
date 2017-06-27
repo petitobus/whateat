@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Brand</title>
+    <link type="text/css" rel="stylesheet" href="../CSS/MyStyle.css">
+    <link type="text/css" rel="stylesheet" href="../CSS/als_demo.css">
+    <link type="text/css" rel="stylesheet" href="../CSS/CSSreset.min.css">
+    <script type="text/javascript" src="../JS/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../JS/jquery.als-1.7.min.js"></script>
+</head>
+<body>
+    <div id="header">
+        <p>发现商店<a href="#"><span>全部</span></a></p>
+    </div>
+    <div id="lista1" class="als-container">
+        <span class="als-prev"><img src="../IMAGE/Icon/thin_left_arrow_333.png"> </span>
+        <div class="als-viewport">
+        <ul class="als-wrapper">
+
+            <li class="als-item">
+                <a href="#"><img src="../IMAGE/Icon/black271.png"></a>
+            </li>
+            <li class="als-item">
+                <a href="#"><img src="../IMAGE/Icon/suit2.png"></a>
+            </li>
+            <li class="als-item">
+                <a href="#"><img src="../IMAGE/Icon/chaussures.png"></a>
+            </li>
+            <li class="als-item">
+                <a href="#"><img src="../IMAGE/Icon/paguet.png"></a>
+            </li>
+            <li class="als-item">
+                <a href="#"><img src="../IMAGE/Icon/hat5.png"></a>
+            </li>
+            <li class="als-item">
+                <a href="#"><img src="../IMAGE/Icon/diamant.png"></a>
+            </li>
+            <li class="als-item">
+                <a href="#"><img src="../IMAGE/Icon/square31.png"></a>
+            </li>
+        </ul>
+        </div>
+        <span class="als-next"><img src="../IMAGE/Icon/thin_right_arrow_333.png"> </span>
+    </div>
+    <div id="principal">
+        <a href="#"><img src="../IMAGE/RB1.jpg"></a>
+        <a href="#"><img src="../IMAGE/RB2.jpg"></a>
+        <a href="#"><img src="../IMAGE/RB3.jpg"></a>
+        <a href="#"><img src="../IMAGE/RB4.jpg"></a>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+            $("#lista1").als({
+                visible_items: 4,
+                scrolling_items: 2,
+                orientation: "horizontal",
+                circular: "yes",
+                autoscroll: "no",
+                interval: 5000,
+                speed: 500,
+                easing: "linear",
+                direction: "right",
+                start_from: 0
+            });
+
+        });
+    </script>
+</body>
+</html>

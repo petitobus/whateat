@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>添加Shop Commission</title>
+</head>
+<body>
+<div>
+    <form action="post.shtml?method=update&id={shop_commission.id}" method="post">
+        <table border="1">
+            <th colspan="4">添加Shop Commission</th>
+            <tr>
+                <td>等级</td>
+                <td><input type="text" required="required" name="level" value={$shop_commission.level}></td>
+            </tr>
+            <tr>
+                <td>手续费</td>
+                <td><input type="text" required="required" name="commission" value={$shop_commission.commission}></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="         修改         " style="display: block;margin: 0 auto 0"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

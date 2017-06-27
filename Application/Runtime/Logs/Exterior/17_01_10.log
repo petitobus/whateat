@@ -1,0 +1,128 @@
+[ 2017-01-10T01:14:01+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/test_pay.shtml?code=285842993778710281
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+ERR: 非法操作:test_pay
+
+[ 2017-01-10T01:14:20+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/test_pay.shtml?code=285842993778710281
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002191s ]
+
+[ 2017-01-10T01:16:35+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/refunded.shtml?partner_trans_id=2017010956995449&trader_email=example@aiforu.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0665s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2017010956995449' AND `trader_email` = 'example@aiforu.com' LIMIT 1   [ RunTime:0.0853s ]
+
+[ 2017-01-10T01:17:18+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/refunded.shtml?partner_trans_id=2017010956995449&trader_email=example@aiforu.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0472s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2017010956995449' AND `trader_email` = 'example@aiforu.com' LIMIT 1   [ RunTime:0.0024s ]
+
+[ 2017-01-10T01:18:40+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/query.shtml?partner_trans_id=2017010956995449&trader_email=example@aiforu.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004834s ]
+
+[ 2017-01-10T01:19:01+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/refunded.shtml?partner_trans_id=2017010956995449&trader_email=example@aiforu.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2017010956995449' AND `trader_email` = 'example@aiforu.com' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-01-10T01:19:04+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/refunded.shtml?partner_trans_id=2017010956995449&trader_email=example@aiforu.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2017010956995449' AND `trader_email` = 'example@aiforu.com' LIMIT 1   [ RunTime:0.0032s ]
+
+[ 2017-01-10T01:19:20+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/refunded.shtml?partner_trans_id=2017010956995449&trader_email=example@aiforu.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 340 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2017010956995449' AND `trader_email` = 'example@aiforu.com' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-01-10T02:07:02+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/test_pay.shtml?code=286660374596892029
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+ERR: 非法操作:test_pay
+
+[ 2017-01-10T02:07:17+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/test_pay.shtml?code=286660374596892029
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001547s ]
+
+[ 2017-01-10T02:11:32+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/test_pay.shtml?code=280730428666209034
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005879s ]
+
+[ 2017-01-10T02:24:40+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/test_pay.shtml?code=281468679394372859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005598s ]
+

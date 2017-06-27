@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>trade列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="14">trade列表</th>
+        <tr>
+            <td>trade id</td>
+            <td>trade date</td>
+            <td>trade time</td>
+            <td>reserve date</td>
+            <td>reserve time</td>
+            <td>customer name</td>
+            <td>customer id</td>
+            <td>shop name</td>
+            <td>shop id</td>
+            <td>value</td>
+            <td>followed datetime</td>
+            <td>last op datetime</td>
+            <td colspan="2">
+                <a href="create.shtml">
+                    <input type="button" value="       添加       " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+        <volist name="trade_list" id="trade">
+            <tr>
+                <td>{$trade.id}</td>
+                <td>{$trade.trade_date}</td>
+                <td>{$trade.trade_time}</td>
+                <td>{$trade.reserve_date}</td>
+                <td>{$trade.reserve_time}</td>
+                <td>{$trade.customer_name_en}</td>
+                <td>{$trade.customer_id}</td>
+                <td>{$trade.shop_id}</td>
+                <td>{$trade.shop_name}</td>
+                <td>{$trade.value}</td>
+                <td>{$trade.followed_datetime}</td>
+                <td>{$trade.last_op_datetime}</td>
+                <td colspan="2">
+                    <a href="update.shtml?id={$trade.id}">
+                        <input type="button" value="修改">
+                    </a>
+                    <a href="post.shtml?method=delete&id={$trade.id}">
+                        <input type="button" value="删除">
+                    </a>
+                </td>
+            </tr>
+        </volist>
+    </table>
+</div>
+</body>
+</html>

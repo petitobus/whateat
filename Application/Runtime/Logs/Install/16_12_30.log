@@ -1,0 +1,55 @@
+[ 2016-12-30T05:50:38+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'root' for key 'name'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Index','index','root','根结点','0','0','-1','请勿修改')
+ERR: 1062:Duplicate entry 'root' for key 'name'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Index','index','root','根结点','0','0','-1','请勿修改')
+
+[ 2016-12-30T05:51:17+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_group` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_admin_group` (`title`,`description`) VALUES ('supervisor','超级管理员，请勿操作') [ RunTime:0.0913s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.0872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002763s ]
+
+[ 2016-12-30T06:04:06+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_group` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `westyle_admin_node` ORDER BY id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,2,3,4,5,6,7,8,9,10,11,15') [ RunTime:0.1242s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.1138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002404s ]
+

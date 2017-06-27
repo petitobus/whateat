@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop 05</title>
+    <link type="text/css" rel="stylesheet" href="../CSS/MyStyle.css">
+
+</head>
+<body id="shop05">
+    <img id="titreLogo" src="../IMAGE/13.png">
+    <p id="DateSelect">XX月XX日</p>
+    <div id="formulaire">
+        <form>
+            <select class="formule">
+                <option value="女士"><p>女士</p></option>
+                <option value="男士"><p>男士</p></option>
+           </select>
+            <input class="nom" type="text"  placeholder="     姓" />
+            <input class="prenom" type="text"  placeholder="     名"/>
+            <input class="formule" type="email"  placeholder="     邮箱"/>
+            <input class="formule" type="number"  placeholder="     电话"/>
+            <input class="formule" type="text"  placeholder="     微信号"/>
+            <input id="valide" type="submit" value="确认预定"/>
+        </form>
+    </div>
+    <canvas id="CanvasLine"  height="50" ></canvas>
+    <div id="shop05contenue">
+        <p id="shop05Titre">店铺名称</p>
+        <P id="shop05Adresse">地址</P>
+        <p id="shop05Time">营业时间</p>
+    </div>
+    <script>
+        var c=document.getElementById("CanvasLine");
+        c.width=document.body.clientWidth*0.3;
+        c.style.margin="10% 0% 10% 35%";
+        var ctx=c.getContext("2d");
+        ctx.fillStyle="black";
+        ctx.fillRect(0,25,document.body.clientWidth*0.3,10);  /* (x坐标,y坐标,长,宽) */
+    </script>
+</body>
+</html>

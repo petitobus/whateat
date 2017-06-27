@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>按城市名查询</title>
+    <script src="../JS/jquery.min.js"></script>
+    <script src="../JS/kendo.all.min.js"></script>
+    <script src="../JS/MaScript.js"></script>
+    <link rel="stylesheet" href="../CSS/kendo.mobile.all.min.css" />
+    <link rel="stylesheet" href="../CSS/kendo.common.min.css" />
+    <link rel="stylesheet" href="../CSS/kendo.nova.min.css"/>
+    <link rel="stylesheet" href="../CSS/MyStyle.css"/>
+
+</head>
+<body id="pageCity">
+<!--
+<div id="page_ville" >
+    <h1 class="page_titre" style="margin-top: 30px">按城市名查询</h1>
+    <table class="table_home" id="table_ville">
+        <volist id="city">
+            <tr><td><a href="U('shop/search'array('search_type'=>'city','keyword'))"><p>{$city.name}</p></a></td></tr>
+        </volist>
+    </table>
+</div>
+!-->
+
+    <h1>所有城市</h1>
+    <?php
+        int index = 1 ;
+    ?>
+    <volist>
+        <div class="city_border">
+            <!-- 现在是人工去控制单双数行的左右浮动,如果加入循环,需要改成 用php代码去控制style , 但是目前有问题 -->
+            <div class="city_border_text" style="float: left;">
+                <p class="cityNameChinois">{$city.name}店铺</p>
+                <canvas id={$city.id} width="200" height="10" ></canvas>
+                <script>
+                    var c=document.getElementById({$city.id});
+                    var ctx=c.getContext("2d");
+                    ctx.fillStyle="black";
+                    ctx.fillRect(20,0,80,2);  /* (x坐标,y坐标,长,宽) */
+                </script>
+                <p class="cityNameAnglais">LUXURY SHOPPING IN {$city.name}</p>
+            </div>
+            <img class="cityImage" src="../IMAGE/shop_city1.png">
+        </div>
+        <div style="margin-top: 150px"></div>
+
+        <div class="city_border">
+            <div class="city_border_text" style="float: right;">
+                <p class="cityNameChinois">{$city.name}店铺</p>
+                <canvas id={$city.id} width="200" height="10" ></canvas>
+                <script>
+                    var c=document.getElementById({$city.id});
+                    var ctx=c.getContext("2d");
+                    ctx.fillStyle="black";
+                    ctx.fillRect(20,0,80,2);  /* (x坐标,y坐标,长,宽) */
+                </script>
+                <p class="cityNameAnglais">LUXURY SHOPPING IN {$city.name}</p>
+            </div>
+            <img class="cityImage" src="../IMAGE/shop_city2.png" style="float: left;">
+        </div>
+        <div style="margin-top: 150px"></div>
+
+        <div class="city_border">
+            <div class="city_border_text" style="float: left;">
+                <p class="cityNameChinois">{$city.name}店铺</p>
+                <canvas id={$city.id} width="200" height="10" ></canvas>
+                <script>
+                    var c=document.getElementById({$city.id});
+                    var ctx=c.getContext("2d");
+                    ctx.fillStyle="black";
+                    ctx.fillRect(20,0,80,2);  /* (x坐标,y坐标,长,宽) */
+                </script>
+                <p class="cityNameAnglais">LUXURY SHOPPING IN {$city.name}</p>
+            </div>
+            <img class="cityImage" src="../IMAGE/shop_city3.png">
+        </div>
+        <div style="margin-top: 150px"></div>
+        
+
+
+    </volist>
+
+</body>
+</html>

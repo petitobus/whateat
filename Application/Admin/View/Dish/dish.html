@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>菜单</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="5">菜单列表</th>
+        <tr>
+            <td>菜单id</td>
+            <td>菜单名称</td>
+            <td>菜单描述</td>
+            <td colspan="2">
+                <a href="create.shtml">
+                    <input type="button" value="       添加       " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+        <volist name="dish_list" id="dish">
+            <tr>
+                <td>{$dish.id}</td>
+                <td>{$dish.name}</td>
+                <td>{$dish.description}</td>
+                <td colspan="2">
+                    <a href="update.shtml?id={$dish.id}">
+                        <input type="button" value="修改">
+                    </a>
+                    <a href="post.shtml?method=delete&id={$dish.id}">
+                        <input type="button" value="删除">
+                    </a>
+                </td>
+            </tr>
+        </volist>
+    </table>
+</div>
+</body>
+</html>

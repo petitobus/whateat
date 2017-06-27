@@ -1,0 +1,915 @@
+[ 2016-10-13T15:31:08+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021257s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0837s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'test_email' ORDER BY trans_create_time  [ RunTime:0.0086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.058281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.058879s ]
+
+[ 2016-10-13T15:31:47+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003273s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'test_email' ORDER BY trans_create_time  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-13T15:43:52+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+
+[ 2016-10-13T15:44:31+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005535s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'test_email' ORDER BY trans_create_time  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003688s ]
+
+[ 2016-10-13T15:44:36+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-10-13T15:45:09+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-10-13T15:45:11+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-10-13T15:46:41+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-10-13T15:48:09+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003853s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0671s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'test_email' ORDER BY trans_create_time  [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004502s ]
+
+[ 2016-10-13T15:48:09+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003821s ]
+
+[ 2016-10-13T16:19:30+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003224s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'test_email' ORDER BY trans_create_time  [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028213s ]
+
+[ 2016-10-13T16:19:30+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004973s ]
+
+[ 2016-10-13T16:22:37+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'test_email' ORDER BY trans_create_time  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003978s ]
+
+[ 2016-10-13T16:22:37+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004009s ]
+
+[ 2016-10-13T17:00:22+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.4749s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'test_email' ORDER BY trans_create_time  [ RunTime:0.0986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025237s ]
+
+[ 2016-10-13T17:00:22+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.071772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005751s ]
+
+[ 2016-10-13T17:15:50+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003286s ]
+
+[ 2016-10-13T17:15:50+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+NOTIC: [2] openssl_pkey_export(): cannot get key from parameter 1 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 36 行.
+NOTIC: [2] openssl_pkey_get_details() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2016-10-13T17:16:40+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-10-13T17:16:40+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+NOTIC: [2] openssl_pkey_export(): cannot get key from parameter 1 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 36 行.
+NOTIC: [2] openssl_pkey_get_details() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 37 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2016-10-13T17:22:43+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001964s ]
+
+[ 2016-10-13T17:23:08+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+
+[ 2016-10-13T17:23:08+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [8] Undefined variable: prikey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: prikey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 79 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002681s ]
+
+[ 2016-10-13T17:25:42+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+
+[ 2016-10-13T17:25:42+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [8] Undefined variable: prikey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: prikey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 79 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2016-10-13T17:35:47+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+
+[ 2016-10-13T17:36:01+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-10-13T17:38:47+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-10-13T17:39:01+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-10-13T17:39:01+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 75 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 142 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 144 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002990s ]
+
+[ 2016-10-13T17:39:33+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-10-13T17:39:33+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 75 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 142 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 144 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2016-10-13T17:40:06+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+
+[ 2016-10-13T17:40:06+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 75 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 143 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 145 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-10-13T17:40:07+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-10-13T17:40:07+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 75 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 143 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 145 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2016-10-13T17:40:35+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-10-13T17:40:35+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-10-13T17:41:22+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-10-13T17:50:47+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+
+[ 2016-10-13T17:52:07+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003501s ]
+
+[ 2016-10-13T17:52:07+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 59 行.
+NOTIC: [2] file_get_contents(rsa_private_key.pem): failed to open stream: No such file or directory F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 108 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 112 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002911s ]
+
+[ 2016-10-13T17:52:22+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002626s ]
+
+[ 2016-10-13T17:52:22+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 59 行.
+NOTIC: [2] file_get_contents(/rsa_private_key.pem): failed to open stream: No such file or directory F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 108 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 112 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003059s ]
+
+[ 2016-10-13T17:52:41+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-10-13T17:52:41+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 59 行.
+NOTIC: [2] file_get_contents(/rsa_private_key.pem): failed to open stream: No such file or directory F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 108 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 113 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 115 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2016-10-13T17:53:34+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-10-13T17:53:34+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 59 行.
+NOTIC: [2] file_get_contents(./rsa_private_key.pem): failed to open stream: No such file or directory F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 108 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 112 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2016-10-13T17:57:39+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-10-13T17:57:39+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2016-10-13T17:58:17+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-10-13T17:58:17+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-10-13T18:00:44+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-10-13T18:00:44+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001642s ]
+
+[ 2016-10-13T18:05:16+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 52 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 191 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'test_email' ORDER BY trans_create_time  [ RunTime:0.0045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005182s ]
+
+[ 2016-10-13T18:05:16+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 98 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002003s ]
+
+[ 2016-10-13T18:05:18+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 52 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 191 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'test_email' ORDER BY trans_create_time  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-10-13T18:05:18+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 98 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-10-13T18:05:49+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-10-13T18:05:49+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 98 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2016-10-13T18:06:09+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 52 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 191 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 193 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-10-13T18:06:09+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 98 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-10-13T18:06:24+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 52 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 191 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 193 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-10-13T18:06:24+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 98 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2016-10-13T18:07:08+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 52 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 191 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 193 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-10-13T18:07:08+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 98 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-10-13T18:07:31+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 52 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 191 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 193 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001918s ]
+
+[ 2016-10-13T18:07:31+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 98 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003020s ]
+
+[ 2016-10-13T18:07:38+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 52 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 191 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 193 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-10-13T18:08:30+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 52 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 192 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 194 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2016-10-13T18:09:58+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 53 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 193 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 195 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2016-10-13T18:10:31+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 54 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 194 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 196 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-10-13T18:12:01+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [8] Undefined variable: sign_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: priKey F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 55 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 195 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 197 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-10-13T18:13:47+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] Undefined variable: sign_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2016-10-13T19:52:59+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+NOTIC: [8] Undefined variable: sign_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-10-13T19:53:06+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002870s ]
+NOTIC: [8] Undefined variable: sign_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2016-10-13T19:53:06+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2016-10-13T19:54:05+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Undefined variable: sign_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-10-13T19:54:05+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-10-13T19:54:39+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Undefined variable: sign_type F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-10-13T19:54:39+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+

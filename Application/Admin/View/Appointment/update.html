@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>修改 appointment</title>
+</head>
+<body>
+<div>
+    <form action="post.shtml?method=update&id={$appointment.id}" method="post">
+        <table border="1">
+            <th colspan="13">修改 appointment</th>
+
+            <tr>
+                <td>trade date</td>
+                <td><input type="date" required="required" name="trade_date" value={$appointment.trade_date} ></td>
+            </tr>
+            <tr>
+                <td>trade time</td>
+                <td><input type="time" required="required" name="trade_time" value={$appointment.trade_time} ></td>
+            </tr>
+            <tr>
+                <td>reserve date</td>
+                <td><input type="date" required="required" name="reserve_date" value={$appointment.reserve_date} ></td>
+            </tr>
+            <tr>
+                <td>reserve time</td>
+                <td><input type="time" required="required" name="reserve_time" value={$appointment.reserve_time} ></td>
+            </tr>
+            <tr>
+                <td>customer name en</td>
+                <td><input type="text" required="required" name="customer_name_en" value={$appointment.customer_name_en} ></td>
+            </tr>
+            <tr>
+                <td>customer id</td>
+                <td><input type="text" required="required" name="customer_id" value={$appointment.customer_id} ></td>
+            </tr>
+            <tr>
+                <td>restaurant id</td>
+                <td><input type="text" required="required" name="restaurant_id" value={$appointment.restaurant_id} ></td>
+            </tr>
+            <tr>
+                <td>restaurant name</td>
+                <td><input type="text" required="required" name="restaurant_name" value={$appointment.restaurant_name} ></td>
+            </tr>
+            <tr>
+                <td>value</td>
+                <td><input type="text" required="required" name="value" value={$appointment.value} ></td>
+            </tr>
+            <tr>
+                <td>operator</td>
+                <td><input type="text" required="required" name="operator" value={$appointment.operator} ></td>
+            </tr>
+            <tr>
+                <td>status</td>
+                <td><input type="text" required="required" name="status" value={$appointment.status} ></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="         修改         " style="display: block;margin: 0 auto 0"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

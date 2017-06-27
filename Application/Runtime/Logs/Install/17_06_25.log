@@ -1,0 +1,101 @@
+[ 2017-06-25T23:25:45+08:00 ] ::1 /whateat/index.php/Install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+ERR: 非法操作:index
+
+[ 2017-06-25T23:25:57+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_group` [ RunTime:0.1740s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `whateat_admin_node` ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','') [ RunTime:0.0787s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_user` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.1169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016307s ]
+
+[ 2017-06-25T23:32:46+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+
+[ 2017-06-25T23:33:21+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_group` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `whateat_admin_node` ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','') [ RunTime:0.1946s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_user` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.0764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-06-25T23:38:38+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_group` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `whateat_admin_node` ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,7,8,9,10,11,12,13,15') [ RunTime:0.1217s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_user` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.1789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016726s ]
+
+[ 2017-06-25T23:39:21+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_group` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `whateat_admin_node` ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,7,8,9,10,11,12,13,15') [ RunTime:0.1371s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_user` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.0879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+

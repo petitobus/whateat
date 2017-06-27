@@ -1,0 +1,51 @@
+[ 2017-02-11T07:09:02+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/test_pay.shtml?code=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005306s ]
+ERR: 非法操作:test_pay
+
+[ 2017-02-11T07:14:18+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/test_pay.shtml?code=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+ERR: 非法操作:test_pay
+
+[ 2017-02-11T07:14:34+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/pay.shtml?buyer_identity_code=11111&currency=EUR&trader_email=example%40aiforu.com&trans_amount=0.01&sign_type=RSA&sign=gvwANCvu86%2FQb%2BvmN%2B5RR%2BJtZah2Zy4gd06iGqAW%2BWFge2G%2BGTPJN%2Bm0Iui4Lj9EHzrHP8s6fDyK%2FzqyAMOgaDnasABcsWe%2BWcqBIdmAQfLCnkESVyzeaIX7xVB2239FUfhE4%2FZt1IlLXmjx6FtfwBN43UKoENAXJ85mY4YB%2Bbw%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `westyle_operator` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `westyle_operator` WHERE `operator_email` = 'example@aiforu.com'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 337 行.
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `westyle_shop` WHERE `id` = null  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `buyer_identity_code` = '11111' LIMIT 1   [ RunTime:0.0073s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`trader_email`,`trans_amount`,`partner`,`memo`,`alipay_seller_id`,`subject`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`,`method`) VALUES ('11111','EUR','example@aiforu.com','0.01','2088021966645500','Shopping','2088021966645500','','','20170211071433','2017021157101995','1','1') [ RunTime:0.2423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003334s ]
+
+[ 2017-02-11T07:14:34+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/test_pay.shtml?code=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004405s ]
+

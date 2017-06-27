@@ -1,0 +1,6 @@
+1.  <Shop/index.html> : navi 上的标签如果用volist标签包裹的话,列表不能水平显示,css的控制失灵
+
+2.  <Shop/city.html> : 每一个部分图片的左右浮动不能配合volist标签使用,使用php或者js都无法达到最满意的状态
+
+3(Done).  <Shop/index.html> : header 的下拉列表无法使用 select 标签,准备使用css自己手写一个下拉列表
+

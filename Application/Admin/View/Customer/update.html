@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>修改 customer</title>
+</head>
+<body>
+<div>
+    <form action="post.shtml?method=update&id={$customer.id}" method="post">
+        <table border="1">
+            <th colspan="13">修改 customer</th>
+
+            <tr>
+                <td>wechat id</td>
+                <td><input type="text" required="required" name="wechat_id" value={$customer.***} ></td>
+            </tr>
+            <tr>
+                <td>qrcode</td>
+                <td><input type="text" required="required" name="qrcode" value={$customer.qrcode} ></td>
+            </tr>
+            <tr>
+                <td>username en</td>
+                <td><input type="text" required="required" name="username_en" value={$customer.username_en} ></td>
+            </tr>
+            <tr>
+                <td>username cn</td>
+                <td><input type="text" required="required" name="username_cn" value={$customer.username_cn} ></td>
+            </tr>
+            <tr>
+                <td>sex</td>
+                <td>
+                    <select name="sex">
+                        <option value="true">M</option>
+                        <option value="false">F</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>country</td>
+                <td><input type="text" required="required" name="country" value={$customer.country} ></td>
+            </tr>
+            <tr>
+                <td>birthday</td>
+                <td><input type="date" required="required" name="birthday" value={$customer.birthday} ></td>
+            </tr>
+            <tr>
+                <td>tel</td>
+                <td><input type="text" required="required" name="tel" value={$customer.tel} ></td>
+            </tr>
+            <tr>
+                <td>passeport</td>
+                <td><input type="text" required="required" name="passeport" value={$customer.passeport} ></td>
+            </tr>
+            <tr>
+                <td>recommander</td>
+                <td><input type="text" required="required" name="recommander" value={$customer.recommander} ></td>
+            </tr>
+            <tr>
+                <td>accumulated pts</td>
+                <td><input type="text" required="required" name="accumulated_pts" value={$customer.accumulated_pts} ></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="submit" value="         修改         " style="display: block;margin: 0 auto 0"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

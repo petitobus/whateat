@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>更新商店信息</title>
+</head>
+<body>
+<div>
+    <form action="post?method=update&id={$shop.id}" method="post">
+        <table border="1">
+            <th colspan="6">更新商店信息</th>
+            <tr>
+                <td>商店名称</td>
+                <td><input type="text" name="name" placeholder="new name" required="required" value="{$shop.name}"></td>
+            </tr>
+            <tr>
+                <td>商店地址</td>
+                <td><input type="text" name="adr" placeholder="new address" required="required" value="{$shop.adr}"></td>
+            </tr>
+            <tr>
+                <td>联系电话</td>
+                <td><input type="text" name="tel" placeholder="new tel" required="required" value={$shop.tel}></td>
+            </tr>
+            <tr>
+                <td>商店传真</td>
+                <td><input type="text" name="fax" placeholder="new fax" value={$shop.fax}></td>
+            </tr>
+            <tr>
+                <td>商店邮箱</td>
+                <td><input type="email" name="email" placeholder="new E-mail" required="required" value={$shop.email}></td>
+            </tr>
+			<tr>
+                <td>邮编</td>
+                <td><input type="text" name="area" placeholder="new area"  value={$shop.area}></td>
+            </tr>
+            <tr>
+                <td>所属城市</td>
+                <td>
+                    <select name="city">
+						<volist name="city_list" id="city">
+							<option value="{$city.id}" 
+							<eq name="shop['city']" value="$city['id']">selected </eq>
+							>{$city.name},{$city.country}</option>
+						</volist>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>所属商圈</td>
+                <td>
+                    <select name="commercial_area_id">
+						<volist name="commercial_area_list" id="commercial_area">
+							<option value="{$commercial_area.id}"
+							<eq name="shop['commercial_area_id']" value="$commercial_area['id']">selected </eq>
+							>{$commercial_area.area_name}</option>
+						</volist>
+                    </select>
+                </td>
+            </tr>
+			<tr>
+                <td>银行端ID</td>
+                <td><input type="text" name="merchant_id" placeholder="merchant id"   value={$shop.merchant_id}></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="         更新         " style="display: block;margin: 0 auto 0"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

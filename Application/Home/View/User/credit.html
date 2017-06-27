@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moi 06</title>
+    <link rel="stylesheet" href="../CSS/MyStyle.css">
+    <script src="../JS/MaScript.js"></script>
+</head>
+<body id="PageMoi06">
+    <div id="Moi06">
+        <img src="../IMAGE/13.png" id="Moi06Titre">
+        <div id="Moi06Principal">
+            <img src="../IMAGE/MOI/立方体.png" id="Moi06Carre">
+            <p>100 €</p>
+        </div>
+
+        <div id="Moi06Bottom">
+            <table>
+                <tr>
+                    <td><img src="../IMAGE/Triangle_left.png"> </td>
+                    <td><p>兑换代金劵</p></td>
+                    <td><img src="../IMAGE/Triangle_right.png"> </td>
+                </tr>
+                <tr>
+                    <td colspan="3"><canvas id="CanvasLineleft" width="300" height="50" ></canvas></td>
+                </tr>
+                <tr>
+                    <td><img src="../IMAGE/Triangle_left.png"> </td>
+                    <td><p>提现</p></td>
+                    <td><img src="../IMAGE/Triangle_right.png"> </td>
+                </tr>
+            </table>
+            <script>
+                var c=document.getElementById("CanvasLineleft");
+                c.width=document.body.clientWidth*0.5;
+                var ctx=c.getContext("2d");
+                ctx.fillStyle="white";
+                ctx.fillRect(150,25,document.body.clientWidth*0.2,3);  /* (x坐标,y坐标,长,宽) */
+            </script>
+
+
+        </div>
+        <div id="Moi06BottomText">
+            <p> *按当天汇率结算</p>
+            <p> *代金卷可在微信商场使用</p>
+        </div>
+
+    </div>
+</body>
+</html>

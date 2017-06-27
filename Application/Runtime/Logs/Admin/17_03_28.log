@@ -1,0 +1,2713 @@
+[ 2017-03-28T05:53:50+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004122s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.3172s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0290s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 160 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.047503s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.047996s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.261536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.261920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032938s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.033439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.067123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016150s ]
+
+[ 2017-03-28T05:53:50+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 113 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 128 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.246254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.246470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2017-03-28T05:53:50+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2017-03-28T05:53:50+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2017-03-28T05:54:07+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0325s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 160 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2017-03-28T05:54:08+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 113 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 128 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002068s ]
+
+[ 2017-03-28T05:54:08+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2017-03-28T05:54:08+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001720s ]
+
+[ 2017-03-28T05:59:28+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 172 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2017-03-28T05:59:28+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 140 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2017-03-28T05:59:28+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002062s ]
+
+[ 2017-03-28T05:59:29+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.1669s ]
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 90 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2017-03-28T06:01:33+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 174 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2017-03-28T06:01:33+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 127 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 127 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 127 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 127 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 142 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2017-03-28T06:01:33+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002120s ]
+
+[ 2017-03-28T06:01:33+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002506s ]
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` < '20170328000000'  [ RunTime:0.0569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001683s ]
+
+[ 2017-03-28T06:03:17+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 170 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-03-28T06:03:17+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 138 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000559s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2017-03-28T06:03:17+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001977s ]
+
+[ 2017-03-28T06:03:17+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` < '20170328000000'  [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002470s ]
+
+[ 2017-03-28T06:05:19+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 171 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-03-28T06:05:19+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 139 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2017-03-28T06:05:20+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` < '20170328000000'  [ RunTime:0.0037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001538s ]
+
+[ 2017-03-28T06:05:20+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002072s ]
+
+[ 2017-03-28T06:07:06+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 172 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2017-03-28T06:07:06+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 140 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2017-03-28T06:07:06+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002018s ]
+
+[ 2017-03-28T06:07:07+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0051s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` < '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.1150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2017-03-28T06:09:03+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 172 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2017-03-28T06:09:03+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 140 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002330s ]
+
+[ 2017-03-28T06:09:03+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0056s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2017-03-28T06:09:03+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2017-03-28T06:09:16+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 172 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2017-03-28T06:09:16+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 140 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000575s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2017-03-28T06:09:17+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001919s ]
+
+[ 2017-03-28T06:09:17+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0059s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2017-03-28T06:09:26+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 172 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2017-03-28T06:09:26+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001720s ]
+
+[ 2017-03-28T06:09:27+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.1816s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002115s ]
+
+[ 2017-03-28T06:09:27+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 140 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002613s ]
+
+[ 2017-03-28T06:09:56+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 173 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2017-03-28T06:09:56+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 85 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0852s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002038s ]
+
+[ 2017-03-28T06:09:56+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002150s ]
+
+[ 2017-03-28T06:09:56+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002756s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 141 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2017-03-28T06:10:06+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0738s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 172 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2017-03-28T06:10:06+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001674s ]
+
+[ 2017-03-28T06:10:06+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0060s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001852s ]
+
+[ 2017-03-28T06:10:06+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 125 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 140 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000809s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002961s ]
+
+[ 2017-03-28T06:10:14+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 171 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2017-03-28T06:10:14+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2017-03-28T06:10:14+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0056s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2017-03-28T06:10:14+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003393s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 139 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008476s ]
+
+[ 2017-03-28T06:10:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 171 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2017-03-28T06:10:43+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001861s ]
+
+[ 2017-03-28T06:10:43+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: today F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 83 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '20170328000000' AND `state` = 2  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2017-03-28T06:10:43+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 139 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2017-03-28T06:11:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 170 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2017-03-28T06:11:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 138 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000547s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2017-03-28T06:11:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001978s ]
+
+[ 2017-03-28T06:11:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20161200000000' AND '20170328000000' AND `state` = 2  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001893s ]
+
+[ 2017-03-28T06:11:57+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 170 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002159s ]
+
+[ 2017-03-28T06:11:57+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002697s ]
+
+[ 2017-03-28T06:11:57+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 138 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2017-03-28T06:11:57+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0053s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20161200000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001640s ]
+
+[ 2017-03-28T06:13:58+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 170 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2017-03-28T06:13:58+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002958s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 123 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 138 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002140s ]
+
+[ 2017-03-28T06:13:58+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0054s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20161200000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2017-03-28T06:13:58+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002044s ]
+
+[ 2017-03-28T06:14:13+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 171 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-03-28T06:14:13+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 139 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2017-03-28T06:14:13+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002756s ]
+
+[ 2017-03-28T06:14:14+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: Trade F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 87 行.
+
+[ 2017-03-28T06:14:32+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 171 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2017-03-28T06:14:32+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2017-03-28T06:14:32+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002593s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 139 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2017-03-28T06:14:33+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined variable: AloTrade F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 87 行.
+
+[ 2017-03-28T06:14:45+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 171 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-28T06:14:45+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 124 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 139 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2017-03-28T06:14:45+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0632s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20161200000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001955s ]
+
+[ 2017-03-28T06:14:45+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002133s ]
+
+[ 2017-03-28T06:18:04+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 182 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2017-03-28T06:18:04+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006878s ]
+
+[ 2017-03-28T06:18:05+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 150 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001598s ]
+
+[ 2017-03-28T06:18:05+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002455s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0052s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20161200000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2017-03-28T06:20:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 183 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2017-03-28T06:20:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001865s ]
+
+[ 2017-03-28T06:20:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0355s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: month F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2017-03-28T06:20:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002233s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 151 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002611s ]
+
+[ 2017-03-28T06:21:14+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 183 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2017-03-28T06:21:14+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003127s ]
+
+[ 2017-03-28T06:21:14+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0053s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2017-03-28T06:21:14+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 136 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 151 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-28T06:22:08+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 184 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2017-03-28T06:22:08+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002168s ]
+
+[ 2017-03-28T06:22:08+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0085s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2017-03-28T06:22:08+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002520s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 137 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 152 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2017-03-28T06:23:45+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 185 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-03-28T06:23:45+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2017-03-28T06:23:45+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 153 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2017-03-28T06:23:45+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002547s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0057s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2017-03-28T06:23:59+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 187 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2017-03-28T06:23:59+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001805s ]
+
+[ 2017-03-28T06:23:59+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004022s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0059s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002104s ]
+
+[ 2017-03-28T06:23:59+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004971s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 155 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001454s ]
+
+[ 2017-03-28T06:24:52+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 188 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2017-03-28T06:24:52+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 156 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2017-03-28T06:24:52+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2017-03-28T06:24:52+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0981s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2017-03-28T06:25:35+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 188 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2017-03-28T06:25:35+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+NOTIC: [8] Undefined variable: m F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: m_3 F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined variable: y F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.1373s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2017-03-28T06:25:35+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2017-03-28T06:25:35+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 156 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-03-28T06:25:55+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 185 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2017-03-28T06:25:55+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0069s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001742s ]
+
+[ 2017-03-28T06:25:55+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 138 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 153 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2017-03-28T06:25:55+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2017-03-28T06:27:00+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 187 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2017-03-28T06:27:00+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 155 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2017-03-28T06:27:00+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001922s ]
+
+[ 2017-03-28T06:27:00+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002737s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0067s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2017-03-28T06:27:29+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.1653s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 187 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-03-28T06:27:29+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 155 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-03-28T06:27:29+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0063s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2017-03-28T06:27:29+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002120s ]
+
+[ 2017-03-28T06:27:40+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 187 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002178s ]
+
+[ 2017-03-28T06:27:40+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 140 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 155 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2017-03-28T06:27:41+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0083s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002921s ]
+
+[ 2017-03-28T06:27:41+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2017-03-28T06:40:53+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 196 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001572s ]
+
+[ 2017-03-28T06:40:53+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 149 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 149 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 149 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 149 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 164 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000589s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2017-03-28T06:40:53+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2  [ RunTime:0.0023s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2017-03-28T06:40:53+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002033s ]
+
+[ 2017-03-28T06:41:13+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 196 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2017-03-28T06:41:13+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170328000000' AND `state` = 2  [ RunTime:0.0020s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170328000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(trans_amount) AS tp_sum FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170200000000' AND '2017030000000' AND `state` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2017-03-28T06:41:13+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 149 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 149 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 149 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 149 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 164 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2017-03-28T06:41:13+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002894s ]
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>城市列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="5">城市列表</th>
+        <tr>
+            <td>城市id</td>
+            <td>城市名称</td>
+            <td>所属国家</td>
+            <td colspan="2">
+                <a href="create.shtml">
+                    <input type="button" value="       添加       " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+        <volist name="city_list" id="city">
+            <tr>
+                <td>{$city.id}</td>
+                <td>{$city.name}</td>
+                <td>{$city.country}</td>
+                <td colspan="2">
+                    <a href="update.shtml?id={$city.id}">
+                        <input type="button" value="修改">
+                    </a>
+                    <a href="post.shtml?method=delete&id={$city.id}">
+                        <input type="button" value="删除">
+                    </a>
+                </td>
+            </tr>
+        </volist>
+    </table>
+</div>
+</body>
+</html>

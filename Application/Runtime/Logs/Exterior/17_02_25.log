@@ -1,0 +1,33 @@
+[ 2017-02-25T04:19:10+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/pay.shtml?buyer_identity_code=999&currency=EUR&trader_email=example%40aiforu.com&trans_amount=0.01&sign_type=RSA&sign=eYmAoqhLcuv92XFfV5aVRCYfmIadpr0noMgJhHUchD8%2FMPnSdgP63iph8%2Bu%2BRehVsknOSOqlCAVN10GLiW79Z1sGbdqKcWrv8CS9cU7JA8GiO9WeUZGOeLG2qDyyZmuy%2FzgLxpSY2eFSsKdYWXJEYTcGPGCF10lgQTk91wzAts8%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SHOW COLUMNS FROM `westyle_operator` [ RunTime:0.1119s ]
+SQL: SELECT * FROM `westyle_operator` WHERE `operator_email` = 'example@aiforu.com'  [ RunTime:0.0086s ]
+NOTIC: [8] Undefined offset: 0 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 337 行.
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0714s ]
+SQL: SELECT * FROM `westyle_shop` WHERE `id` = null  [ RunTime:0.0041s ]
+NOTIC: [8] Undefined offset: 0 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayTestController.class.php 第 341 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `buyer_identity_code` = '999' LIMIT 1   [ RunTime:0.0223s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`trader_email`,`trans_amount`,`partner`,`memo`,`alipay_seller_id`,`subject`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`,`method`) VALUES ('999','EUR','example@aiforu.com','0.01','2088021966645500','Shopping','2088021966645500','shopping','shopping','20170225041909','2017022510049535','1','1') [ RunTime:0.1247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030884s ]
+
+[ 2017-02-25T04:19:10+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/test_pay.shtml?code=999
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.052443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003408s ]
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>更新商店信息</title>
+</head>
+<body>
+<div>
+    <form action="post?method=update&id={$shop.id}" method="post">
+        <table border="1">
+            <th colspan="6">更新商店信息</th>
+            <tr>
+                <td>返利等级</td>
+                <td><input type="text" name="level" placeholder="new level" required="required" value={$shop.level}></td>
+            </tr>
+            <tr>
+                <td>商店描述</td>
+                <td><textarea name="description" placeholder="new description" required="required"> {$shop.description}</textarea></td>
+            </tr>
+            <tr>
+                <td>商店内容</td>
+                <td><textarea name="content" placeholder="new content" required="required">{$shop.content}</textarea></td>
+            </tr>
+            <tr>
+                <td>商店标签</td>
+                <td><input type="text" name="tag" placeholder="请用逗号分隔" value={$shop.tag}></td>
+            </tr>
+            <tr>
+                <td>商店链接</td>
+                <td><input type="url" name="link" placeholder="new link" value={$shop.link}></td>
+            </tr>
+            <tr>
+                <td>商店排序</td>
+                <td><input type="text" name="sort" placeholder="new sort" required="required" value={$shop.sort}></td>
+            </tr>
+            <tr>
+                <td>营业时间</td>
+                <td><input type="text" name="open_time" placeholder="new horaire" required="required" value={$shop.open_time}></td>
+            </tr>
+            <tr>
+                <td>退税率</td>
+                <td><input type="text" name="tax_return" placeholder="new tax return" required="required" value={$shop.tax_return}></td>
+            </tr>
+			<tr>
+                <td colspan="2"><input type="submit" value="         添加/更新         " style="display: block;margin: 0 auto 0"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

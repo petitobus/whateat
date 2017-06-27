@@ -1,0 +1,38 @@
+[ 2017-01-08T08:28:52+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/patch5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010290s ]
+ERR: 无法加载控制器:Backup
+
+[ 2017-01-08T08:29:13+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/patch5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+ERR: 无法加载控制器:Backup
+
+[ 2017-01-08T08:29:18+08:00 ] ::1 /westylegit/code/index.php/Install/Backup/patch5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+ERR: 无法加载控制器:Backup
+
+[ 2017-01-08T08:29:34+08:00 ] ::1 /westylegit/code/index.php/Install/Patch/patch5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029487s ]
+

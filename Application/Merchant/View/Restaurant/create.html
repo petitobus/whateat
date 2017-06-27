@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>添加 restaurant</title>
+</head>
+<body>
+<div>
+    <form action="post.shtml?method=create" method="post">
+        <table border="1">
+            <th colspan="13">添加 restaurant</th>
+            <tr>
+                <td>city</td>
+                <td>
+                    <select name="city">
+                        <option value="75011">75011</option>
+                        <option value="75001">75001</option>
+                        <option value="75004">75004</option>
+                        <option value="75007">75007</option>
+                        <option value="75016">75016</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>commercial area</td>
+                <td>
+                    <select name="commercial_area">
+                        <option value="0001">0001</option>
+                        <option value="0002">0002</option>
+                        <option value="0003">0003</option>
+                        <option value="0004">0004</option>
+                        <option value="0005">0005</option>
+                        <option value="0006">0006</option>
+                        <option value="0007">0007</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td><input type="text" required="required" name="name" placeholder="new name"></td>
+            </tr>
+            <tr>
+                <td>address</td>
+                <td><input type="text" required="required" name="adr" placeholder="new address"></td>
+            </tr>
+            <tr>
+                <td>tel</td>
+                <td><input type="text" required="required" name="tel" placeholder="new tel"></td>
+            </tr>
+            <tr>
+                <td>fax</td>
+                <td><input type="text" required="required" name="fax" placeholder="new fax"></td>
+            </tr>
+            <tr>
+                <td>email</td>
+                <td><input type="text" required="required" name="email" placeholder="new email"></td>
+            </tr>
+            <tr>
+                <td>description</td>
+                <td><input type="text" required="required" name="description" placeholder="new description"></td>
+            </tr>
+            <tr>
+                <td>tag</td>
+                <td><input type="text" required="required" name="tag" placeholder="new tag"></td>
+            </tr>
+            <tr>
+                <td>link</td>
+                <td><input type="text" required="required" name="link" placeholder="new link"></td>
+            </tr>
+            <tr>
+                <td>sort</td>
+                <td><input type="text" required="required" name="sort" placeholder="new sort"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="submit" value="         添加         " style="display: block;margin: 0 auto 0"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

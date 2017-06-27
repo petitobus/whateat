@@ -1,0 +1,90 @@
+[ 2016-12-26T02:10:37+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+NOTIC: [2] mysqli_connect(): (HY000/1045): Access denied for user 'admin_westyle'@'localhost' (using password: YES) F:\wamp\www\westylegit\code\Application\Install\Controller\InstallController.class.php 第 26 行.
+NOTIC: [2] mysqli_error() expects parameter 1 to be mysqli, boolean given F:\wamp\www\westylegit\code\Application\Install\Controller\InstallController.class.php 第 28 行.
+
+[ 2016-12-26T02:11:09+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+
+[ 2016-12-26T02:16:37+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003324s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0733s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+
+[ 2016-12-26T02:18:21+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+NOTIC: [2] mysqli_connect(): (HY000/1045): Access denied for user 'admin_westyle'@'localhost' (using password: YES) F:\wamp\www\westylegit\code\Application\Install\Controller\InstallController.class.php 第 27 行.
+NOTIC: [2] mysqli_error() expects parameter 1 to be mysqli, boolean given F:\wamp\www\westylegit\code\Application\Install\Controller\InstallController.class.php 第 29 行.
+
+[ 2016-12-26T02:18:57+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+
+[ 2016-12-26T02:19:19+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+NOTIC: [2] mysqli_connect(): (HY000/1045): Access denied for user 'admin_westyle'@'localhost' (using password: YES) F:\wamp\www\westylegit\code\Application\Install\Controller\InstallController.class.php 第 27 行.
+NOTIC: [2] mysqli_error() expects parameter 1 to be mysqli, boolean given F:\wamp\www\westylegit\code\Application\Install\Controller\InstallController.class.php 第 29 行.
+
+[ 2016-12-26T02:21:13+08:00 ] ::1 /westylegit/code/index.php/Install/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `westyle_admin_user` (`username`,`password`) VALUES ('admin','0192023a7bbd73250516f069df18b500')
+

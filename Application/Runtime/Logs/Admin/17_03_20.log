@@ -1,0 +1,304 @@
+[ 2017-03-20T03:37:15+08:00 ] ::1 /westylegit/code/index.php/Admin/Receipt/receipt.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003047s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0998s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Receipt' ORDER BY sort LIMIT 1   [ RunTime:0.0206s ]
+NOTIC: [8] Undefined variable: cnt F:\wamp\www\westylegit\code\Application\Admin\Controller\ReceiptController.class.php 第 20 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ReceiptController.class.php on line 25 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.033316s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.034019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.068170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016825s ]
+
+[ 2017-03-20T03:37:17+08:00 ] ::1 /westylegit/code/index.php/Admin/AlipayTrade/alipay_trade.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002285s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'AlipayTrade' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0864s ]
+SQL: SELECT * FROM `westyle_alipay_trade` ORDER BY trans_create_time desc LIMIT 0,20   [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `westyle_alipay_trade` LIMIT 1   [ RunTime:0.0440s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\AlipayTradeController.class.php on line 37 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002014s ]
+
+[ 2017-03-20T03:37:23+08:00 ] ::1 /westylegit/code/index.php/Admin/AlipayTrade/alipay_trade.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'AlipayTrade' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `westyle_alipay_trade` ORDER BY trans_create_time desc LIMIT 0,20   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `westyle_alipay_trade` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\AlipayTradeController.class.php on line 37 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001940s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003106s ]
+
+[ 2017-03-20T03:37:36+08:00 ] ::1 /westylegit/code/index.php/Admin/AlipayTrade/alipay_trade.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'AlipayTrade' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `westyle_alipay_trade` ORDER BY trans_create_time desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `westyle_alipay_trade` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\AlipayTradeController.class.php on line 37 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002120s ]
+
+[ 2017-03-20T03:38:13+08:00 ] ::1 /westylegit/code/index.php/Admin/Receipt/receipt.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001984s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Receipt' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: cnt F:\wamp\www\westylegit\code\Application\Admin\Controller\ReceiptController.class.php 第 20 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ReceiptController.class.php on line 25 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002198s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002157s ]
+
+[ 2017-03-20T03:38:15+08:00 ] ::1 /westylegit/code/index.php/Admin/AlipayTrade/alipay_trade.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.4165s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'AlipayTrade' ORDER BY sort LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `westyle_alipay_trade` ORDER BY trans_create_time desc LIMIT 0,20   [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `westyle_alipay_trade` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\AlipayTradeController.class.php on line 37 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002942s ]
+
+[ 2017-03-20T03:38:22+08:00 ] ::1 /westylegit/code/index.php/Admin/AlipayTrade/alipay_trade.shtml?page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'AlipayTrade' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `westyle_alipay_trade` ORDER BY trans_create_time desc LIMIT 20,20   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `westyle_alipay_trade` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\AlipayTradeController.class.php on line 37 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001999s ]
+
+[ 2017-03-20T03:38:25+08:00 ] ::1 /westylegit/code/index.php/Admin/AlipayTrade/alipay_trade.shtml?page=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001983s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'AlipayTrade' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `westyle_alipay_trade` ORDER BY trans_create_time desc LIMIT 40,20   [ RunTime:0.0662s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `westyle_alipay_trade` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\AlipayTradeController.class.php on line 37 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002618s ]
+
+[ 2017-03-20T03:38:25+08:00 ] ::1 /westylegit/code/index.php/Admin/AlipayTrade/alipay_trade.shtml?page=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002549s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'AlipayTrade' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `westyle_alipay_trade` ORDER BY trans_create_time desc LIMIT 60,20   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `westyle_alipay_trade` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\AlipayTradeController.class.php on line 37 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001996s ]
+
+[ 2017-03-20T03:38:26+08:00 ] ::1 /westylegit/code/index.php/Admin/AlipayTrade/alipay_trade.shtml?page=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002005s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'AlipayTrade' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `westyle_alipay_trade` ORDER BY trans_create_time desc LIMIT 40,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `westyle_alipay_trade` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\AlipayTradeController.class.php on line 37 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001919s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002006s ]
+
+[ 2017-03-20T03:38:27+08:00 ] ::1 /westylegit/code/index.php/Admin/AlipayTrade/alipay_trade.shtml?page=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.1091s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'AlipayTrade' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.2293s ]
+SQL: SELECT * FROM `westyle_alipay_trade` ORDER BY trans_create_time desc LIMIT 60,20   [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `westyle_alipay_trade` LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\AlipayTradeController.class.php on line 37 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003044s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002378s ]
+

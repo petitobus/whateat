@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <title>修改Operator信息</title>
+</head>
+<body>
+<form action="post.shtml?method=update&id={$operator._id}" method="post">
+    <table border="1">
+        <th colspan="6">修改Operator信息</th>
+        <tr>
+            <td>email</td>
+            <td><input type="text" name="operator_email" required="required" readonly="readonly" value={$operator.operator_email}></td>
+        </tr>
+        <tr>
+            <td>用户名</td>
+            <td><input type="text" name="operator_name" required="required" value={$operator.operator_name}></td>
+        </tr>
+        <tr>
+            <td>商店</td>
+            <td>
+                <select name="shop_id">
+                    <volist name="shop_list" id="shop">
+						<option value="{$shop.id}" 
+						<eq name="operator['shop_id']" value="$shop['id']">selected </eq> 
+						>{$shop.name}</option>
+					</volist>
+                </select>
+            </td>
+        </tr>
+		<tr>
+            <td>密码</td>
+            <td><input type="password" placeholder="如不更改，请勿填写" name="operator_password"></td>
+        </tr>
+		<tr>
+            <td colspan="2"><input type="submit" value="         修改         " style="display: block;margin: 0 auto 0"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

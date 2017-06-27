@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../CSS/MyStyle.css">
+    <script src="../JS/MaScript.js"></script>
+
+    <style>
+
+    </style>
+
+</head>
+<body id="PageShopMessage">
+<div >
+    <div>
+        <img src="../IMAGE/exemple.jpg" style="width:100%; height:70%;"/>
+    </div>
+
+    <div data-role="page" id="pageone">
+        <div data-role="main" class="ui-content" id="text">
+            <h2>LE CINQ</h2>
+            <p id="title">米其林三星</p>
+            <form>
+                <input type="button" value="预约" onclick="selectDate()">
+            </form>
+            <div id="SelectDate">
+                <input type="date" value="选择日期">
+                <form><input type="submit" value="确认预约"> </form>
+            </div>
+            <p class="contenue">12 Avenue Montaigne , 75008 Paris  <a id="text_navi">导航</a></p>
+            <p class="contenue">01 55 57 89 89</p>
+            <p>---------------------</p>
+            <p>营业时间 周一至周五 10:30 - 19/00</p>
+            <p>返3%积分 1积分 = 1 欧 店内退税12%</p>
+            <p> Au bout de la Galerie à gquche ; deux ,qjestu euses portes en fer forgé s'ouvrent sur la salle du restaurant Le Cinq.
+            Vaste et lumineuse,dans des tons d'or et de gris , elle a été créée pour donner à ses hôtes le sentiment
+                de se trouver dans la salle à manger privée d'une maison particulière.
+            </p>
+            <div class="EATconseil">
+                <div class="EATConseilleText">
+                    <p class="EATconseilNom">特色午餐4道菜 145欧</p>
+                    <p class="EATconseilNomCommande">*145是每人的价格</p>
+                </div>
+                <div class="EATConseilReserverButton">
+                    <input type="button" name="111" value="预约" onclick="EATReserve(this.name)"/>
+                </div>
+
+            </div>
+            <div class="EATconseil">
+                <div class="EATConseilleText">
+                    <p class="EATconseilNom">特色午餐4道菜 145欧</p>
+                    <p class="EATconseilNomCommande">*145是每人的价格</p>
+                </div>
+                <div class="EATConseilReserverButton">
+                    <input type="button" name="222" value="预约"  onclick="EATReserve(this.name)" />
+                </div>
+            </div>
+            <div id="NombreReserve">
+                <p>用餐人数</p>
+                <table>
+                    <tr>
+                        <td class="NombreReservePoint"><img src="../IMAGE/EAT/人数.png"></td>
+                        <td class="NombreReserveBorderd"><p onclick="IndexMoins()">-</p></td>
+                        <td class="NombreReserveBorderd" id="NombreReserveIndex">1</td>
+                        <td class="NombreReserveBorderd"><p onclick="IndexPlus()">+</p></td>
+                        <td class="NombreReservePoint"><p>位</p></td>
+                    </tr>
+                </table>
+                <input type="date" id="NombreReserveSelectDate">
+                <div id="SelectTime">
+                    <p>午餐</p>
+                    <table>
+                        <tr>
+                            <td><input type="button" value="12:30" name="12:30" class="selectTime"> </td>
+                            <td><input type="button" value="13:00" name="13:00" class="selectTime"> </td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="13:30"></td>
+                            <td><input type="button" value="14:00"></td>
+                        </tr>
+                    </table>
+                    <p>晚餐</p>
+                    <table>
+                        <tr>
+                            <td><input type="button" value="19:00"></td>
+                            <td><input type="button" value="19:30"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="20:00"></td>
+                            <td><input type="button" value="20:30"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="21:00"></td>
+                        </tr>
+                    </table>
+                </div>
+                <form>
+                    <div id="NombreReserveButton">
+                        <input type="button" onclick="ReserveValide()" value="确定" id="NombreReserveValider">
+                    </div>
+                </form>
+            </div>
+            <table class="tableBag">
+                <tr>
+                    <td>
+                        <a><img class="bag" src="../IMAGE/bag1.png"> </a>
+                        <div class="annexe">
+                            <p>test  </p>
+                        </div>
+                    </td>
+                    <td>
+                        <a><img class="bag" src="../IMAGE/bag2.png"> </a>
+                        <div class="annexe">
+                            <p>test  </p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a><img class="bag" src="../IMAGE/bag3.png"> </a>
+                        <div class="annexe">
+                            <p>test  </p>
+                        </div>
+                    </td>
+                    <td>
+                        <a><img class="bag" src="../IMAGE/bag4.png"> </a>
+                        <div class="annexe">
+                            <p>test  </p>
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <div id="navi_bot">
+            <div class="tag"><a href="www.baidu.com"><img src="../IMAGE/11.png" ></a><p>test</p></div>
+            <div class="tag"><a href="www.baidu.com"><img src="../IMAGE/11.png" ></a><p>test</p></div>
+            <div class="tag"><a href="www.baidu.com"><img src="../IMAGE/11.png" ></a><p>test</p></div>
+        </div>
+
+        <div id="Avis">
+            <p> 评价</p>
+        </div>
+        <div id="CreeAvis">
+            <ul>
+                <li>
+                    <p>张楠: 很棒的餐厅 还会再来的!</p>
+                    <p class="avisDate">2016年3月2日</p>
+                </li>
+                <li>
+                    <p>李勉: 牛排很好</p>
+                    <p class="avisDate">2016年3月2日</p>
+                </li>
+                <li>
+                    <p>蝈蝈:**********************</p>
+                    <p class="avisDate">2016年2月21日</p>
+                </li>
+            </ul>
+            <form>
+                <input type="text" id="EcrirAvis" placeholder="  评论">
+                <input type="submit" id="AvisValider" value="发表评论" >
+            </form>
+        </div>
+        <div >
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+    <div id="rollTitre">
+        <img src="../IMAGE/roll.png" >
+    </div>
+</div>
+<script language="javascript">
+    $(document).ready(function (){
+        var nScrollHight = 0; //滚动距离总长(注意不是滚动条的长度)
+        var nScrollTop = 0;   //滚动到的当前位置
+        var nDivHight = $("#pageone").height();
+        $("#pageone").scroll(function(){
+
+            if (nScrollHight = $(this)[0].scrollHeight) {  //滚动条 滚动到顶部
+                document.getElementById("pageone").style.marginTop = "400px";
+                document.getElementById("rollTitre").style.top = "350px";
+            }
+            if  ( (nScrollTop = $(this)[0].scrollTop)){      //滚动条 滚动到底部
+                document.getElementById("pageone").style.marginTop = "100px";
+                document.getElementById("rollTitre").style.top = "60px";
+
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

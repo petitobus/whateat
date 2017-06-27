@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EAT</title>
+    <script src="../JS/jquery.min.js"></script>
+    <script src="../JS/kendo.all.min.js"></script>
+    <script src="../JS/MaScript.js"></script>
+    <link rel="stylesheet" href="../CSS/kendo.mobile.all.min.css" />
+    <link rel="stylesheet" href="../CSS/kendo.common.min.css" />
+    <link rel="stylesheet" href="../CSS/kendo.nova.min.css"/>
+    <link rel="stylesheet" href="../CSS/MyStyle.css"/>
+</head>
+<body id="PageHome">
+<div data-role="view" id="drawer-nom"  data-title="用户名字" >
+    <header data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-rel="drawer" href="#my-drawer" icon="drawer-icon" data-align="left">
+                <img src="../IMAGE/Logo_navi.png" class="logo_navi"/>
+            </a>
+            <form>
+                <input id="search_pagenom" class="search" type="search" placeholder="              搜索" />
+
+            </form>
+            <span data-role="view-title" data-align="left"></span>
+        </div>
+        <div id="navi">
+            <ul>
+                <li class="elementNavi"><a href="#"><p>米其林推荐</p></a></li>
+                <li class="elementNavi"><a href="#"><p>米其林一星</p></a></li>
+                <li class="elementNavi"><a href="#"><p>米其林二星</p></a></li>
+                <li class="elementNavi"><a href="#"><p>米其林三星</p></a></li>
+                <li class="elementNavi"><a href="#"><p>米其林四星</p></a></li>
+                <li class="elementNavi"><a href="#"><p>米其林五星</p></a></li>
+                <li class="elementNavi"><a href="#"><p>特色餐厅</p></a></li>
+
+            </ul>
+        </div>
+    </header>
+    <div id="page_nom">
+        <div style="width: 100%">
+            <img class="img_principal" src="../IMAGE/RB1.jpg">
+            <div class="annexe">
+                <p>test  </p>
+            </div>
+        </div>
+        <div style="width: 100%;">
+            <img class="img_principal" src="../IMAGE/RB2.jpg">
+            <div class="annexe">
+                <p>test  </p>
+            </div>
+        </div>
+        <div>
+            <img  class="img_principal" src="../IMAGE/RB3.jpg">
+            <div class="annexe">
+                <p>test  </p>
+            </div>
+        </div>
+        <div>
+            <img  class="img_principal"  src="../IMAGE/RB4.jpg">
+            <div class="annexe">
+                <p>test  </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="page_nom_footer">
+    <a href="SHOP.html"> <img style="margin-left: 25% ;width: 50px; height: 50px;" src="../IMAGE/roll.png"></a>
+    <img style="margin-left: 25%;width: 50px; height: 50px;" src="../IMAGE/10.png">
+</div>
+<div data-role="view" id="drawer-magasin" data-layout="drawer-layout" data-title="全部餐厅" >
+    <header data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-rel="drawer" href="#my-drawer" icon="drawer-icon" data-align="left">
+                <img src="../IMAGE/Logo_navi.png" class="logo_navi"/>
+            </a>
+            <form>
+                <input id="search_pagemagasin" class="search" type="search" placeholder="搜索" />
+            </form>
+            <span data-role="view-title" data-align="left"></span>
+        </div>
+    </header>
+    <div id="page_magasin">
+        <table class="table_home">
+            <tr><td><img src="../IMAGE/AAAA.png"></td></tr>
+            <tr><td><img src="../IMAGE/BBBB.png"> </td></tr>
+            <tr><td><a href="#"> <p>Bottage Veneta<span>5</span></p></a></td></tr>
+            <tr><td><a onclick="allonger()"><p>Burberry<span>5</span></p></a></td></tr>
+            <tr><td class="Burberry"><a href="#"><p>Burberry-Gakerues Lafayette Haussmann<span>5</span></p></a></td></tr>
+            <tr><td class="Burberry"><a href="#"><p>Burberry-Printemps<span>10</span></p></a></td></tr>
+            <tr><td class="Burberry"><a href="#"><p>Burberry-Boulevard Saint-Germain<span>3</span></p></a></td></tr>
+            <tr><td><img src="../IMAGE/CCCC.png"> </td></tr>
+            <tr><td><a href="#"><p>Cartier<span>3</span></p></a></td></tr>
+            <tr><td><a href="#"><p>Chanel<span>3</span></p></a></td></tr>
+            <tr><td><img src="../IMAGE/DDDD.png"> </td></tr>
+            <tr><td><a href="#"><p>Dior<span>10</span></p></a></td></tr>
+        </table>
+        <script>
+            cacher();
+        </script>
+    </div>
+</div>
+
+<div data-role="view" id="drawer-question" data-layout="drawer-layout" data-title="常见问题" >
+    <header data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-rel="drawer" href="#my-drawer" icon="drawer-icon" data-align="left">
+                <img src="../IMAGE/Logo_navi.png" class="logo_navi"/> </a>
+            <span data-role="view-title" data-align="left"></span>
+        </div>
+    </header>
+    <div id="page_question">
+        <p style="margin-left: 100px ; margin-top: 200px">假装此处有长图</p>
+    </div>
+</div>
+<div data-role="view" id="drawer-contact" data-layout="drawer-layout" data-title="联系客服" >
+    <header data-role="header">
+        <div data-role="navbar">
+            <a data-role="button" data-rel="drawer" href="#my-drawer" icon="drawer-icon" data-align="left">
+                <img src="../IMAGE/Logo_navi.png" class="logo_navi"/> </a>
+            <span data-role="view-title" data-align="left"></span>
+        </div>
+    </header>
+</div>
+
+<div data-role="drawer" id="my-drawer" style="width: 10em" data-views="['drawer-nom', 'drawer-magasin', 'drawer-ville', 'drawer-quartier', 'drawer-question', 'drawer-contact', '/kendo-ui/mobile/m/drawer/index.html']" data-use-native-scrolling="true">
+    <ul data-role="listview" class="km-listview-icons">
+        <li ><a  class="demoimg" href="#drawer-nom" data-transition="none"><p>客户名字</p></a></li>
+        <li ><a  class="demoimg" href="#drawer-magasin" data-transition="none" ><p>全部餐厅</p></a></li>
+        <li ><a  class="demoimg" href="#drawer-question" data-transition="none"><p>常见问题</p></a></li>
+        <li ><a  class="demoimg" href="#drawer-contact" data-transition="none"><p>联系客服</p></a></li>
+    </ul>
+</div>
+
+<script>
+    kendo.mobile.ui.Drawer.current = null;
+    var app = new kendo.mobile.Application(document.body, { skin: "nova" });  // pour kendo UI adapter les diffirentes écrans
+
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link type="text/css" rel="stylesheet" href="__ROOT__/Application/Merchant/View/static/css/Index/top_menu.css">
+	<title>merchant page</title>
+</head>
+<body>
+<div>
+    <table border="0">
+		<tr>
+			<td>
+				{$shop.name}
+			</td>
+			<td>
+				{$shop.email}
+			</td>
+			<td>
+				<a href="{:U('Login/logout')}" target="_top">
+                    <input type="button" value="  logout  " >
+                </a>
+			</td>
+			<td>
+				<a href="{:U('Index/change_password')}" target="content_frame">
+                    <input type="button" value="  change password  " >
+                </a>
+			</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

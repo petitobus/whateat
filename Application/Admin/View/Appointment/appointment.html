@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>appointment 列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="16">appointment 列表</th>
+        <tr>
+            <td>appointment id</td>
+            <td>trade date</td>
+            <td>trade time</td>
+            <td>reserve date</td>
+            <td>reserve time</td>
+            <td>customer name en</td>
+            <td>customer id</td>
+            <td>restaurant id</td>
+            <td>restaurant name</td>
+            <td>value</td>
+            <td>followed datetime</td>
+            <td>last op datetime</td>
+            <td>operator</td>
+            <td>status</td>
+            <td colspan="2">
+                <a href="create.shtml">
+                    <input type="button" value="       添加       " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+        <volist name="appointment_list" id="appointment">
+            <tr>
+                <td>{$appointment.id}</td>
+                <td>{$appointment.trade_date}</td>
+                <td>{$appointment.trade_time}</td>
+                <td>{$appointment.reserve_date}</td>
+                <td>{$appointment.reserve_time}</td>
+                <td>{$appointment.customer_name_en}</td>
+                <td>{$appointment.customer_id}</td>
+                <td>{$appointment.restaurant_id}</td>
+                <td>{$appointment.restaurant_name}</td>
+                <td>{$appointment.value}</td>
+                <td>{$appointment.followed_datetime}</td>
+                <td>{$appointment.last_op_datetime}</td>
+                <td>{$appointment.operator}</td>
+                <td>{$appointment.status}</td>
+                <td colspan="2">
+                    <a href="update.shtml?id={$appointment.id}">
+                        <input type="button" value="修改">
+                    </a>
+                    <a href="post.shtml?method=delete&id={$appointment.id}">
+                        <input type="button" value="删除">
+                    </a>
+                </td>
+            </tr>
+        </volist>
+    </table>
+</div>
+</body>
+</html>

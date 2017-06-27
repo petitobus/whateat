@@ -1,0 +1,40 @@
+body{
+    background-color: #AEBABB;
+}
+.asBlock{
+    width:100%;
+    height: 50px;
+}
+img{
+    width: 300px;
+    display: block;
+    margin:0 auto 0;
+}
+table{
+    width: 190px;
+    display: block;
+    margin:0 auto 0;
+    text-align: center;
+}
+table th{
+    width:100%;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+table td{
+    padding-bottom: 20px;
+}
+table input{
+    background-color: honeydew;
+}
+table button{
+    display: block;
+    margin-left: 35%;
+    width: 70px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 15px;
+    border-radius:10px;
+    background-color: honeydew;
+}
+

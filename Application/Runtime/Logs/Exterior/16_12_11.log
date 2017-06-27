@@ -1,0 +1,125 @@
+[ 2016-12-11T04:03:27+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 41 行.
+
+[ 2016-12-11T04:03:33+08:00 ] ::1 /westylegit/code/index.php/Exterior/Voucher/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 31 行.
+
+[ 2016-12-11T04:03:44+08:00 ] ::1 /westylegit/code/index.php/Exterior/Voucher/history.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 21 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 31 行.
+
+[ 2016-12-11T04:04:37+08:00 ] ::1 /westylegit/code/index.php/Exterior/Voucher/history.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+NOTIC: [8] Undefined variable: data F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 21 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `trader_email` = '' ORDER BY trans_create_time desc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2016-12-11T04:05:16+08:00 ] ::1 /westylegit/code/index.php/Exterior/Voucher/history.shtml?trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `trader_email` = 'test_email' ORDER BY trans_create_time desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2016-12-11T04:05:41+08:00 ] ::1 /westylegit/code/index.php/Exterior/Voucher/history.shtml?trader_email=example@aiforu.com&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency%3Dtest_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666&sign_type=RSA&signature=LuGBmlLji8zt%2FiS8RIvvkyIlLS6NMFXHN2Myx3RjXWmEfebuOfJjRIXha713%2Bqb7G2rOJEI%2Buvx7yR%2B%2FuZtoj3j2YeFIVzkgMiBXktUJxEWAIUBfuKjBxjsENRZgv%2FsLSVijZVbSNnpPIDhbrOfejKY%2FaKgBTVUSp3lyTUQAvso%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+NOTIC: [8] Undefined variable: signature F:\wamp\www\westylegit\code\Application\Exterior\Controller\VoucherController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `westyle_voucher_trade` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `westyle_voucher_trade` WHERE `trader_email` = 'example@aiforu.com' ORDER BY trans_create_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001262s ]
+
+[ 2016-12-11T23:05:24+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010878s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'V00001' for key 'voucher_id'
+ [ SQL语句 ] : INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER')
+ERR: 1062:Duplicate entry 'V00001' for key 'voucher_id'
+ [ SQL语句 ] : INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER')
+
+[ 2016-12-11T23:10:44+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+SQL: SHOW COLUMNS FROM `westyle_voucher` [ RunTime:0.1343s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'V00001' for key 'voucher_id'
+ [ SQL语句 ] : INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER')
+ERR: 1062:Duplicate entry 'V00001' for key 'voucher_id'
+ [ SQL语句 ] : INSERT INTO `westyle_voucher` (`voucher_id`,`voucher_name`) VALUES ('V00001','ALI_VOUCHER')
+
+[ 2016-12-11T23:11:05+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.040395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.040728s ]
+
+[ 2016-12-11T23:39:27+08:00 ] ::1 /westylegit/code/index.php/Exterior/Install/install.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+

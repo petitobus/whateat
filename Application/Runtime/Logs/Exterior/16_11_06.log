@@ -1,0 +1,33 @@
+[ 2016-11-06T06:25:26+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_seller_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=288569316495082923&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=aiforu%40westyle.com&trans_amount=0.01&trans_name=iphone&sign_type=RSA&sign=eYfB26K48tnj0pj%2BNfM9b0WnIRyVG4x%2Bhue2IiRwfTr5p7N9XiTzwZVJUQ6u2UxpDswDYauj7Y7d5VyRfacY6QNrauffJnec0jpNnCvJnsTZA8u5dfoMpO%2FRQmDiujaX5y49NSbPNjBKP9xbIPhv6HJ3Vidqp1o%2FqYVHBNGe2BQ%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011165s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.4337s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_seller_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('2088021966645500','288569316495082923','EUR','testing','2088021966645500','iphone','aiforu@westyle.com','0.01','iphone','20161106062523','2016110651505397','1') [ RunTime:0.1708s ]
+NOTIC: [8] Undefined index: alipay_trans_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 141 行.
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = null AND `trans_create_time` = '20161106062523' LIMIT 1   [ RunTime:0.0324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026842s ]
+
+[ 2016-11-06T06:26:38+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_seller_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=288569316495082923&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=aiforu%40westyle.com&trans_amount=0.01&trans_name=iphone&sign_type=RSA&sign=eYfB26K48tnj0pj%2BNfM9b0WnIRyVG4x%2Bhue2IiRwfTr5p7N9XiTzwZVJUQ6u2UxpDswDYauj7Y7d5VyRfacY6QNrauffJnec0jpNnCvJnsTZA8u5dfoMpO%2FRQmDiujaX5y49NSbPNjBKP9xbIPhv6HJ3Vidqp1o%2FqYVHBNGe2BQ%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_seller_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('2088021966645500','288569316495082923','EUR','testing','2088021966645500','iphone','aiforu@westyle.com','0.01','iphone','20161106062638','2016110610198100','1') [ RunTime:0.1431s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016110610198100' AND `trans_create_time` = '20161106062638' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+

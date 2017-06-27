@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>权限管理</title>
+    <style>
+        body{
+            width:90%;
+            min-width: 585px;
+            margin:0 auto 0 ;
+        }
+        h3{
+            text-align: center;
+        }
+        .group{
+            border:none;
+            text-align: left;
+            border-width: 1px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .group div{
+            margin-top: 10px;
+        }
+        #All{
+            text-align: left;
+            margin-top: 100px;
+            margin-left: 10%;
+        }
+        #AlphaGroup{
+
+        }
+        #BravoGroup{
+
+        }
+        #CharlieGroup{
+
+        }
+
+    </style>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <h3>{$admin_group.title} 的权限配置</h3>
+    <form action="set_auth.shtml?id={$admin_group.id}" method="post" id="All">
+        <input id="check_all" onclick="all_onclick()" type="checkbox" class="node">所有节点</input>
+		<input id="check_exist" type="text" value={$root_id} name={$root_id} hidden readonly>
+		<foreach  name="node_array" item="node_list" key="id" >
+			<div id="{$node_list.name}_div" class="group">
+				<h5>{$node_list.title}:</h5>
+				<input id={$node_list.name} class="node group_all" onclick="group_onclick('{$node_list.name}')" type="checkbox">所有结点</input>
+				<input class="{$node_list.name}_exist node" type="checkbox" value={$node_list.id} {$node_list.checked} name={$node_list.id} hidden>
+				<span>
+					<foreach name="node_list.children" item="node" key="cid" >
+						<input class="{$node_list.name}_item node" onclick="item_onclick('{$node_list.name}')" type="checkbox" {$node.checked} value={$node.id} name={$node.id}>{$node.title}</input>
+					</foreach>
+				</span>
+			</div>
+			</br>
+			<script>
+				$('#{$node_list.name}_div').ready(function() {
+					var group_count = 0;
+					element = '{$node_list.name}';
+					all = '#' +element;
+					item = '.'+element+'_item';
+					exist = '.'+element+'_exist';
+					$(item).each(function(){
+						if($(this).prop("checked")){
+							group_count ++;
+						}
+					});
+					if(group_count==$(item).size()){
+						$("#"+element).prop("checked", true);
+					}else{
+						$("#"+element).prop("checked", false);
+					}
+					if(group_count>0){
+						$(exist).prop("checked", true);
+					}else{
+						$(exist).prop("checked", false);
+					}
+				});
+			</script>
+		</foreach>
+		<input type="submit" value="         提交         " style="display: block;margin: 0 auto 0">
+	</form>
+    <script>
+        function all_onclick(){
+			if(document.getElementById("check_all").checked){
+                $(".node").prop("checked", true);
+            }
+            else{
+                $(".node").prop("checked", false);
+            }
+        }
+		function group_onclick(element){
+			item = '.'+element+'_item';
+			exist = '.'+element+'_exist';
+			if(document.getElementById(element).checked){
+                $(item).prop("checked", true);
+                $(exist).prop("checked", true);
+            }
+            else{
+                $(item).prop("checked", false);
+                $(exist).prop("checked", false);
+            }
+			var all_count = 0;
+			$('.group_all').each(function(){
+				if($(this).prop("checked")){
+					all_count ++;
+				}
+			});
+			if(all_count==$('.group_all').size()){
+				$("#check_all").prop("checked", true);
+			}else{
+				$("#check_all").prop("checked", false);
+			}
+        }
+		function item_onclick(element){
+			all = '#' +element;
+			item = '.'+element+'_item';
+			exist = '.'+element+'_exist';
+			var group_count = 0;
+			$(item).each(function(){
+				if($(this).prop("checked")){
+					group_count ++;
+				}
+			});
+			if(group_count==$(item).size()){
+				$("#"+element).prop("checked", true);
+			}else{
+				$("#"+element).prop("checked", false);
+			}
+			if(group_count>0){
+				$(exist).prop("checked", true);
+			}else{
+				$(exist).prop("checked", false);
+			}
+			var all_count = 0;
+			$('.group_all').each(function(){
+				if($(this).prop("checked")){
+					all_count ++;
+				}
+			});
+			if(all_count==$('.group_all').size()){
+				$("#check_all").prop("checked", true);
+			}else{
+				$("#check_all").prop("checked", false);
+			}
+        }
+		
+		$(document).ready(function() {
+			var all_count = 0;
+			$('.group_all').each(function(){
+				if($(this).prop("checked")){
+					all_count ++;
+				}
+			});
+			if(all_count==$('.group_all').size()){
+				$("#check_all").prop("checked", true);
+			}else{
+				$("#check_all").prop("checked", false);
+			}
+		});
+    </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+[ 2017-01-14T18:58:58+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/query.shtml?partner_trans_id=0027609794911484316718699
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013735s ]
+
+[ 2017-01-14T19:02:21+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/query.shtml?partner_trans_id=0027609794911484316718699
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005963s ]
+
+[ 2017-01-14T19:02:59+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/query.shtml?partner_trans_id=1025235859151484307231898
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002087s ]
+
+[ 2017-01-14T19:35:03+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/shown?extra_common_param=%7B%26quot%3Bnotify_mobile%26quot%3B%3A%26quot%3B0033-750277812%26quot%3B%2C%26quot%3Bqrcode%26quot%3B%3A%26quot%3Bhttps%3A%2F%2Fqr.alipay.com%2Focx04525obempgub6uccyd7%26quot%3B%7D&currency=EUR&trans_currency=EUR&subject=seraph+-+1057826168&trade_no=2017011221001004840281596484&paytools_pay_amount=%5B%7B%26quot%3BALIPAYACCOUNT%26quot%3B%3A%26quot%3B0.07%26quot%3B%7D%5D&buyer_email=yxccolin%40sina.com&gmt_create=2017-01-12+07%3A55%3A28&notify_type=trade_status_sync&quantity=1&forex_rate=7.35900000&out_trade_no=0029726498411484178928534&trans_amount=0.01&seller_id=2088521118744342&notify_time=2017-01-12+07%3A55%3A33&trade_status=TRADE_SUCCESS&total_fee=0.07&gmt_payment=2017-01-12+07%3A55%3A32&seller_email=klikandpay%40seraph.fr&notify_action_type=payByAccountAction&price=0.07&buyer_id=2088002972649841&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2017-01-14T19:36:39+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/shown?extra_common_param=%7B%26quot%3Bnotify_mobile%26quot%3B%3A%26quot%3B0033-750277812%26quot%3B%2C%26quot%3Bqrcode%26quot%3B%3A%26quot%3Bhttps%3A%2F%2Fqr.alipay.com%2Focx04525obempgub6uccyd7%26quot%3B%7D&currency=EUR&trans_currency=EUR&subject=seraph+-+1057826168&trade_no=2017011221001004840281596484&paytools_pay_amount=%5B%7B%26quot%3BALIPAYACCOUNT%26quot%3B%3A%26quot%3B0.07%26quot%3B%7D%5D&buyer_email=yxccolin%40sina.com&gmt_create=2017-01-12+07%3A55%3A28&notify_type=trade_status_sync&quantity=1&forex_rate=7.35900000&out_trade_no=0029726498411484178928534&trans_amount=0.01&seller_id=2088521118744342&notify_time=2017-01-12+07%3A55%3A33&trade_status=TRADE_SUCCESS&total_fee=0.07&gmt_payment=2017-01-12+07%3A55%3A32&seller_email=klikandpay%40seraph.fr&notify_action_type=payByAccountAction&price=0.07&buyer_id=2088002972649841&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002324s ]
+
+[ 2017-01-14T19:49:39+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/shown?extra_common_param=%7B%26quot%3Bnotify_mobile%26quot%3B%3A%26quot%3B0033-750277812%26quot%3B%2C%26quot%3Bqrcode%26quot%3B%3A%26quot%3Bhttps%3A%2F%2Fqr.alipay.com%2Focx04525obempgub6uccyd7%26quot%3B%7D&currency=EUR&trans_currency=EUR&subject=seraph+-+1057826168&trade_no=2017011221001004840281596484&paytools_pay_amount=%5B%7B%26quot%3BALIPAYACCOUNT%26quot%3B%3A%26quot%3B0.07%26quot%3B%7D%5D&buyer_email=yxccolin%40sina.com&gmt_create=2017-01-12+07%3A55%3A28&notify_type=trade_status_sync&quantity=1&forex_rate=7.35900000&out_trade_no=0029726498411484178928534&trans_amount=0.01&seller_id=2088521118744342&notify_time=2017-01-12+07%3A55%3A33&trade_status=TRADE_SUCCESS&total_fee=0.07&gmt_payment=2017-01-12+07%3A55%3A32&seller_email=klikandpay%40seraph.fr&notify_action_type=payByAccountAction&price=0.07&buyer_id=2088002972649841&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+ERR: DateTime::__construct(): Failed to parse time string (1484178928) at position 7 (9): Unexpected character
+
+[ 2017-01-14T19:49:55+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/shown?extra_common_param=%7B%26quot%3Bnotify_mobile%26quot%3B%3A%26quot%3B0033-750277812%26quot%3B%2C%26quot%3Bqrcode%26quot%3B%3A%26quot%3Bhttps%3A%2F%2Fqr.alipay.com%2Focx04525obempgub6uccyd7%26quot%3B%7D&currency=EUR&trans_currency=EUR&subject=seraph+-+1057826168&trade_no=2017011221001004840281596484&paytools_pay_amount=%5B%7B%26quot%3BALIPAYACCOUNT%26quot%3B%3A%26quot%3B0.07%26quot%3B%7D%5D&buyer_email=yxccolin%40sina.com&gmt_create=2017-01-12+07%3A55%3A28&notify_type=trade_status_sync&quantity=1&forex_rate=7.35900000&out_trade_no=0029726498411484178928534&trans_amount=0.01&seller_id=2088521118744342&notify_time=2017-01-12+07%3A55%3A33&trade_status=TRADE_SUCCESS&total_fee=0.07&gmt_payment=2017-01-12+07%3A55%3A32&seller_email=klikandpay%40seraph.fr&notify_action_type=payByAccountAction&price=0.07&buyer_id=2088002972649841&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+ERR: DateTime::__construct(): Failed to parse time string (1484178928) at position 7 (9): Unexpected character
+
+[ 2017-01-14T19:52:55+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/shown?extra_common_param=%7B%26quot%3Bnotify_mobile%26quot%3B%3A%26quot%3B0033-750277812%26quot%3B%2C%26quot%3Bqrcode%26quot%3B%3A%26quot%3Bhttps%3A%2F%2Fqr.alipay.com%2Focx04525obempgub6uccyd7%26quot%3B%7D&currency=EUR&trans_currency=EUR&subject=seraph+-+1057826168&trade_no=2017011221001004840281596484&paytools_pay_amount=%5B%7B%26quot%3BALIPAYACCOUNT%26quot%3B%3A%26quot%3B0.07%26quot%3B%7D%5D&buyer_email=yxccolin%40sina.com&gmt_create=2017-01-12+07%3A55%3A28&notify_type=trade_status_sync&quantity=1&forex_rate=7.35900000&out_trade_no=0029726498411484178928534&trans_amount=0.01&seller_id=2088521118744342&notify_time=2017-01-12+07%3A55%3A33&trade_status=TRADE_SUCCESS&total_fee=0.07&gmt_payment=2017-01-12+07%3A55%3A32&seller_email=klikandpay%40seraph.fr&notify_action_type=payByAccountAction&price=0.07&buyer_id=2088002972649841&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+ERR: DateTime::__construct(): Failed to parse time string (20170112 07 5528) at position 9 (0): Unexpected character
+
+[ 2017-01-14T19:53:29+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/shown?extra_common_param=%7B%26quot%3Bnotify_mobile%26quot%3B%3A%26quot%3B0033-750277812%26quot%3B%2C%26quot%3Bqrcode%26quot%3B%3A%26quot%3Bhttps%3A%2F%2Fqr.alipay.com%2Focx04525obempgub6uccyd7%26quot%3B%7D&currency=EUR&trans_currency=EUR&subject=seraph+-+1057826168&trade_no=2017011221001004840281596484&paytools_pay_amount=%5B%7B%26quot%3BALIPAYACCOUNT%26quot%3B%3A%26quot%3B0.07%26quot%3B%7D%5D&buyer_email=yxccolin%40sina.com&gmt_create=2017-01-12+07%3A55%3A28&notify_type=trade_status_sync&quantity=1&forex_rate=7.35900000&out_trade_no=0029726498411484178928534&trans_amount=0.01&seller_id=2088521118744342&notify_time=2017-01-12+07%3A55%3A33&trade_status=TRADE_SUCCESS&total_fee=0.07&gmt_payment=2017-01-12+07%3A55%3A32&seller_email=klikandpay%40seraph.fr&notify_action_type=payByAccountAction&price=0.07&buyer_id=2088002972649841&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2017-01-14T19:53:53+08:00 ] ::1 /westylegit/code/index.php/Exterior/AlipayTest/shown?extra_common_param=%7B%26quot%3Bnotify_mobile%26quot%3B%3A%26quot%3B0033-750277812%26quot%3B%2C%26quot%3Bqrcode%26quot%3B%3A%26quot%3Bhttps%3A%2F%2Fqr.alipay.com%2Focx04525obempgub6uccyd7%26quot%3B%7D&currency=EUR&trans_currency=EUR&subject=seraph+-+1057826168&trade_no=2017011221001004840281596484&paytools_pay_amount=%5B%7B%26quot%3BALIPAYACCOUNT%26quot%3B%3A%26quot%3B0.07%26quot%3B%7D%5D&buyer_email=yxccolin%40sina.com&gmt_create=2017-01-12+07%3A55%3A28&notify_type=trade_status_sync&quantity=1&forex_rate=7.35900000&out_trade_no=0029726498411484178928534&trans_amount=0.01&seller_id=2088521118744342&notify_time=2017-01-12+07%3A55%3A33&trade_status=TRADE_SUCCESS&total_fee=0.07&gmt_payment=2017-01-12+07%3A55%3A32&seller_email=klikandpay%40seraph.fr&notify_action_type=payByAccountAction&price=0.07&buyer_id=2088002972649841&notify_id=1266fd006cad1afd1f64f166ca72d10mhe&merchant_id=1057826168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001514s ]
+

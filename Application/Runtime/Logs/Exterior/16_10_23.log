@@ -1,0 +1,342 @@
+[ 2016-10-23T09:35:31+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?bar_code=12345&trader_email=aiforu%40westyle.com&trans_id=2016102321001004840258147739&sign_type=RSA&sign=B8oMKNvVvldSJp2lMeRBJLJMY6JunDWYfyOcnsxNcu45oznwc0rN%2F5dDDZB%2Bmf1Q3v9fOwxRvQ0wUt99pshQRHzx1ecIRuSFXsY717mlkmLkp7veXR3vEIK5S6RvriQjPMYsaexepIa1XjTvkgLHRUAeqAEcu0W0beHs929Vt%2Fw%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.111648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011106s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.4794s ]
+NOTIC: [8] Undefined index: alipay_trans_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 229 行.
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = null AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0516s ]
+NOTIC: [8] Undefined index: _id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 256 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `westyle_alipay_trade` SET `state`='-1' WHERE ( _id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `westyle_alipay_trade` SET `state`='-1' WHERE ( _id= )
+
+[ 2016-10-23T09:42:36+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=5579749807084362&bar_code=12345&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=TfAJ2LM9Bz2rnlAl1rN4IqHs34kvZQMymlp1qxZzw%2Bq5ZMyOqxIR2UWdDpetidlfYxtZgsWQ6bMrCNHBt2qoGCcrlmAiuPJWJ4TQv%2BoxqOvSjng0z7xovZzX1OUxyBxUkjoi0pn2kuMSdLNAlyM2Z8hXRbpXvoRnHUBtemxvo14%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000229s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009700s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '5579749807084362' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: _id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 256 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `westyle_alipay_trade` SET `state`='-1' WHERE ( _id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `westyle_alipay_trade` SET `state`='-1' WHERE ( _id= )
+
+[ 2016-10-23T09:46:51+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.057062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.057550s ]
+
+[ 2016-10-23T09:50:06+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001620s ]
+
+[ 2016-10-23T09:50:12+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.1082s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2016-10-23T09:53:43+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml??alipay_trans_id=2016092521001004840240354815&bar_code=12345&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=WavTHRnrC9bNaMJAXeWUv8ckp%2F84V%2F7%2BVs5Q%2Fn3WXP4QPZiv7DWuaQRfKWhgeFYET5lkdGNHhoQIruwsgpyVP0YfQrf%2BPcoD6njMZjIQMrlWCQTc2bxpqAuk7q%2BlQbkOcac0YsiF45sNKmamibwo6cZ5VrR1IiF3iHi2SnHkkT4%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+
+[ 2016-10-23T09:55:45+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml??alipay_trans_id=2016092521001004840240354815&bar_code=12345&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=WavTHRnrC9bNaMJAXeWUv8ckp%2F84V%2F7%2BVs5Q%2Fn3WXP4QPZiv7DWuaQRfKWhgeFYET5lkdGNHhoQIruwsgpyVP0YfQrf%2BPcoD6njMZjIQMrlWCQTc2bxpqAuk7q%2BlQbkOcac0YsiF45sNKmamibwo6cZ5VrR1IiF3iHi2SnHkkT4%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+
+[ 2016-10-23T09:56:09+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml??alipay_trans_id=2016092521001004840240354815&bar_code=12345&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=WavTHRnrC9bNaMJAXeWUv8ckp%2F84V%2F7%2BVs5Q%2Fn3WXP4QPZiv7DWuaQRfKWhgeFYET5lkdGNHhoQIruwsgpyVP0YfQrf%2BPcoD6njMZjIQMrlWCQTc2bxpqAuk7q%2BlQbkOcac0YsiF45sNKmamibwo6cZ5VrR1IiF3iHi2SnHkkT4%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined index: alipay_trans_id F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 230 行.
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = null AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-23T16:21:54+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml??alipay_trans_id=2016092521001004840240354815&bar_code=12345&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=WavTHRnrC9bNaMJAXeWUv8ckp%2F84V%2F7%2BVs5Q%2Fn3WXP4QPZiv7DWuaQRfKWhgeFYET5lkdGNHhoQIruwsgpyVP0YfQrf%2BPcoD6njMZjIQMrlWCQTc2bxpqAuk7q%2BlQbkOcac0YsiF45sNKmamibwo6cZ5VrR1IiF3iHi2SnHkkT4%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016210s ]
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 212 行.
+
+[ 2016-10-23T16:22:08+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016092521001004840240354815&bar_code=12345&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=WavTHRnrC9bNaMJAXeWUv8ckp%2F84V%2F7%2BVs5Q%2Fn3WXP4QPZiv7DWuaQRfKWhgeFYET5lkdGNHhoQIruwsgpyVP0YfQrf%2BPcoD6njMZjIQMrlWCQTc2bxpqAuk7q%2BlQbkOcac0YsiF45sNKmamibwo6cZ5VrR1IiF3iHi2SnHkkT4%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 212 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016092521001004840240354815' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `westyle_alipay_trade` SET `_id`='16',`trader_email`='aiforu@westyle.com',`trans_create_time`='20161001203801',`alipay_seller_id`='2088021966645500',`memo`='testing',`subject`='iphone',`trans_amount`='0.01',`trans_name`='iphone',`partner_trans_id`='2614135962794904',`buyer_identity_code`='287154385080941420',`currency`='EUR',`partner`='2088021966645500',`alipay_buyer_login_id`='yxc*@sina.*',`exchange_rate`='7.50730000',`alipay_pay_time`='20160925075909',`alipay_buyer_user_id`='2088002972649841',`trans_amount_cny`='0.08',`alipay_trans_id`='2016092521001004840240354815',`state`='-1' WHERE ( _id=16 ) [ RunTime:0.2733s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 264 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017916s ]
+
+[ 2016-10-23T16:25:22+08:00 ] 192.168.1.89 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016092521001004840240354815&bar_code=12345&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=WavTHRnrC9bNaMJAXeWUv8ckp%2F84V%2F7%2BVs5Q%2Fn3WXP4QPZiv7DWuaQRfKWhgeFYET5lkdGNHhoQIruwsgpyVP0YfQrf%2BPcoD6njMZjIQMrlWCQTc2bxpqAuk7q%2BlQbkOcac0YsiF45sNKmamibwo6cZ5VrR1IiF3iHi2SnHkkT4%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.056225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021301s ]
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 212 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0416s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016092521001004840240354815' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `westyle_alipay_trade` SET `_id`='16',`trader_email`='aiforu@westyle.com',`trans_create_time`='20161001203801',`alipay_seller_id`='2088021966645500',`memo`='testing',`subject`='iphone',`trans_amount`='0.01',`trans_name`='iphone',`partner_trans_id`='2614135962794904',`buyer_identity_code`='287154385080941420',`currency`='EUR',`partner`='2088021966645500',`alipay_buyer_login_id`='yxc*@sina.*',`exchange_rate`='7.50730000',`alipay_pay_time`='20160925075909',`alipay_buyer_user_id`='2088002972649841',`trans_amount_cny`='0.08',`alipay_trans_id`='2016092521001004840240354815',`state`='-1' WHERE ( _id=16 ) [ RunTime:0.3249s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 264 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.248827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.249201s ]
+
+[ 2016-10-23T16:25:42+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2016-10-23T16:52:27+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016092521001004840240354815&bar_code=12345&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=WavTHRnrC9bNaMJAXeWUv8ckp%2F84V%2F7%2BVs5Q%2Fn3WXP4QPZiv7DWuaQRfKWhgeFYET5lkdGNHhoQIruwsgpyVP0YfQrf%2BPcoD6njMZjIQMrlWCQTc2bxpqAuk7q%2BlQbkOcac0YsiF45sNKmamibwo6cZ5VrR1IiF3iHi2SnHkkT4%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.042644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042997s ]
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 212 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016092521001004840240354815' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `westyle_alipay_trade` SET `_id`='16',`trader_email`='aiforu@westyle.com',`trans_create_time`='20161001203801',`alipay_seller_id`='2088021966645500',`memo`='testing',`subject`='iphone',`trans_amount`='0.01',`trans_name`='iphone',`partner_trans_id`='2614135962794904',`buyer_identity_code`='287154385080941420',`currency`='EUR',`partner`='2088021966645500',`alipay_buyer_login_id`='yxc*@sina.*',`exchange_rate`='7.50730000',`alipay_pay_time`='20160925075909',`alipay_buyer_user_id`='2088002972649841',`trans_amount_cny`='0.08',`alipay_trans_id`='2016092521001004840240354815',`state`='-1' WHERE ( _id=16 ) [ RunTime:0.2090s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 264 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009055s ]
+
+[ 2016-10-23T17:07:04+08:00 ] 192.168.1.89 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016101721001004840221296682&bar_code=123456&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=K7oaxsw42PKD2qsJXkuHMJlmyrCAp9r287aLHrNs%2BmUFFcOpX0%2BGgs5%2BjHLVI75p7Wyf4SXQSiSHrT87dik5FzH6TuuObvTa7w32qVtWLt15qZ4WcDYgB8Ayt90wQbyv4aCMZHEWHtFoy4zOaAP9Y7jok4hads%2F%2FUpUtQHVX770%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011868s ]
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 212 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.1352s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016101721001004840221296682' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `westyle_alipay_trade` SET `_id`='143',`trader_email`='aiforu@westyle.com',`trans_create_time`='20161017051840',`alipay_seller_id`='2088021966645500',`memo`='testing',`subject`='iphone',`trans_amount`='0.01',`trans_name`='iphone',`partner_trans_id`='5016892366608166',`buyer_identity_code`='288195486021045530',`currency`='EUR',`partner`='2088021966645500',`alipay_buyer_login_id`='yxc*@sina.*',`exchange_rate`='7.44050000',`alipay_pay_time`='20161017051845',`alipay_buyer_user_id`='2088002972649841',`trans_amount_cny`='0.07',`alipay_trans_id`='2016101721001004840221296682',`state`='-1' WHERE ( _id=143 ) [ RunTime:0.1412s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 264 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028761s ]
+
+[ 2016-10-23T17:07:52+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/history.shtml?trader_email=aiforu%40westyle.com&sign_type=RSA&sign=vtS2FeTHxH%2Fv6d3W3RGJ9PMaJVkMY85brJBPhis0g52ctMEiTsfX4d6TD%2FrzSfz4oMIz%2BAtgdU4m%2BRfUx%2Bik9LnYWROws%2BrmhGkw1yptAqOcf46GI9Bm4w1uR4Hf9WVoUUrh%2FY%2FjNpc08dMJl9x59QDzu70ZsOJOx0hIXW1zftk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trader_email` = 'aiforu@westyle.com' ORDER BY trans_create_time desc  [ RunTime:0.0540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-10-23T17:09:04+08:00 ] 192.168.1.89 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016101721001004840221296682&bar_code=123456&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=K7oaxsw42PKD2qsJXkuHMJlmyrCAp9r287aLHrNs%2BmUFFcOpX0%2BGgs5%2BjHLVI75p7Wyf4SXQSiSHrT87dik5FzH6TuuObvTa7w32qVtWLt15qZ4WcDYgB8Ayt90wQbyv4aCMZHEWHtFoy4zOaAP9Y7jok4hads%2F%2FUpUtQHVX770%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009019s ]
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 212 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016101721001004840221296682' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `westyle_alipay_trade` SET `_id`='143',`trader_email`='aiforu@westyle.com',`trans_create_time`='20161017051840',`alipay_seller_id`='2088021966645500',`memo`='testing',`subject`='iphone',`trans_amount`='0.01',`trans_name`='iphone',`partner_trans_id`='5016892366608166',`buyer_identity_code`='288195486021045530',`currency`='EUR',`partner`='2088021966645500',`alipay_buyer_login_id`='yxc*@sina.*',`exchange_rate`='7.44050000',`alipay_pay_time`='20161017051845',`alipay_buyer_user_id`='2088002972649841',`trans_amount_cny`='0.07',`alipay_trans_id`='2016101721001004840221296682',`state`='-1' WHERE ( _id=143 ) [ RunTime:0.2045s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 264 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015271s ]
+
+[ 2016-10-23T17:10:21+08:00 ] 192.168.1.89 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016101721001004840221296682&bar_code=123456&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=K7oaxsw42PKD2qsJXkuHMJlmyrCAp9r287aLHrNs%2BmUFFcOpX0%2BGgs5%2BjHLVI75p7Wyf4SXQSiSHrT87dik5FzH6TuuObvTa7w32qVtWLt15qZ4WcDYgB8Ayt90wQbyv4aCMZHEWHtFoy4zOaAP9Y7jok4hads%2F%2FUpUtQHVX770%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019196s ]
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 212 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016101721001004840221296682' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `westyle_alipay_trade` SET `_id`='143',`trader_email`='aiforu@westyle.com',`trans_create_time`='20161017051840',`alipay_seller_id`='2088021966645500',`memo`='testing',`subject`='iphone',`trans_amount`='0.01',`trans_name`='iphone',`partner_trans_id`='5016892366608166',`buyer_identity_code`='288195486021045530',`currency`='EUR',`partner`='2088021966645500',`alipay_buyer_login_id`='yxc*@sina.*',`exchange_rate`='7.44050000',`alipay_pay_time`='20161017051845',`alipay_buyer_user_id`='2088002972649841',`trans_amount_cny`='0.07',`alipay_trans_id`='2016101721001004840221296682',`state`='-1' WHERE ( _id=143 ) [ RunTime:0.1323s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 264 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014744s ]
+
+[ 2016-10-23T17:10:51+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016101721001004840221296682&bar_code=123456&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=K7oaxsw42PKD2qsJXkuHMJlmyrCAp9r287aLHrNs%2BmUFFcOpX0%2BGgs5%2BjHLVI75p7Wyf4SXQSiSHrT87dik5FzH6TuuObvTa7w32qVtWLt15qZ4WcDYgB8Ayt90wQbyv4aCMZHEWHtFoy4zOaAP9Y7jok4hads%2F%2FUpUtQHVX770%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+NOTIC: [8] Array to string conversion F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 212 行.
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016101721001004840221296682' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `westyle_alipay_trade` SET `_id`='143',`trader_email`='aiforu@westyle.com',`trans_create_time`='20161017051840',`alipay_seller_id`='2088021966645500',`memo`='testing',`subject`='iphone',`trans_amount`='0.01',`trans_name`='iphone',`partner_trans_id`='5016892366608166',`buyer_identity_code`='288195486021045530',`currency`='EUR',`partner`='2088021966645500',`alipay_buyer_login_id`='yxc*@sina.*',`exchange_rate`='7.44050000',`alipay_pay_time`='20161017051845',`alipay_buyer_user_id`='2088002972649841',`trans_amount_cny`='0.07',`alipay_trans_id`='2016101721001004840221296682',`state`='-1' WHERE ( _id=143 ) [ RunTime:0.0913s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 264 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003382s ]
+
+[ 2016-10-23T17:11:14+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016101721001004840221296682&bar_code=123456&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=K7oaxsw42PKD2qsJXkuHMJlmyrCAp9r287aLHrNs%2BmUFFcOpX0%2BGgs5%2BjHLVI75p7Wyf4SXQSiSHrT87dik5FzH6TuuObvTa7w32qVtWLt15qZ4WcDYgB8Ayt90wQbyv4aCMZHEWHtFoy4zOaAP9Y7jok4hads%2F%2FUpUtQHVX770%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016101721001004840221296682' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `westyle_alipay_trade` SET `_id`='143',`trader_email`='aiforu@westyle.com',`trans_create_time`='20161017051840',`alipay_seller_id`='2088021966645500',`memo`='testing',`subject`='iphone',`trans_amount`='0.01',`trans_name`='iphone',`partner_trans_id`='5016892366608166',`buyer_identity_code`='288195486021045530',`currency`='EUR',`partner`='2088021966645500',`alipay_buyer_login_id`='yxc*@sina.*',`exchange_rate`='7.44050000',`alipay_pay_time`='20161017051845',`alipay_buyer_user_id`='2088002972649841',`trans_amount_cny`='0.07',`alipay_trans_id`='2016101721001004840221296682',`state`='-1' WHERE ( _id=143 ) [ RunTime:0.2055s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 264 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003447s ]
+
+[ 2016-10-23T17:11:16+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016101721001004840221296682&bar_code=123456&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=K7oaxsw42PKD2qsJXkuHMJlmyrCAp9r287aLHrNs%2BmUFFcOpX0%2BGgs5%2BjHLVI75p7Wyf4SXQSiSHrT87dik5FzH6TuuObvTa7w32qVtWLt15qZ4WcDYgB8Ayt90wQbyv4aCMZHEWHtFoy4zOaAP9Y7jok4hads%2F%2FUpUtQHVX770%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016101721001004840221296682' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `westyle_alipay_trade` SET `_id`='143',`trader_email`='aiforu@westyle.com',`trans_create_time`='20161017051840',`alipay_seller_id`='2088021966645500',`memo`='testing',`subject`='iphone',`trans_amount`='0.01',`trans_name`='iphone',`partner_trans_id`='5016892366608166',`buyer_identity_code`='288195486021045530',`currency`='EUR',`partner`='2088021966645500',`alipay_buyer_login_id`='yxc*@sina.*',`exchange_rate`='7.44050000',`alipay_pay_time`='20161017051845',`alipay_buyer_user_id`='2088002972649841',`trans_amount_cny`='0.07',`alipay_trans_id`='2016101721001004840221296682',`state`='-1' WHERE ( _id=143 ) [ RunTime:0.1124s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 264 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003783s ]
+
+[ 2016-10-23T17:12:02+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016101721001004840221296682&bar_code=123456&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=K7oaxsw42PKD2qsJXkuHMJlmyrCAp9r287aLHrNs%2BmUFFcOpX0%2BGgs5%2BjHLVI75p7Wyf4SXQSiSHrT87dik5FzH6TuuObvTa7w32qVtWLt15qZ4WcDYgB8Ayt90wQbyv4aCMZHEWHtFoy4zOaAP9Y7jok4hads%2F%2FUpUtQHVX770%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016101721001004840221296682' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `westyle_alipay_trade` SET `_id`='143',`trader_email`='aiforu@westyle.com',`trans_create_time`='20161017051840',`alipay_seller_id`='2088021966645500',`memo`='testing',`subject`='iphone',`trans_amount`='0.01',`trans_name`='iphone',`partner_trans_id`='5016892366608166',`buyer_identity_code`='288195486021045530',`currency`='EUR',`partner`='2088021966645500',`alipay_buyer_login_id`='yxc*@sina.*',`exchange_rate`='7.44050000',`alipay_pay_time`='20161017051845',`alipay_buyer_user_id`='2088002972649841',`trans_amount_cny`='0.07',`alipay_trans_id`='2016101721001004840221296682',`state`='-1' WHERE ( _id=143 ) [ RunTime:0.1366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002644s ]
+
+[ 2016-10-23T17:13:59+08:00 ] 192.168.1.89 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016101721001004840221296682&bar_code=123456&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=K7oaxsw42PKD2qsJXkuHMJlmyrCAp9r287aLHrNs%2BmUFFcOpX0%2BGgs5%2BjHLVI75p7Wyf4SXQSiSHrT87dik5FzH6TuuObvTa7w32qVtWLt15qZ4WcDYgB8Ayt90wQbyv4aCMZHEWHtFoy4zOaAP9Y7jok4hads%2F%2FUpUtQHVX770%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.044575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045118s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016101721001004840221296682' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0025s ]
+SQL: UPDATE `westyle_alipay_trade` SET `_id`='143',`trader_email`='aiforu@westyle.com',`trans_create_time`='20161017051840',`alipay_seller_id`='2088021966645500',`memo`='testing',`subject`='iphone',`trans_amount`='0.01',`trans_name`='iphone',`partner_trans_id`='5016892366608166',`buyer_identity_code`='288195486021045530',`currency`='EUR',`partner`='2088021966645500',`alipay_buyer_login_id`='yxc*@sina.*',`exchange_rate`='7.44050000',`alipay_pay_time`='20161017051845',`alipay_buyer_user_id`='2088002972649841',`trans_amount_cny`='0.07',`alipay_trans_id`='2016101721001004840221296682',`state`='-1' WHERE ( _id=143 ) [ RunTime:0.2757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.059224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.059407s ]
+
+[ 2016-10-23T17:16:17+08:00 ] 192.168.1.89 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016101721001004840221296682&bar_code=123456&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=K7oaxsw42PKD2qsJXkuHMJlmyrCAp9r287aLHrNs%2BmUFFcOpX0%2BGgs5%2BjHLVI75p7Wyf4SXQSiSHrT87dik5FzH6TuuObvTa7w32qVtWLt15qZ4WcDYgB8Ayt90wQbyv4aCMZHEWHtFoy4zOaAP9Y7jok4hads%2F%2FUpUtQHVX770%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014913s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016101721001004840221296682' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `westyle_alipay_trade` SET `_id`='143',`trader_email`='aiforu@westyle.com',`trans_create_time`='20161017051840',`alipay_seller_id`='2088021966645500',`memo`='testing',`subject`='iphone',`trans_amount`='0.01',`trans_name`='iphone',`partner_trans_id`='5016892366608166',`buyer_identity_code`='288195486021045530',`currency`='EUR',`partner`='2088021966645500',`alipay_buyer_login_id`='yxc*@sina.*',`exchange_rate`='7.44050000',`alipay_pay_time`='20161017051845',`alipay_buyer_user_id`='2088002972649841',`trans_amount_cny`='0.07',`alipay_trans_id`='2016101721001004840221296682',`state`='-1' WHERE ( _id=143 ) [ RunTime:0.0940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013898s ]
+
+[ 2016-10-23T17:53:13+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016101721001004840221296682&bar_code=123456&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=K7oaxsw42PKD2qsJXkuHMJlmyrCAp9r287aLHrNs%2BmUFFcOpX0%2BGgs5%2BjHLVI75p7Wyf4SXQSiSHrT87dik5FzH6TuuObvTa7w32qVtWLt15qZ4WcDYgB8Ayt90wQbyv4aCMZHEWHtFoy4zOaAP9Y7jok4hads%2F%2FUpUtQHVX770%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+
+[ 2016-10-23T17:53:15+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016101721001004840221296682&bar_code=123456&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=K7oaxsw42PKD2qsJXkuHMJlmyrCAp9r287aLHrNs%2BmUFFcOpX0%2BGgs5%2BjHLVI75p7Wyf4SXQSiSHrT87dik5FzH6TuuObvTa7w32qVtWLt15qZ4WcDYgB8Ayt90wQbyv4aCMZHEWHtFoy4zOaAP9Y7jok4hads%2F%2FUpUtQHVX770%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+
+[ 2016-10-23T17:54:36+08:00 ] 192.168.1.1 /westylegit/code/index.php/Exterior/Alipay/refund.shtml?alipay_trans_id=2016101721001004840221296682&bar_code=123456&trader_email=aiforu%40westyle.com&sign_type=RSA&sign=K7oaxsw42PKD2qsJXkuHMJlmyrCAp9r287aLHrNs%2BmUFFcOpX0%2BGgs5%2BjHLVI75p7Wyf4SXQSiSHrT87dik5FzH6TuuObvTa7w32qVtWLt15qZ4WcDYgB8Ayt90wQbyv4aCMZHEWHtFoy4zOaAP9Y7jok4hads%2F%2FUpUtQHVX770%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `alipay_trans_id` = '2016101721001004840221296682' AND `trader_email` = 'aiforu@westyle.com' LIMIT 1   [ RunTime:0.0010s ]
+

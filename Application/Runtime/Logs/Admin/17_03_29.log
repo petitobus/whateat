@@ -1,0 +1,1985 @@
+[ 2017-03-29T05:16:55+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/left_menu?pid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008581s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 189 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000856s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017883s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.005127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005246s ]
+
+[ 2017-03-29T05:16:55+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/left_menu?pid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 189 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2017-03-29T05:22:20+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/left_menu?pid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 189 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2017-03-29T05:22:40+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 199 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2017-03-29T05:22:40+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 167 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2017-03-29T05:22:40+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001846s ]
+
+[ 2017-03-29T05:22:40+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170300000000' AND '2017030000000' AND `state` = 2  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2017-03-29T05:22:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/left_menu?pid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 189 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2017-03-29T05:23:08+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0118s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0979s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000428s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002632s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.005225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004103s ]
+
+[ 2017-03-29T05:23:21+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 199 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2017-03-29T05:23:21+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 167 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2017-03-29T05:23:21+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170300000000' AND '2017030000000' AND `state` = 2  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002329s ]
+
+[ 2017-03-29T05:23:21+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001840s ]
+
+[ 2017-03-29T05:23:23+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/left_menu?pid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 189 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-03-29T05:25:50+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 199 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2017-03-29T05:25:50+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 167 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000555s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2017-03-29T05:25:50+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002433s ]
+
+[ 2017-03-29T05:25:50+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170300000000' AND '2017030000000' AND `state` = 2  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001580s ]
+
+[ 2017-03-29T05:25:51+08:00 ] ::1 /westylegit/code/index.php/Admin/Login/logout.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-29T05:25:53+08:00 ] ::1 /westylegit/code/index.php/Admin/Login/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000903s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.241986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.242440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002347s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.053864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.057039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004857s ]
+
+[ 2017-03-29T05:25:57+08:00 ] ::1 /westylegit/code/index.php/Admin/Login/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0878s ]
+SQL: SELECT * FROM `westyle_admin_user` WHERE `username` = 'yangxuecan@aiforu.com' LIMIT 1   [ RunTime:0.1042s ]
+
+[ 2017-03-29T05:26:02+08:00 ] ::1 /westylegit/code/index.php/Admin/Login/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `westyle_admin_user` WHERE `username` = '1@2.3' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-03-29T05:26:07+08:00 ] ::1 /westylegit/code/index.php/Admin/Login/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `westyle_admin_user` WHERE `username` = '1@2.3' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-03-29T05:26:27+08:00 ] ::1 /westylegit/code/index.php/Admin/Login/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `westyle_admin_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0992s ]
+SQL: UPDATE `westyle_admin_user` SET `id`='1',`admin_group_id`='1',`username`='admin',`password`='0192023a7bbd73250516f069df18b500',`email`='',`last_login_time`='2017-03-29 05:26:26',`encrypt`='',`status`='0',`last_login_ip`='::1',`login_num`='3' WHERE ( id=1 ) [ RunTime:0.4521s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `westyle_admin_node` ORDER BY id  [ RunTime:0.0016s ]
+SQL: SELECT `admin_group_id` FROM `westyle_admin_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_group` [ RunTime:0.1052s ]
+SQL: SELECT * FROM `westyle_admin_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-03-29T05:26:27+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 199 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002657s ]
+
+[ 2017-03-29T05:26:27+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 167 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2017-03-29T05:26:27+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002023s ]
+
+[ 2017-03-29T05:26:27+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170300000000' AND '2017030000000' AND `state` = 2  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2017-03-29T05:26:29+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/left_menu?pid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 189 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2017-03-29T05:26:30+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0528s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0106s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000657s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003540s ]
+
+[ 2017-03-29T05:27:24+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0531s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0103s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000936s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002074s ]
+
+[ 2017-03-29T05:29:21+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0041s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2017-03-29T05:29:35+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 199 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2017-03-29T05:29:35+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 167 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001762s ]
+
+[ 2017-03-29T05:29:35+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170300000000' AND '2017030000000' AND `state` = 2  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002145s ]
+
+[ 2017-03-29T05:29:35+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001904s ]
+
+[ 2017-03-29T05:29:37+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/left_menu?pid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 189 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2017-03-29T05:29:38+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0053s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2017-03-29T05:29:41+08:00 ] ::1 /westylegit/code/index.php/Admin/Login/logout.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+
+[ 2017-03-29T05:29:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Login/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000618s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002096s ]
+
+[ 2017-03-29T05:29:43+08:00 ] ::1 /westylegit/code/index.php/Admin/Login/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0860s ]
+SQL: SELECT * FROM `westyle_admin_user` WHERE `username` = 'yangxuecan@aiforu.com' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-03-29T05:29:51+08:00 ] ::1 /westylegit/code/index.php/Admin/Login/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_user` [ RunTime:0.0574s ]
+SQL: SELECT * FROM `westyle_admin_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `westyle_admin_user` SET `id`='1',`admin_group_id`='1',`username`='admin',`password`='0192023a7bbd73250516f069df18b500',`email`='',`last_login_time`='2017-03-29 05:29:50',`encrypt`='',`status`='0',`last_login_ip`='::1',`login_num`='4' WHERE ( id=1 ) [ RunTime:0.1405s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.1158s ]
+SQL: SELECT * FROM `westyle_admin_node` ORDER BY id  [ RunTime:0.0020s ]
+SQL: SELECT `admin_group_id` FROM `westyle_admin_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_group` [ RunTime:0.1739s ]
+SQL: SELECT * FROM `westyle_admin_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-03-29T05:29:51+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005455s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 199 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002158s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003641s ]
+
+[ 2017-03-29T05:29:51+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 167 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003558s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2017-03-29T05:29:51+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001726s ]
+
+[ 2017-03-29T05:29:51+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170300000000' AND '2017030000000' AND `state` = 2  [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2017-03-29T05:29:53+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/left_menu?pid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 189 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2017-03-29T05:29:54+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0494s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0117s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000743s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002796s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002336s ]
+
+[ 2017-03-29T05:31:16+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0502s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0044s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2017-03-29T05:31:20+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/index.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0884s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Index' ORDER BY sort LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 199 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000722s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002178s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+
+[ 2017-03-29T05:31:20+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/top_menu.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 152 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 167 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2017-03-29T05:31:20+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/about_us.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001787s ]
+
+[ 2017-03-29T05:31:20+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/home.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0416s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '2017030000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170100000000' AND '20170329000000' AND `state` = 2  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `trans_create_time` BETWEEN '20170300000000' AND '2017030000000' AND `state` = 2  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002416s ]
+
+[ 2017-03-29T05:31:22+08:00 ] ::1 /westylegit/code/index.php/Admin/Index/left_menu?pid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: pid F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php 第 174 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\IndexController.class.php on line 189 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2017-03-29T05:31:23+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0445s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0044s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2017-03-29T05:31:33+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.6707s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.1461s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0138s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000541s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003333s ]
+
+[ 2017-03-29T05:33:13+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0037s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2017-03-29T05:33:15+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/detail.shtml?id=1131
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1131 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 60 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003713s ]
+
+[ 2017-03-29T05:34:07+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0550s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0110s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000453s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002006s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.004391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006412s ]
+
+[ 2017-03-29T05:38:32+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0388s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0044s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2017-03-29T05:39:11+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0045s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2017-03-29T05:39:46+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/detail.shtml?id=1131
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002834s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1131 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 60 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002743s ]
+
+[ 2017-03-29T05:40:44+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0521s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0052s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2017-03-29T05:41:02+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0457s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0043s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2017-03-29T05:43:52+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0055s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2017-03-29T05:45:00+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0501s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0051s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002413s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001814s ]
+
+[ 2017-03-29T05:46:01+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.5594s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0906s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0860s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0130s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000918s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003320s ]
+
+[ 2017-03-29T05:46:20+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0048s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2017-03-29T05:46:44+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0527s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0045s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2017-03-29T05:47:27+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0498s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0045s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2017-03-29T05:47:38+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0676s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0125s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000815s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002177s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004693s ]
+
+[ 2017-03-29T05:48:08+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0054s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Undefined index: mid F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 55 行.
+NOTIC: [8] Undefined index: mid F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2017-03-29T05:48:20+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/update.shtml?id=1131
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005282s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1131 )  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `westyle_commercial_area` ORDER BY id desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `westyle_city` ORDER BY id desc  [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\wamp\www\westylegit\code\Application\Admin\Controller\ShopController.class.php on line 45 and defined F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000862s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001986s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003427s ]
+
+[ 2017-03-29T05:48:39+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/post?method=update&id=1131
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `westyle_shop` WHERE ( id=1131 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `westyle_operator` [ RunTime:0.2343s ]
+SQL: SELECT * FROM `westyle_operator` WHERE `shop_id` = 1131 AND `operator_email` = '1@2.3' LIMIT 1   [ RunTime:0.0570s ]
+SQL: UPDATE `westyle_operator` SET `_id`='16',`operator_email`='1@2.3',`operator_name`='test',`operator_password`='202cb962ac59075b964b07152d234b70',`shop_id`='1131' WHERE ( _id=16 ) [ RunTime:0.0788s ]
+SQL: UPDATE `westyle_shop` SET `name`='test',`adr`='test',`tel`='123',`fax`='',`email`='1@2.3',`area`='',`city`='2',`commercial_area_id`='2',`Merchant_ID`='12345' WHERE ( id=1131 ) [ RunTime:0.0960s ]
+
+[ 2017-03-29T05:48:42+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0093s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Undefined index: mid F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 55 行.
+NOTIC: [8] Undefined index: mid F:\wamp\www\westylegit\code\Application\Runtime\Cache\Admin\7455935b6bd33e1986489f1ec4f71875.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002491s ]
+
+[ 2017-03-29T05:49:28+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0047s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2017-03-29T05:49:53+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0508s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0043s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2017-03-29T05:51:01+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0494s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0052s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2017-03-29T05:51:31+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0482s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0040s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2017-03-29T05:51:43+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0039s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2017-03-29T05:53:22+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0039s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2017-03-29T05:55:44+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0261s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0290s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000780s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2017-03-29T05:59:09+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0514s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0038s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2017-03-29T06:02:49+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.1866s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.2302s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0822s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0078s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000621s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002292s ]
+
+[ 2017-03-29T06:03:28+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0930s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0502s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0045s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2017-03-29T06:33:53+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+
+[ 2017-03-29T06:34:09+08:00 ] ::1 /westylegit/code/index.php/Admin/Shop/shop.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `westyle_admin_node` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `westyle_admin_node` WHERE `controller` = 'Shop' ORDER BY sort LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `westyle_shop` [ RunTime:0.0493s ]
+SQL: SHOW COLUMNS FROM `westyle_commercial_area` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `westyle_city` [ RunTime:0.0128s ]
+SQL: SELECT Shop.id AS id,Shop.name AS name,Shop.adr AS adr,Shop.tel AS tel,Shop.fax AS fax,Shop.email AS email,Shop.level AS level,Shop.longtitude AS longtitude,Shop.latitude AS latitude,Shop.description AS description,Shop.content AS content,Shop.tag AS tag,Shop.link AS link,Shop.sort AS sort,Shop.open_time AS open_time,Shop.tax_return AS tax_return,Shop.area AS area,Shop.city AS city,Shop.commercial_area_id AS commercial_area_id,Shop.Merchant_ID AS Merchant_ID,CommercialArea.area_name AS commercial_area_name,City.name AS city_name FROM westyle_shop Shop  JOIN westyle_commercial_area CommercialArea ON Shop.commercial_area_id = CommercialArea.id  JOIN westyle_city City ON Shop.city = City.id ORDER BY Shop.id desc  [ RunTime:0.1500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001990s ]
+

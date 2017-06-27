@@ -1,0 +1,793 @@
+[ 2016-12-07T17:01:03+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.6620s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120798999951','iphone','example@aiforu.com','0.01','test','20161207170059','1') [ RunTime:0.2386s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120798999951' AND `trans_create_time` = '20161207170059' LIMIT 1   [ RunTime:0.0219s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 186 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120798999951',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207170059',`state`='1',`_id`='148' WHERE ( _id=148 ) [ RunTime:0.1892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.064358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.064890s ]
+
+[ 2016-12-07T17:01:03+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010318s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 95 行.
+NOTIC: [2] simplexml_load_string(): https://intlmapi.alipay.com/gateway.do?_input_charset=UTF-8&amp;alipay_trans_id=2088 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 95 行.
+NOTIC: [2] simplexml_load_string(): ^ F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003270s ]
+
+[ 2016-12-07T17:02:33+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0077s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120756555354','iphone','example@aiforu.com','0.01','test','20161207170232','1') [ RunTime:0.1133s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120756555354' AND `trans_create_time` = '20161207170232' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 187 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120756555354',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207170232',`state`='1',`_id`='149' WHERE ( _id=149 ) [ RunTime:0.1261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2016-12-07T17:02:33+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+NOTIC: [2] simplexml_load_string(): https://intlmapi.alipay.com/gateway.do?_input_charset=UTF-8&amp;alipay_trans_id=2088 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+NOTIC: [2] simplexml_load_string(): ^ F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001993s ]
+
+[ 2016-12-07T17:02:41+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120748574850','iphone','example@aiforu.com','0.01','test','20161207170240','1') [ RunTime:0.1390s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120748574850' AND `trans_create_time` = '20161207170240' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 187 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120748574850',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207170240',`state`='1',`_id`='150' WHERE ( _id=150 ) [ RunTime:0.0650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2016-12-07T17:02:41+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+NOTIC: [2] simplexml_load_string(): https://intlmapi.alipay.com/gateway.do?_input_charset=UTF-8&amp;alipay_trans_id=2088 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+NOTIC: [2] simplexml_load_string(): ^ F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2016-12-07T17:03:44+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-12-07T17:04:13+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120799504848','iphone','example@aiforu.com','0.01','test','20161207170412','1') [ RunTime:0.0788s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120799504848' AND `trans_create_time` = '20161207170412' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 187 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120799504848',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207170412',`state`='1',`_id`='151' WHERE ( _id=151 ) [ RunTime:0.1003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003580s ]
+
+[ 2016-12-07T17:04:13+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+NOTIC: [2] simplexml_load_string(): https://intlmapi.alipay.com/gateway.do?_input_charset=UTF-8&amp;alipay_trans_id=2088 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+NOTIC: [2] simplexml_load_string(): ^ F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003133s ]
+
+[ 2016-12-07T17:06:01+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120756555198','iphone','example@aiforu.com','0.01','test','20161207170600','1') [ RunTime:0.1059s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120756555198' AND `trans_create_time` = '20161207170600' LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 187 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120756555198',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207170600',`state`='1',`_id`='152' WHERE ( _id=152 ) [ RunTime:0.0969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002633s ]
+
+[ 2016-12-07T17:06:01+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+NOTIC: [2] simplexml_load_string(): https://intlmapi.alipay.com/gateway.do?_input_charset=UTF-8&amp;alipay_trans_id=2088 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+NOTIC: [2] simplexml_load_string(): ^ F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003773s ]
+
+[ 2016-12-07T17:06:13+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120752509755','iphone','example@aiforu.com','0.01','test','20161207170612','1') [ RunTime:0.0991s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120752509755' AND `trans_create_time` = '20161207170612' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 187 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120752509755',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207170612',`state`='1',`_id`='153' WHERE ( _id=153 ) [ RunTime:0.0999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2016-12-07T17:06:13+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+NOTIC: [2] simplexml_load_string(): https://intlmapi.alipay.com/gateway.do?_input_charset=UTF-8&amp;alipay_trans_id=2088 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+NOTIC: [2] simplexml_load_string(): ^ F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2016-12-07T17:08:33+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120710210155','iphone','example@aiforu.com','0.01','test','20161207170831','1') [ RunTime:0.1035s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120710210155' AND `trans_create_time` = '20161207170831' LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 186 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120710210155',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207170831',`state`='1',`_id`='154' WHERE ( _id=154 ) [ RunTime:0.0619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001987s ]
+
+[ 2016-12-07T17:08:33+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 95 行.
+NOTIC: [2] simplexml_load_string(): https://intlmapi.alipay.com/gateway.do?_input_charset=UTF-8&amp;alipay_trans_id=2088 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 95 行.
+NOTIC: [2] simplexml_load_string(): ^ F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002029s ]
+
+[ 2016-12-07T17:08:37+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120752481001','iphone','example@aiforu.com','0.01','test','20161207170836','1') [ RunTime:0.1367s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120752481001' AND `trans_create_time` = '20161207170836' LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 186 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120752481001',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207170836',`state`='1',`_id`='155' WHERE ( _id=155 ) [ RunTime:0.1787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2016-12-07T17:08:37+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 95 行.
+NOTIC: [2] simplexml_load_string(): https://intlmapi.alipay.com/gateway.do?_input_charset=UTF-8&amp;alipay_trans_id=2088 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 95 行.
+NOTIC: [2] simplexml_load_string(): ^ F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2016-12-07T17:09:40+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120751535548','iphone','example@aiforu.com','0.01','test','20161207170939','1') [ RunTime:0.1314s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120751535548' AND `trans_create_time` = '20161207170939' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 187 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120751535548',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207170939',`state`='1',`_id`='156' WHERE ( _id=156 ) [ RunTime:0.1131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001919s ]
+
+[ 2016-12-07T17:09:40+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+NOTIC: [2] simplexml_load_string(): https://intlmapi.alipay.com/gateway.do?_input_charset=UTF-8&amp;alipay_trans_id=2088 F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+NOTIC: [2] simplexml_load_string(): ^ F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002012s ]
+
+[ 2016-12-07T17:11:12+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120710255535','iphone','example@aiforu.com','0.01','test','20161207171111','1') [ RunTime:0.2014s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120710255535' AND `trans_create_time` = '20161207171111' LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 187 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120710255535',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207171111',`state`='1',`_id`='157' WHERE ( _id=157 ) [ RunTime:0.0670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003270s ]
+
+[ 2016-12-07T17:11:12+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002190s ]
+
+[ 2016-12-07T17:12:07+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120754519810','iphone','example@aiforu.com','0.01','test','20161207171206','1') [ RunTime:0.1313s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120754519810' AND `trans_create_time` = '20161207171206' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 187 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120754519810',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207171206',`state`='1',`_id`='158' WHERE ( _id=158 ) [ RunTime:0.1207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2016-12-07T17:12:07+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2016-12-07T17:12:13+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120799535054','iphone','example@aiforu.com','0.01','test','20161207171212','1') [ RunTime:0.0959s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120799535054' AND `trans_create_time` = '20161207171212' LIMIT 1   [ RunTime:0.0025s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 187 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120799535054',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207171212',`state`='1',`_id`='159' WHERE ( _id=159 ) [ RunTime:0.1063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2016-12-07T17:12:13+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-12-07T17:13:32+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120799501005','iphone','example@aiforu.com','0.01','test','20161207171332','1') [ RunTime:0.1360s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120799501005' AND `trans_create_time` = '20161207171332' LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2016092121001004840209209131',`buyer_identity_code`='',`currency`='USD',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='9559841899264455',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.1',`trans_name`='test',`trans_create_time`='20161207171332',`state`='2',`_id`='160',`alipay_buyer_login_id`='yxc*@sina.*',`alipay_buyer_user_id`='2088002972649841',`alipay_pay_time`='20160921234007',`exchange_rate`='6.68470000',`trans_amount_cny`='0.67' WHERE ( _id=160 ) [ RunTime:0.0622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-12-07T17:13:32+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-12-07T17:15:49+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=FLKHII8wAURaBO%2BhMZyCfSqeADxWhU2wOflkIfEU3vhxt%2FjVahhyNVLpGxyo4OY7lKwkLKYTRCpGiIhVjUZXTcihTibNRgZWBb8nxuK1ndqsadfKJKPj5uzU2snX7Q61XqSztL0TQBS%2Bt9QfhD62zgmYx0p%2FHBZo7toGtrhUTsE%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','','EUR','testing','2088021966645500','2016120752534810','iphone','example@aiforu.com','0.01','test','20161207171548','1') [ RunTime:0.1358s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120752534810' AND `trans_create_time` = '20161207171548' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 187 行.
+SQL: UPDATE `westyle_alipay_trade` SET `alipay_trans_id`='2088021966645500',`buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`partner_trans_id`='2016120752534810',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207171548',`state`='1',`_id`='161' WHERE ( _id=161 ) [ RunTime:0.0949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004598s ]
+
+[ 2016-12-07T17:15:49+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003228s ]
+
+[ 2016-12-07T17:23:37+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=s%2BfuH%2BUz0V8r77kpW56RpsycK4ZQpmFAeddUwBLKpWMfVi5n0fPI2R1vVs1e6mLCqgICuOAOtKeDvbavJpNnXVScTyPwp7kP8CF6j%2Fp0MydToDR6OsDqJl68snHe1NfMb0y7t4aoU%2Brjz5JQcHG6r3tHoq0ZLOISG%2FYpSlM8LB8%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0829s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','281616539542397645','EUR','testing','2088021966645500','2016120755574997','iphone','example@aiforu.com','0.01','test','20161207172335','1') [ RunTime:0.2211s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120755574997' AND `trans_create_time` = '20161207172335' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-12-07T17:23:37+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004192s ]
+
+[ 2016-12-07T17:23:47+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&alipay_trans_id=2088021966645500&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&partner_trans_id=1004840209209131&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=s%2BfuH%2BUz0V8r77kpW56RpsycK4ZQpmFAeddUwBLKpWMfVi5n0fPI2R1vVs1e6mLCqgICuOAOtKeDvbavJpNnXVScTyPwp7kP8CF6j%2Fp0MydToDR6OsDqJl68snHe1NfMb0y7t4aoU%2Brjz5JQcHG6r3tHoq0ZLOISG%2FYpSlM8LB8%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0091s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`alipay_trans_id`,`buyer_identity_code`,`currency`,`memo`,`partner`,`partner_trans_id`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`state`) VALUES ('2088021966645500','281616539542397645','EUR','testing','2088021966645500','2016120748995051','iphone','example@aiforu.com','0.01','test','20161207172344','1') [ RunTime:0.1260s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120748995051' AND `trans_create_time` = '20161207172344' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-12-07T17:23:47+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2016-12-07T17:24:54+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=RsJOTCKM6SbS5kr1halRtXc%2BooygMKli%2B7NiK3qgW2zOd3nU%2Bd5OrPLCqM5LS3mq17sqKBq87E2rLYbfH2Z3%2B6fvsu0hL36eyZUoV7U%2BJkDxE3TRdNyBc6TKM7cUDNsFXip5geHQocMtbtQDtClUw61EZEcbQOGao0gWezCTieU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.1506s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('281616539542397645','EUR','testing','2088021966645500','iphone','example@aiforu.com','0.01','test','20161207172453','2016120753529750','1') [ RunTime:0.0978s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120753529750' AND `trans_create_time` = '20161207172453' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-12-07T17:24:54+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003490s ]
+
+[ 2016-12-07T17:25:12+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=RsJOTCKM6SbS5kr1halRtXc%2BooygMKli%2B7NiK3qgW2zOd3nU%2Bd5OrPLCqM5LS3mq17sqKBq87E2rLYbfH2Z3%2B6fvsu0hL36eyZUoV7U%2BJkDxE3TRdNyBc6TKM7cUDNsFXip5geHQocMtbtQDtClUw61EZEcbQOGao0gWezCTieU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0088s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('281616539542397645','EUR','testing','2088021966645500','iphone','example@aiforu.com','0.01','test','20161207172511','2016120755485497','1') [ RunTime:0.2029s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120755485497' AND `trans_create_time` = '20161207172511' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-12-07T17:25:12+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2016-12-07T17:25:52+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=RsJOTCKM6SbS5kr1halRtXc%2BooygMKli%2B7NiK3qgW2zOd3nU%2Bd5OrPLCqM5LS3mq17sqKBq87E2rLYbfH2Z3%2B6fvsu0hL36eyZUoV7U%2BJkDxE3TRdNyBc6TKM7cUDNsFXip5geHQocMtbtQDtClUw61EZEcbQOGao0gWezCTieU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0084s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('281616539542397645','EUR','testing','2088021966645500','iphone','example@aiforu.com','0.01','test','20161207172551','2016120710248505','1') [ RunTime:0.1321s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120710248505' AND `trans_create_time` = '20161207172551' LIMIT 1   [ RunTime:0.0044s ]
+
+[ 2016-12-07T17:25:52+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003895s ]
+
+[ 2016-12-07T17:26:04+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=RsJOTCKM6SbS5kr1halRtXc%2BooygMKli%2B7NiK3qgW2zOd3nU%2Bd5OrPLCqM5LS3mq17sqKBq87E2rLYbfH2Z3%2B6fvsu0hL36eyZUoV7U%2BJkDxE3TRdNyBc6TKM7cUDNsFXip5geHQocMtbtQDtClUw61EZEcbQOGao0gWezCTieU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('281616539542397645','EUR','testing','2088021966645500','iphone','example@aiforu.com','0.01','test','20161207172603','2016120798994910','1') [ RunTime:0.0825s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120798994910' AND `trans_create_time` = '20161207172603' LIMIT 1   [ RunTime:0.0032s ]
+
+[ 2016-12-07T17:26:04+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2016-12-07T17:26:14+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=RsJOTCKM6SbS5kr1halRtXc%2BooygMKli%2B7NiK3qgW2zOd3nU%2Bd5OrPLCqM5LS3mq17sqKBq87E2rLYbfH2Z3%2B6fvsu0hL36eyZUoV7U%2BJkDxE3TRdNyBc6TKM7cUDNsFXip5geHQocMtbtQDtClUw61EZEcbQOGao0gWezCTieU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0086s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('281616539542397645','EUR','testing','2088021966645500','iphone','example@aiforu.com','0.01','test','20161207172613','2016120753545150','1') [ RunTime:0.1318s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120753545150' AND `trans_create_time` = '20161207172613' LIMIT 1   [ RunTime:0.0034s ]
+
+[ 2016-12-07T17:26:14+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2016-12-07T17:28:17+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=m6esdUAbJf5vTl1gol6DKtvWBv57v1expfqAfqqnuhlFKqtKe9O%2BHi2K95LBgELRL%2BOBN8Lmxq3Q4C73bPTwCSYAgynjwK0fpfocKB6xX9XTYfZM7jhjkEeRz%2FbiE0Yjy9asNjfkAppYV5%2F2bDwf75yFuezjfcu8p4dktpVQBTk%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('','EUR','testing','2088021966645500','iphone','example@aiforu.com','0.01','test','20161207172816','2016120748501021','1') [ RunTime:0.1101s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120748501021' AND `trans_create_time` = '20161207172816' LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\westylegit\code\Application\Exterior\Controller\AlipayController.class.php 第 185 行.
+SQL: UPDATE `westyle_alipay_trade` SET `buyer_identity_code`='',`currency`='EUR',`memo`='testing',`partner`='2088021966645500',`subject`='iphone',`trader_email`='example@aiforu.com',`trans_amount`='0.01',`trans_name`='test',`trans_create_time`='20161207172816',`partner_trans_id`='2016120748501021',`state`='1',`_id`='169' WHERE ( _id=169 ) [ RunTime:0.1264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-12-07T17:28:17+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?signature=westyle123&trader_email=test_email&trans_create_time=test_666&alipay_seller_id=test_666&memo=test_666&subject=test_666&trans_amount=test_666&trans_name=test_666&partner_trans_id=test_666&buyer_identity_code=test_666currency=test_666&partner=test_666&alipay_buyer_login_id=test_666&exchange_rate=test_666&alipay_pay_time=test_666&alipay_buyer_user_id=test_666&trans_amount_cny=test_666&alipay_trans_id=test_666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2016-12-07T17:28:21+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=RsJOTCKM6SbS5kr1halRtXc%2BooygMKli%2B7NiK3qgW2zOd3nU%2Bd5OrPLCqM5LS3mq17sqKBq87E2rLYbfH2Z3%2B6fvsu0hL36eyZUoV7U%2BJkDxE3TRdNyBc6TKM7cUDNsFXip5geHQocMtbtQDtClUw61EZEcbQOGao0gWezCTieU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('281616539542397645','EUR','testing','2088021966645500','iphone','example@aiforu.com','0.01','test','20161207172820','2016120752485310','1') [ RunTime:0.0713s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120752485310' AND `trans_create_time` = '20161207172820' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-12-07T17:28:21+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2016-12-07T17:28:27+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/add.shtml?_input_charset=UTF-8&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=RsJOTCKM6SbS5kr1halRtXc%2BooygMKli%2B7NiK3qgW2zOd3nU%2Bd5OrPLCqM5LS3mq17sqKBq87E2rLYbfH2Z3%2B6fvsu0hL36eyZUoV7U%2BJkDxE3TRdNyBc6TKM7cUDNsFXip5geHQocMtbtQDtClUw61EZEcbQOGao0gWezCTieU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('281616539542397645','EUR','testing','2088021966645500','iphone','example@aiforu.com','0.01','test','20161207172825','2016120757579910','1') [ RunTime:0.3294s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120757579910' AND `trans_create_time` = '20161207172825' LIMIT 1   [ RunTime:0.0025s ]
+
+[ 2016-12-07T17:28:27+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-12-07T17:34:05+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/addtobank.shtml?_input_charset=UTF-8&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=RsJOTCKM6SbS5kr1halRtXc%2BooygMKli%2B7NiK3qgW2zOd3nU%2Bd5OrPLCqM5LS3mq17sqKBq87E2rLYbfH2Z3%2B6fvsu0hL36eyZUoV7U%2BJkDxE3TRdNyBc6TKM7cUDNsFXip5geHQocMtbtQDtClUw61EZEcbQOGao0gWezCTieU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0097s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('281616539542397645','EUR','testing','2088021966645500','iphone','example@aiforu.com','0.01','test','20161207173404','2016120799555348','1') [ RunTime:0.1347s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120799555348' AND `trans_create_time` = '20161207173404' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003359s ]
+
+[ 2016-12-07T17:34:05+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003255s ]
+
+[ 2016-12-07T17:34:16+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/addtobank.shtml?_input_charset=UTF-8&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=RsJOTCKM6SbS5kr1halRtXc%2BooygMKli%2B7NiK3qgW2zOd3nU%2Bd5OrPLCqM5LS3mq17sqKBq87E2rLYbfH2Z3%2B6fvsu0hL36eyZUoV7U%2BJkDxE3TRdNyBc6TKM7cUDNsFXip5geHQocMtbtQDtClUw61EZEcbQOGao0gWezCTieU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('281616539542397645','EUR','testing','2088021966645500','iphone','example@aiforu.com','0.01','test','20161207173415','2016120755505251','1') [ RunTime:0.1485s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120755505251' AND `trans_create_time` = '20161207173415' LIMIT 1   [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002750s ]
+
+[ 2016-12-07T17:34:16+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003052s ]
+
+[ 2016-12-07T17:36:25+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/addtobank.shtml?_input_charset=UTF-8&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=RsJOTCKM6SbS5kr1halRtXc%2BooygMKli%2B7NiK3qgW2zOd3nU%2Bd5OrPLCqM5LS3mq17sqKBq87E2rLYbfH2Z3%2B6fvsu0hL36eyZUoV7U%2BJkDxE3TRdNyBc6TKM7cUDNsFXip5geHQocMtbtQDtClUw61EZEcbQOGao0gWezCTieU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.0082s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('281616539542397645','EUR','testing','2088021966645500','iphone','example@aiforu.com','0.01','test','20161207173624','2016120756575397','1') [ RunTime:0.1361s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120756575397' AND `trans_create_time` = '20161207173624' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003172s ]
+
+[ 2016-12-07T17:36:25+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003640s ]
+
+[ 2016-12-07T17:36:35+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/addtobank.shtml?_input_charset=UTF-8&biz_product=OVERSEAS_MBARCODE_PAY&buyer_identity_code=281616539542397645&currency=EUR&identity_code_type=barcode&memo=testing&partner=2088021966645500&service=alipay.acquire.overseas.spot.pay&subject=iphone&trader_email=example%40aiforu.com&trans_amount=0.01&trans_name=test&sign_type=RSA&sign=RsJOTCKM6SbS5kr1halRtXc%2BooygMKli%2B7NiK3qgW2zOd3nU%2Bd5OrPLCqM5LS3mq17sqKBq87E2rLYbfH2Z3%2B6fvsu0hL36eyZUoV7U%2BJkDxE3TRdNyBc6TKM7cUDNsFXip5geHQocMtbtQDtClUw61EZEcbQOGao0gWezCTieU%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_trade` [ RunTime:0.1671s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_trade` (`buyer_identity_code`,`currency`,`memo`,`partner`,`subject`,`trader_email`,`trans_amount`,`trans_name`,`trans_create_time`,`partner_trans_id`,`state`) VALUES ('281616539542397645','EUR','testing','2088021966645500','iphone','example@aiforu.com','0.01','test','20161207173634','2016120750575354','1') [ RunTime:0.1235s ]
+SQL: SELECT * FROM `westyle_alipay_trade` WHERE `partner_trans_id` = '2016120750575354' AND `trans_create_time` = '20161207173634' LIMIT 1   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002827s ]
+
+[ 2016-12-07T17:36:35+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/index.shtml?code=281616539542397645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002368s ]
+

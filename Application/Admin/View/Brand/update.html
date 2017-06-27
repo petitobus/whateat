@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>修改 brand</title>
+</head>
+<body>
+<div>
+    <form action="post.shtml?method=update&id={$brand.id}" method="post">
+        <table border="1">
+            <th colspan="9">修改 brand</th>
+            <tr>
+                <td>brand name</td>
+                <td><input type="text" required="required" name="brand_name" value={$brand.brand_name} ></td>
+            </tr>
+            <tr>
+                <td>origin</td>
+                <td><input type="text" required="required" name="origin" value={$brand.origin} ></td>
+            </tr>
+            <tr>
+                <td>year</td>
+                <td><input type="text" required="required" name="year" value={$brand.year} ></td>
+            </tr>
+            <tr>
+                <td>category</td>
+                <td><input type="text" required="required" name="category" value={$brand.category} ></td>
+            </tr>
+            <tr>
+                <td>tag</td>
+                <td><input type="text" required="required" name="tag" value={$brand.tag} ></td>
+            </tr>
+            <tr>
+                <td>icon</td>
+                <td><input type="text" required="required" name="icon" value={$brand.icon} ></td>
+            </tr>
+            <tr>
+                <td>description</td>
+                <td><input type="text" required="required" name="description" value={$brand.description} ></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="         修改         " style="display: block;margin: 0 auto 0"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

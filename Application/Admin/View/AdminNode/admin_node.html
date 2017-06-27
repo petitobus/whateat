@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>结点列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="10">结点列表 （请在技术人员的指导下修改）</th>
+        <tr>
+            <td>id</td>
+            <td>controller</td>
+            <td>method</td>
+            <td>name</td>
+            <td>title</td>
+            <td>sort</td>
+            <td>pid</td>
+            <td>level</td>
+            <td>备注</td>
+            <td colspan="2">
+                <a href="create.shtml">
+                    <input type="button" value="       添加       " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+        <volist name="admin_node_list" id="node">
+            <tr>
+                <td>{$node.id}</td>
+                <td>{$node.controller}</td>
+                <td>{$node.method}</td>
+                <td>{$node.name}</td>
+                <td>{$node.title}</td>
+                <td>{$node.sort}</td>
+                <td>{$node.pid}</td>
+                <td>{$node.level}</td>
+                <td>{$node.remark}</td>
+				<neq  name="node['pid']" value="-1">
+					<td colspan="2">
+						<a href="update.shtml?id={$node.id}">
+							<input type="button" value="修改">
+						</a>
+						<a href="post.shtml?method=delete&id={$node.id}">
+							<input type="button" value="删除">
+						</a>
+					</td>
+				</neq > 
+                
+            </tr>
+        </volist>
+    </table>
+</div>
+</body>
+</html>

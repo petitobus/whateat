@@ -1,0 +1,39 @@
+[ 2017-01-08T08:33:38+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003295s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.1379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006632s ]
+
+[ 2017-01-08T08:33:58+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.0275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003396s ]
+
+[ 2017-01-08T08:34:16+08:00 ] ::1 /westylegit/code/index.php/Exterior/Alipay/notify?notify_id=91f4f13ae498773271f47b8032df514mhe&notify_type=trade_status_sync&sign=***&trade_no=2016112421001003840200261096&total_fee=0.01&out_trade_no=test20161124093716&currency=USD&notify_time=2016-11-24+22%3A35%3A40&trade_status=TRADE_FINISHED&sign_type=MD5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004282s ]
+SQL: SHOW COLUMNS FROM `westyle_alipay_notify` [ RunTime:0.1982s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\westylegit\code\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `westyle_alipay_notify` (`notify_id`,`notify_type`,`trade_no`,`total_fee`,`out_trade_no`,`currency`,`notify_time`,`trade_status`) VALUES ('91f4f13ae498773271f47b8032df514mhe','trade_status_sync','2016112421001003840200261096','0.01','test20161124093716','USD','2016-11-24 22:35:40','TRADE_FINISHED') [ RunTime:0.0830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001570s ]
+

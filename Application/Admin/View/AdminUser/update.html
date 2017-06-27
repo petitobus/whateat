@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>修改Admin_user</title>
+</head>
+<body>
+<form action="post.shtml?method=update&id={$admin_user.id}" method="post">
+    <table border="1">
+        <th colspan="6">修改Ademin_user信息</th>
+        <tr>
+            <td>管理员职位</td>
+            <td>
+			    <select name="admin_group_id">
+				<volist name="admin_group_list" id="admin_group">
+					<option value="{$admin_group.id}" 
+					<eq name="admin_group['id']" value="$admin_user['admin_group_id']">selected </eq> 
+					>{$admin_group.title}</option>
+				</volist>
+                </select>
+            </td>
+
+        </tr>
+        <tr>
+            <td>用户名称</td>
+            <td><input type="text" name="username" required="required"  value={$admin_user.username}></td>
+        </tr>
+        <tr>
+            <td>用户密码</td>
+            <td><input type="password" name="password" placeholder="不修改请留空"></td>
+        </tr>
+        <tr>
+            <td>用户邮箱</td>
+            <td><input type="email" name="email" required="required" value={$admin_user.email}></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="         修改         " style="display: block;margin: 0 auto 0"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

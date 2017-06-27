@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>restaurant 列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="16">restaurant 列表</th>
+        <tr>
+            <td>restaurant id</td>
+            <td>city</td>
+            <td>commercial area</td>
+            <td>name</td>
+            <td>address</td>
+            <td>tel</td>
+            <td>fax</td>
+            <td>email</td>
+            <td>longtitude</td>
+            <td>latitude</td>
+            <td>description</td>
+            <td>tag</td>
+            <td>link</td>
+            <td>sort</td>
+            <td colspan="2">
+                <a href="create.shtml">
+                    <input type="button" value="       添加       " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+        <volist name="restaurant_list" id="restaurant">
+            <tr>
+                <td>{$restaurant.id}</td>
+                <td>{$restaurant.city}</td>
+                <td>{$restaurant.cimmercial_area}</td>
+                <td>{$restaurant.bane}</td>
+                <td>{$restaurant.adr}</td>
+                <td>{$restaurant.tel}</td>
+                <td>{$restaurant.fax}</td>
+                <td>{$restaurant.email}</td>
+                <td>{$restaurant.longtitude}</td>
+                <td>{$restaurant.latitude}</td>
+                <td>{$restaurant.description}</td>
+                <td>{$restaurant.tag}</td>
+                <td>{$restaurant.link}</td>
+                <td>{$restaurant.sort}</td>
+                <td colspan="2">
+                    <a href="update.shtml?id={$restaurant.id}">
+                        <input type="button" value="修改">
+                    </a>
+                    <a href="post.shtml?method=delete&id={$restaurant.id}">
+                        <input type="button" value="删除">
+                    </a>
+                </td>
+            </tr>
+        </volist>
+    </table>
+</div>
+</body>
+</html>

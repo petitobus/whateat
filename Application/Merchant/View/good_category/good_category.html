@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>good category列表</title>
+</head>
+<body>
+<div>
+    <table border="1">
+        <th colspan="5"> good category 列表</th>
+        <tr>
+            <td>good id</td>
+            <td>good name</td>
+            <td>描述</td>
+            <td colspan="2">
+                <a href="create.shtml">
+                    <input type="button" value="       添加       " style="background-color: orange">
+                </a>
+            </td>
+        </tr>
+        <volist name="good_category_list" id="good_category">
+            <tr>
+                <td>{$good_category.id}</td>
+                <td>{$good_category.name}</td>
+                <td>{$good_category.description}</td>
+                <td colspan="2">
+                    <a href="update.shtml?id={$good_category.id}">
+                        <input type="button" value="修改">
+                    </a>
+                    <a href="post.shtml?method=delete&id={$good_category.id}">
+                        <input type="button" value="删除">
+                    </a>
+                </td>
+            </tr>
+        </volist>
+    </table>
+</div>
+</body>
+</html>
