@@ -1,0 +1,174 @@
+[ 2017-06-28T06:27:35+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002521s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_group` [ RunTime:0.1036s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `whateat_admin_node` ORDER BY id  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,7,8,9,10,11,12,13,15,21,22,23,24') [ RunTime:0.2380s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_user` [ RunTime:0.1912s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','2')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','2')
+
+[ 2017-06-28T06:27:45+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_group` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `whateat_admin_node` ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,7,8,9,10,11,12,13,15,21,22,23,24') [ RunTime:0.1557s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','3')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','3')
+
+[ 2017-06-28T06:30:23+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_group` [ RunTime:0.2698s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.2667s ]
+SQL: SELECT * FROM `whateat_admin_node` ORDER BY id  [ RunTime:0.2669s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,7,8,9,10,11,12,13,15') [ RunTime:0.2684s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_user` [ RunTime:0.2681s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.2678s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('','','ressouce_center','资源管理中心','2','1','1','') [ RunTime:0.2686s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Dish','dish','dish_root','菜单管理','1','2','16','') [ RunTime:0.2687s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Ingredient','ingredient','ingredient_root','食材管理','2','2','16','') [ RunTime:0.2683s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Flavour','flavour','flavour_root','调料管理','3','2','16','') [ RunTime:0.2678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.074894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.075183s ]
+
+[ 2017-06-28T06:40:41+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_group` [ RunTime:0.2642s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.2732s ]
+SQL: SELECT * FROM `whateat_admin_node` ORDER BY id  [ RunTime:0.2810s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,7,8,9,10,11,12,13,15') [ RunTime:0.2803s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_user` [ RunTime:0.2809s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.2658s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('','','ressouce_center','资源管理中心','2','1','1','') [ RunTime:0.2692s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Dish','dish','dish_root','菜单管理','1','2','16','') [ RunTime:0.2665s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Ingredient','ingredient','ingredient_root','食材管理','2','2','16','') [ RunTime:0.2662s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Flavour','flavour','flavour_root','调料管理','3','2','16','') [ RunTime:0.2681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2017-06-28T06:41:11+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_group` [ RunTime:0.2784s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.3013s ]
+SQL: SELECT * FROM `whateat_admin_node` ORDER BY id  [ RunTime:0.3066s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,7,8,9,10,11,12,13,15') [ RunTime:1.1698s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_user` [ RunTime:0.2625s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.2634s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('','','ressouce_center','资源管理中心','2','1','1','') [ RunTime:0.2635s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Dish','dish','dish_root','菜单管理','1','2','16','') [ RunTime:0.2636s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Ingredient','ingredient','ingredient_root','食材管理','2','2','16','') [ RunTime:0.2637s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Flavour','flavour','flavour_root','调料管理','3','2','16','') [ RunTime:0.2632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2017-06-28T06:41:41+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_group` [ RunTime:0.2545s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.2559s ]
+SQL: SELECT * FROM `whateat_admin_node` ORDER BY id  [ RunTime:0.2542s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,7,8,9,10,11,12,13,15') [ RunTime:0.2577s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_user` [ RunTime:0.2578s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.2562s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('','','ressouce_center','资源管理中心','2','1','1','') [ RunTime:0.2567s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Dish','dish','dish_root','菜单管理','1','2','16','') [ RunTime:0.2589s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Ingredient','ingredient','ingredient_root','食材管理','2','2','16','') [ RunTime:0.2566s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Flavour','flavour','flavour_root','调料管理','3','2','16','') [ RunTime:0.2570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002141s ]
+

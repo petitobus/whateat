@@ -13,13 +13,10 @@ return array(
 	
 	//数据库配置
 	'db_type' => 'mysql',
-	'db_host' => '127.0.0.1',
-	'db_user' => 'root',
-	'db_pwd' => '',
-	'db_name' => 'whateat_main',
-//	'db_user' => 'admin_westyle',
-//	'db_pwd' => 'westyle123',
-//	'db_name' => 'admin_westyle',
+	'db_host' => '47.93.53.119',
+	'db_user' => 'admin_whateat',
+	'db_pwd' => 'whateat123',
+	'db_name' => 'admin_whateat',
 	'db_port' => 3306,
 	'db_prefix' => 'whateat_',
 	'db_charset' => 'utf8'

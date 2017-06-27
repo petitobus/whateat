@@ -9,12 +9,12 @@ class InstallController extends Controller
 {
 	
 	public function install(){
-		$servername='localhost';
-		$username='root';
-		$password='';
-		$namebd='whateat_main';		
+		$servername='47.93.53.119';
+		$username='admin_whateat';
+		$password='whateat123';
+		$namebd='admin_whateat';		
 		
-//		$this->create_rbac_system($servername, $username,$password,$namebd);
+		$this->create_rbac_system($servername, $username,$password,$namebd);
 		$this->create_ressouce_center($servername, $username,$password,$namebd);
 	}
 	
@@ -94,6 +94,7 @@ class InstallController extends Controller
 			"(id int NOT NULL," .
 			"PRIMARY KEY(id),".
 			"name char(128),".
+			"owner char(128),".
 			"description tinytext)";
 		$sqls[] = 
 			"CREATE TABLE IF NOT EXISTS whateat_ingredient ". 
@@ -108,6 +109,14 @@ class InstallController extends Controller
 			"name char(128),".
 			"description tinytext)";
 		$sqls[] = 
+			"CREATE TABLE IF NOT EXISTS whateat_step ". 
+			"(id int NOT NULL," .
+			"PRIMARY KEY(id),".
+			"dish_id int NOT NULL,".
+			"FOREIGN KEY (dish_id) REFERENCES whateat_dish(id),".
+			"sort int,".
+			"description text)";
+		$sqls[] = 
 			"CREATE TABLE IF NOT EXISTS whateat_dish_ingredient ". 
 			"(id int NOT NULL," .
 			"PRIMARY KEY (id),".
@@ -116,6 +125,7 @@ class InstallController extends Controller
 			"FOREIGN KEY (dish_id) REFERENCES whateat_dish(id),".
 			"FOREIGN KEY (ingredient_id) REFERENCES whateat_ingredient(id),".
 			"quantity char(32),".
+			"level tinyint,".
 			"description tinytext)";
 		$sqls[] = 
 			"CREATE TABLE IF NOT EXISTS whateat_dish_flavour ". 
@@ -125,6 +135,7 @@ class InstallController extends Controller
 			"flavour_id int NOT NULL ,".
 			"FOREIGN KEY (dish_id) REFERENCES whateat_dish(id),".
 			"FOREIGN KEY (flavour_id) REFERENCES whateat_flavour(id),".
+			"level tinyint,".
 			"quantity char(32),".
 			"description tinytext)";
 		foreach($sqls as $sql){
