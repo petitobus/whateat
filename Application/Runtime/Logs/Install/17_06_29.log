@@ -1,0 +1,66 @@
+[ 2017-06-29T05:28:57+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_group` [ RunTime:0.3144s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.3147s ]
+SQL: SELECT * FROM `whateat_admin_node` ORDER BY id  [ RunTime:0.3140s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,7,8,9,10,11,12,13,15') [ RunTime:0.5832s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_user` [ RunTime:0.3134s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.3160s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('','','ressouce_center','资源管理中心','2','1','1','') [ RunTime:0.3171s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Dish','dish','dish_root','菜单管理','1','2','16','') [ RunTime:0.3174s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Ingredient','ingredient','ingredient_root','食材管理','2','2','16','') [ RunTime:0.3157s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Flavour','flavour','flavour_root','调料管理','3','2','16','') [ RunTime:0.3202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004262s ]
+
+[ 2017-06-29T05:31:19+08:00 ] ::1 /whateat/index.php/Install/install/install
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_group` [ RunTime:0.3375s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_node` [ RunTime:0.3181s ]
+SQL: SELECT * FROM `whateat_admin_node` ORDER BY id  [ RunTime:0.3201s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_group` (`title`,`description`,`rules`) VALUES ('supervisor','超级管理员，请勿操作','1,7,8,9,10,11,12,13,15') [ RunTime:0.3191s ]
+SQL: SHOW COLUMNS FROM `whateat_admin_user` [ RunTime:0.3176s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_user` (`username`,`password`,`admin_group_id`) VALUES ('admin','0192023a7bbd73250516f069df18b500','1') [ RunTime:0.3217s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('','','ressouce_center','资源管理中心','2','1','1','') [ RunTime:0.3208s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Dish','dish','dish_root','菜单管理','1','2','16','') [ RunTime:0.3194s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Ingredient','ingredient','ingredient_root','食材管理','2','2','16','') [ RunTime:0.3201s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\whateat\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `whateat_admin_node` (`controller`,`method`,`name`,`title`,`sort`,`level`,`pid`,`remark`) VALUES ('Flavour','flavour','flavour_root','调料管理','3','2','16','') [ RunTime:0.3197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001620s ]
+

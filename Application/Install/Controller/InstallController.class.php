@@ -91,27 +91,27 @@ class InstallController extends Controller
 
 		$sqls[] = 
 			"CREATE TABLE IF NOT EXISTS whateat_dish ". 
-			"(id int NOT NULL," .
+			"(id int NOT NULL AUTO_INCREMENT UNIQUE," .
 			"PRIMARY KEY(id),".
 			"name char(128),".
 			"owner char(128),".
 			"description tinytext)";
 		$sqls[] = 
 			"CREATE TABLE IF NOT EXISTS whateat_ingredient ". 
-			"(id int NOT NULL," .
+			"(id int NOT NULL AUTO_INCREMENT UNIQUE," .
 			"PRIMARY KEY(id),".
 			"name char(128),".
 			"calorie char(128),".
 			"description tinytext)";
 		$sqls[] = 
 			"CREATE TABLE IF NOT EXISTS whateat_flavour ". 
-			"(id int NOT NULL," .
+			"(id int NOT NULL AUTO_INCREMENT UNIQUE," .
 			"PRIMARY KEY(id),".
 			"name char(128),".
 			"description tinytext)";
 		$sqls[] = 
 			"CREATE TABLE IF NOT EXISTS whateat_step ". 
-			"(id int NOT NULL," .
+			"(id int NOT NULL AUTO_INCREMENT UNIQUE," .
 			"PRIMARY KEY(id),".
 			"dish_id int NOT NULL,".
 			"FOREIGN KEY (dish_id) REFERENCES whateat_dish(id),".
@@ -119,7 +119,7 @@ class InstallController extends Controller
 			"description text)";
 		$sqls[] = 
 			"CREATE TABLE IF NOT EXISTS whateat_dish_ingredient ". 
-			"(id int NOT NULL," .
+			"(id int NOT NULL AUTO_INCREMENT UNIQUE," .
 			"PRIMARY KEY (id),".
 			"dish_id int NOT NULL ,".
 			"ingredient_id int NOT NULL ,".
@@ -130,7 +130,7 @@ class InstallController extends Controller
 			"description tinytext)";
 		$sqls[] = 
 			"CREATE TABLE IF NOT EXISTS whateat_dish_flavour ". 
-			"(id int NOT NULL," .
+			"(id int NOT NULL AUTO_INCREMENT UNIQUE," .
 			"PRIMARY KEY (id),".
 			"dish_id int NOT NULL ,".
 			"flavour_id int NOT NULL ,".
