@@ -1655,3 +1655,11 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
 
+[ 2017-06-28T16:41:14+08:00 ] ::1 /whateat/index.php/Admin/Login/verify.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
