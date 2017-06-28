@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85c49690-871e-411d-8a23-ca314d939926" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/static/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/a3e2035caea49f066cf1bac220d58098.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/a3e2035caea49f066cf1bac220d58098.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/17_06_28.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/17_06_28.log" />
     </list>
     <ignored path="code.iws" />
@@ -308,12 +308,12 @@
       <workItem from="1472209689907" duration="149000" />
       <workItem from="1472333267839" duration="1138000" />
       <workItem from="1472334476865" duration="509000" />
-      <workItem from="1498631089749" duration="1222000" />
+      <workItem from="1498631089749" duration="1499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10210000" />
+    <option name="totallyTimeSpent" value="10487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="23" width="1410" height="877" extended-state="6" />

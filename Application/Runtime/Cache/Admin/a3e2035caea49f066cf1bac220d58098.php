@@ -5,7 +5,7 @@
     <title>修改密码</title>
 </head>
 <body>
-<form action="/westylegit/code/index.php/Admin/Index/change_password.shtml" method="post">
+<form action="/whateat/index.php/Admin/Index/change_password.shtml" method="post">
     <table border="1">
         <th colspan="6">修改密码</th>
         <tr>
