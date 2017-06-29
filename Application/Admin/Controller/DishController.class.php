@@ -37,8 +37,8 @@ class DishController extends Controller
 			$data['status'] = 0;  
 			$str = str_replace('&quot;', '"', $_post['json']);
 			$json=json_decode($str,true);
-			$data['info'] = $json['name'];
-			$data['url'] = U('Login/index');
+			$data['info'] = json_decode($json['step'],true)['step1'];
+			$data['url'] = U('Dish/dish');
 			$this->ajaxReturn($data);
 		}
 	}

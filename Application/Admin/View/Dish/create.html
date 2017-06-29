@@ -64,7 +64,11 @@
 				data:{
 					json:JSON.stringify({
 						name: $("input[name=name]").val(), 
-						description: $("input[name=description]").val() 
+						description: $("input[name=description]").val(),
+						step: JSON.stringify({
+						    step1:"test",
+							step2:"test2"
+							})
 					}) 
 				},    
 				type:'post',    
