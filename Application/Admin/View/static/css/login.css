@@ -1,14 +1,69 @@
 body{
-    background-color: #AEBABB;
-}
-.asBlock{
+    background: url("../images/008.jpg") repeat-y;
+    min-width: 700px;
+    background-size: 170%;
     width:100%;
-    height: 50px;
+    margin: 0px;
 }
-img{
-    width: 300px;
-    display: block;
+
+#Login_titre{
+    background-image: url("../images/006.jpg");
+    height:80px;
+    border-radius: 30px;
+    padding-top: 15px;
+}
+#Login_titre h1{
+    font-weight: 200;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+#Login_context{
+    background-image: url("../images/005.jpg");
+    background-size: 1280px;
+    border-radius: 30px;
+    width:96%;
+    height: 300px;
+    margin-top: 5%;
+    margin-bottom: 50px;
+}
+#Login_context div{
+    text-align: left;
+    width:600px;
+    height: 300px;
+    float: right;
+    background: hsla(0,0%,100%,.55) border-box;
+}
+#Login_context div p{
+    font-size: 30px;
+    font-weight: 100;
+}
+#Login_context div p:nth-child(1){
+   margin-left: 20px;
+}
+#Login_context div p:nth-child(2){
+    margin-left: 100px;
+}
+#Login_context div p:nth-child(3){
+    margin-left: 200px;
+}
+#Login_form{
+    width:40%;
+}
+
+.center{
+    text-align: center;
     margin:0 auto 0;
+}
+.luminesce {
+    height: 30px;
+    border: 1px solid orange;
+    box-shadow: 0 0 25px white;
+    -webkit-box-shadow: 0 0 25px orange;
+}
+.circleBorder{
+    width: 90%;
+    border-radius: 5px;
 }
 table{
     width: 190px;
@@ -16,13 +71,10 @@ table{
     margin:0 auto 0;
     text-align: center;
 }
-table th{
-    width:100%;
-    font-size: 20px;
-    padding-bottom: 20px;
-}
+
 table td{
     padding-bottom: 20px;
+    padding-left: 10px;
 }
 table input{
     background-color: honeydew;
