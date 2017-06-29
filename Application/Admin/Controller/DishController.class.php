@@ -24,13 +24,23 @@ class DishController extends Controller
 	
     public function create(){
 		authenticate();
-		$Ingredient = M("Ingredient");
-		$ingredient_list = $Ingredient->order('id desc')->select();
-		$this->assign('ingredient_list',$ingredient_list);
-		$Flavour = M("Flavour");
-		$flavour_list = $Flavour->order('id desc')->select();
-		$this->assign('flavour_list',$flavour_list);	
-		$this->show();
+		if(!IS_AJAX){
+			$Ingredient = M("Ingredient");
+			$ingredient_list = $Ingredient->order('id desc')->select();
+			$this->assign('ingredient_list',$ingredient_list);
+			$Flavour = M("Flavour");
+			$flavour_list = $Flavour->order('id desc')->select();
+			$this->assign('flavour_list',$flavour_list);	
+			$this->show();
+		}else{
+			$_post=I('post.');
+			$data['status'] = 0;  
+			$str = str_replace('&quot;', '"', $_post['json']);
+			$json=json_decode($str,true);
+			$data['info'] = $json['name'];
+			$data['url'] = U('Login/index');
+			$this->ajaxReturn($data);
+		}
 	}
 
     public function update(){
