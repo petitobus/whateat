@@ -1,5 +1,6 @@
 body{
     background: url("../images/008.jpg") repeat-y;
+    min-width: 700px;
     background-size: 170%;
     width:100%;
     margin: 0px;
@@ -8,13 +9,14 @@ body{
 #Login_titre{
     background-image: url("../images/006.jpg");
     height:80px;
-    border:1px solid;
+    border-radius: 30px;
+    padding-top: 15px;
 }
 #Login_titre h1{
     font-weight: 200;
     font-size: 40px;
-    margin-top: 10px;
     margin-left: 50px;
+    margin-top: 0px;
 }
 #Login_context{
     background-image: url("../images/005.jpg");
