@@ -6,57 +6,52 @@
 </head>
 <body>
 <div>
-    <table border="1">
-        <th colspan="4">添加菜谱</th>
-        <tr>
-            <td>菜谱名称</td>
-            <td><input type="text" required="required" name="name" placeholder="new city"></td>
-        </tr>
-        <tr>
-            <td>描述</td>
-            <td><input type="text" required="required" name="description" placeholder="new country"></td>
-        </tr>
-        <tr>
-            <td>步骤一</td>
-            <td><input type="text" required="required" name="step_1" placeholder="new country"></td>
-        </tr>
-        <tr>
-            <td>步骤二</td>
-            <td><input type="text" required="required" name="step_2" placeholder="new country"></td>
-        </tr>
-        <tr>
-            <td>食材一</td>
-            <td><input type="text" required="required" name="ingredient_1_name" placeholder="new country"></td>
-            <td><input type="text" required="required" name="ingredient_1_quantity" placeholder="new country"></td>
-            <td><input type="text" required="required" name="ingredient_1_level" placeholder="new country"></td>
-        </tr>        <tr>
-            <td>食材二</td>
-            <td><input type="text" required="required" name="ingredient_2_name" placeholder="new country"></td>
-            <td><input type="text" required="required" name="ingredient_2_quantity" placeholder="new country"></td>
-            <td><input type="text" required="required" name="ingredient_2_level" placeholder="new country"></td>
-        </tr>
-         <tr>
-            <td>调料一</td>
-            <td><input type="text" required="required" name="flavour_1_name" placeholder="new country"></td>
-            <td><input type="text" required="required" name="flavour_1_quantity" placeholder="new country"></td>
-            <td><input type="text" required="required" name="flavour_1_level" placeholder="new country"></td>
-        </tr>
-        <tr>
-            <td>食材2</td>
-            <td><input type="text" required="required" name="flavour_2_name" placeholder="new country"></td>
-            <td><input type="text" required="required" name="flavour_2_quantity" placeholder="new country"></td>
-            <td><input type="text" required="required" name="flavour_2_level" placeholder="new country"></td>
-        </tr>
-        <tr>
-            <td colspan="2"><button id="submit" style="display: block;margin: 0 auto 0">添加</button></td>
-        </tr>
-    </table>
+  <h1>添加菜谱</h1>
+  <div id="principal_area">
+    <div>
+      <h2>菜谱名称</h2>
+      <input type="text" required="required" name="name" placeholder="new dish">
+    </div>
+    <div>
+      <h2>描述</h2>
+      <input type="text"  name="description" placeholder="description">
+    </div>
+    <div id="steps">
+      <h2>步骤</h2>
+      <div id="step_list">
+          <h3>步骤1</h3>
+          <input type="text" required="required" name="step_1" placeholder="new step">
+      </div>
+      <button id="add_step" style="display: block;margin: 0 auto 0">new step</button>
+    </div>
+  </div>
+  <div id="supplement_area">
+    <div id="ingredients">
+      <h2>食材</h2>
+      <div id="ingredients_list">
+      </div>
+      <button id="add_ingredient" style="display: block;margin: 0 auto 0">new ingredient</button>
+    </div>
+    <div id="flavours">
+      <h2>调料</h2>
+        <div id="flavour_list">
+        </div>
+      <button id="add_flavour" style="display: block;margin: 0 auto 0">new flavour</button>
+    </div>
+  </div>
+    <div>
+    <br>
+      <button id="submit" style="display: block;margin: 0 auto 0">ok</button>
+    </div>
+        
 </div>
 </body>
 </html>
 
 <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 <script>
+    var step_num=1;
+    var ingredient_num=0;
     $(function() {
         $("#submit").on("click", function() {
 			var aj = $.ajax( {    
@@ -85,6 +80,50 @@
 					alert("error");    
 				}    
 			}); 
+        });
+    });
+    $(function(){
+        $("#add_step").on("click", function() {
+        var step_current=$("input[name=step_"+step_num+"]").val();
+        if(step_current==""){
+          alert("nothing in step current");
+        }
+        else{
+          step_num++;
+          var step_title=document.createElement("h3");
+          var texto=document.createTextNode("步骤"+step_num);
+          step_title.appendChild(texto);
+          var para=document.createElement("input");
+          para.name="step_"+step_num;
+          para.placeholder="new step";
+          
+          var element=document.getElementById("step_list");
+          element.appendChild(step_title);
+          element.appendChild(para);
+        }
+        });
+    });
+    $(function(){
+        $("#add_ingredient").on("click", function() {
+          alert("this is a option windows");
+          ingredient_num++;
+//add a p
+          var ingredient=document.createElement("div");
+          var para=document.createElement("p");
+          para.id="ingredient_"+ingredient_num+"_name";
+          var texto=document.createTextNode("这是新食材");
+          para.appendChild(texto);
+          ingredient.appendChild(para);
+//add by input
+          var para=document.createElement("input");
+          para.type="text";
+          para.readOnly=true;
+          para.name="ingredient_"+ingredient_num+"_name";
+          para.value="PDT";
+          ingredient.appendChild(para);
+          var element=document.getElementById("ingredients_list");
+          element.appendChild(ingredient);
+          
         });
     });
 </script>
