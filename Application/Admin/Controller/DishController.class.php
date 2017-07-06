@@ -34,10 +34,80 @@ class DishController extends Controller
 			$this->show();
 		}else{
 			$_post=I('post.');
-			$data['status'] = 0;  
 			$str = str_replace('&quot;', '"', $_post['json']);
-			$json=json_decode($str,true);
-			$data['info'] = json_decode($json['step'],true)['step1'];
+			$json=json_decode(json_decode($str,true)["json"],true);
+			$data['info']='ok';
+
+			$error=0;
+			C('TOKEN_ON',false);
+			$Dish = M("Dish");
+			if (!$Dish->autoCheckToken($_POST)){
+				$error=1;
+				$data['info']='nok';
+			}
+			if(!$error){
+				$mDish["name"]=$json["name"];
+				$mDish["description"]=$json["description"];
+				$mDish["owner"]=$_SESSION['username'];
+				if($Dish->create($mDish)){
+					$dish_id=$Dish->add();
+				}else{
+					$error=1;
+					$data['info']=$Dish->getError();
+				}
+		
+			}
+	
+			if(!$error){
+				$steps=$json["steps"];
+				foreach($steps as $step){
+					$mStep["dish_id"]=$dish_id;
+					$mStep["description"]=$step["content"];
+					$mStep["sort"]=$step["sort"];
+					$Step=M("Step");
+					if($Step->create($mStep)){
+						$Step->add();
+					}else{
+						$error=1;
+						$data['info']=$Step->getError();
+					}
+				}
+			}
+			
+			if(!$error){
+				$ingredients=$json["ingredients"];
+				foreach($ingredients as $ingredient){
+					$mIngredients["dish_id"]=$dish_id;
+					$mIngredients["ingredient_id"]=$ingredient["id"];
+					$mIngredients["quantity"]=$ingredient["quantity"];
+					$mIngredients["level"]=$ingredient["level"];
+					$DishIngredient=M("DishIngredient");
+					if($DishIngredient->create($mIngredients)){
+						$DishIngredient->add();
+					}else{
+						$error=1;
+						$data['info']=$DishIngredient->getError();
+					}
+				}
+			}
+			if(!$error){
+				$flavours=$json["flavours"];
+				foreach($flavours as $flavour){
+					$mFlavour["dish_id"]=$dish_id;
+					$mFlavour["flavour_id"]=$flavour["id"];
+					$mFlavour["quantity"]=$flavour["quantity"];
+					$mFlavour["level"]=$flavour["level"];
+					$DishFlavour=M("DishFlavour");
+					if($DishFlavour->create($mFlavour)){
+						$DishFlavour->add();
+					}else{
+						$error=1;
+						$data['info']=$DishFlavour->getError();
+					}
+				}
+			}
+			C('TOKEN_ON',true);
+			$data['status'] = 0;  
 			$data['url'] = U('Dish/dish');
 			$this->ajaxReturn($data);
 		}
@@ -78,31 +148,7 @@ class DishController extends Controller
 		authenticate();
 		$method = I('get.method');
 		$Dish = M("Dish");
-		if($method == 'create'){
-			$mShop=I('post.');
-			if($Dish->create($mShop)){
-				$shop_id=$Dish->add();
-				
-				$mOperator['operator_email']=$mShop['email'];
-				$mOperator['operator_name']=$mShop['name'];
-				$mOperator['shop_id']=$shop_id;
-				$mOperator['operator_password']=md5($mShop['operator_password']);
-				$mOperator['operator_email']=$mShop['email'];
-				$Operator=M('Operator');
-				C('TOKEN_ON',false);
-				if($Operator->create($mOperator)){
-					$Operator->add();
-					C('TOKEN_ON',true);
-					$this->redirect('dish',null, 2, 'shop添加成功，页面跳转中...');
-				}else{
-					echo $Operator->getError();
-					$this->redirect('dish',null, 2, 'shop添加成功，请手动添加默认操作员...');
-				}
-			}else{
-				echo $Dish->getError();
-			}
-		}
-		else if($method == 'update'){
+        if($method == 'update'){
 			$mShop=I('post.');
 			$shop_org=$Dish->where('id='.I('get.id'))->find();
 			$Operator=M('Operator');

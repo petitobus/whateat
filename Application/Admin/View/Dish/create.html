@@ -151,7 +151,7 @@
           alert("这里应该弹出选择食材的窗口");
           ingredient_num++;
           var ingredient=document.createElement("li");
-	      ingredient.setAttribute("value","89757");
+	      ingredient.setAttribute("value","1");
           var name=document.createElement("span");
           name.setAttribute("class","ingredient_name");
           name.setAttribute("value",ingredient_num);
@@ -169,7 +169,7 @@
           var level=document.createElement("span");
           level.setAttribute("class","ingredient_level");
           level.setAttribute("value",ingredient_num);
-          text3=document.createTextNode("必须的");
+          text3=document.createTextNode("1");
           level.appendChild(text3);
           ingredient.appendChild(level);
 		  
@@ -180,7 +180,7 @@
           alert("这里应该弹出选择调料的窗口");
           flavour_num++;
           var flavour=document.createElement("li");
-		  flavour.setAttribute("value","65535");
+		  flavour.setAttribute("value","1");
 
 
           var name=document.createElement("span");
@@ -200,7 +200,7 @@
           var level=document.createElement("span");
           level.setAttribute("class","flavour_level");
           level.setAttribute("value",flavour_num);
-          text3=document.createTextNode("放不放都行");
+          text3=document.createTextNode("0");
           level.appendChild(text3);
           flavour.appendChild(level);
 		  
